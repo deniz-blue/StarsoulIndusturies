@@ -1,0 +1,8 @@
+packwiz/kubejs/config/web_server.json
+build/
+__pycache__/
+packwiz.exe
+.DS_Store
+._*
+Thumbs.db
+desktop.ini

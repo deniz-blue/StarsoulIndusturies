@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "size": 1,
+  "operation": "SET",
+  "order": 10,
+  "icon": "starsoul:slot/goggles",
+  "validators": ["curios:tag"]
+}

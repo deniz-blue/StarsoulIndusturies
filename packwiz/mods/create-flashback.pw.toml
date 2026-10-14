@@ -1,0 +1,13 @@
+name = "Create: Flashback"
+filename = "create_flashback-1.0.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/vsO838vn/versions/ILrKJvEC/create_flashback-1.0.3.jar"
+hash-format = "sha512"
+hash = "b1e33606266540e1cbd0269ef5d53e046b28642ebaaa03e05e8c84f6f06bfa8e5524b22e62dfaaf352bc2600c28f0b59bb47aedaa3205587b5cc09c1242cbb6f"
+
+[update]
+[update.modrinth]
+mod-id = "vsO838vn"
+version = "ILrKJvEC"

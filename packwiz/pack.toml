@@ -1,0 +1,12 @@
+name = "Starsoul Industuries"
+version = "1.0.2"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a873137a25b3ef445014f3f7be7b71b7826900d9911621c45c6b695678c6e3b9"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.251"

@@ -1,0 +1,7 @@
+[tooltips]
+	#Controls whether Sable Jade adds extra tooltip lines beyond fixing Jade's targeting.
+	#Allowed values: NEVER, ALWAYS, WITH_GOGGLES
+	#Allowed Values: NEVER, ALWAYS, WITH_GOGGLES
+	tooltipInfoMode = "WITH_GOGGLES"
+	#If true, physics tooltip lines are only shown for blocks that are part of a Sable sub-level (physics object).
+	tooltipInfoOnlyInSubLevels = true

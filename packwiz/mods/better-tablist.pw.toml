@@ -1,0 +1,13 @@
+name = "Better Tablist"
+filename = "tablist-neoforge-1.21.1-1.5.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/3o3inmWM/versions/6S5pfhyY/tablist-neoforge-1.21.1-1.5.jar"
+hash-format = "sha512"
+hash = "80f2980b072a4b1f4f35872923b6686e23dd94d374e8c1212558c87800cb7c3cb669db610e17dc66dc1af41e1bd37ebe01e728e55bfa45a3c5838a965cd2c7a4"
+
+[update]
+[update.modrinth]
+mod-id = "3o3inmWM"
+version = "6S5pfhyY"

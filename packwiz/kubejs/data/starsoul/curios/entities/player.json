@@ -1,0 +1,8 @@
+{
+  "entities": ["minecraft:player"],
+  "slots": [
+    "cosmetic_head",
+    "cosmetic_chest",
+    "head"
+  ]
+}

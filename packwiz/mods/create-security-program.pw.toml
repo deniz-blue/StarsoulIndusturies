@@ -1,0 +1,13 @@
+name = "Create: Security Program"
+filename = "create_security-1.21.1-2.01-release.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/q4goJtip/versions/wJ86cc5f/create_security-1.21.1-2.01-release.jar"
+hash-format = "sha512"
+hash = "6594722326e2060cd71decbee8b86e9090eb995e43e14fceecc55b28e9327230e28ccd213f18d5792270d9765afb05f16b23ed0bfd2562d40f2eedcea65c881d"
+
+[update]
+[update.modrinth]
+mod-id = "q4goJtip"
+version = "wJ86cc5f"

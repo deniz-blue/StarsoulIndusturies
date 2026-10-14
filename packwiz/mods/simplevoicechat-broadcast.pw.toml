@@ -1,0 +1,13 @@
+name = "SimpleVoiceChat Broadcast"
+filename = "simple_voice_broadcast-neoforge-1.21.1-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/qUhSghSQ/versions/bWVtYO0H/simple_voice_broadcast-neoforge-1.21.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "fc1a368790c5b5d57ce041767c5ba5f65be1e6f4d2dc60cd3ed05487d9bbec126d7386dadcc2f2971a6d796ec33e8cd18e26977ac17be945405f0c276d33e178"
+
+[update]
+[update.modrinth]
+mod-id = "qUhSghSQ"
+version = "bWVtYO0H"

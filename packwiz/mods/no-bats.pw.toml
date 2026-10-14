@@ -1,0 +1,13 @@
+name = "No Bats"
+filename = "no-bats-1.1.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/ra1SqQvt/versions/yUnI8ZmW/no-bats-1.1.1.jar"
+hash-format = "sha512"
+hash = "27ee35af93dc8a86da0f959ebf4f2fd4d0d95152bacda8cb8e0c5f9dcf668ec877a408b2ffcc48f71aff3893c55f60728cb80b8d918e18a6f440dd40a2f5e6d1"
+
+[update]
+[update.modrinth]
+mod-id = "ra1SqQvt"
+version = "yUnI8ZmW"

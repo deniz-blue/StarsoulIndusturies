@@ -1,0 +1,13 @@
+name = "Create: Aeronautics Flashback"
+filename = "aeronautics_flashback-1.0.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/y7s0VmbK/versions/lax2Cr4G/aeronautics_flashback-1.0.2.jar"
+hash-format = "sha512"
+hash = "e4ca3d35c3a3157032b34b96eac3040dc4f8c8dd1a8a3c682fffb247a9a3956f7d19b222c000ab5738f7e9d93f676368e59f54a187204db9375307d5df155b8b"
+
+[update]
+[update.modrinth]
+mod-id = "y7s0VmbK"
+version = "lax2Cr4G"

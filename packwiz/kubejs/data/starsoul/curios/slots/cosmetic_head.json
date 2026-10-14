@@ -1,0 +1,7 @@
+{
+  "size": 1,
+  "operation": "SET",
+  "order": 20,
+  "icon": "starsoul:slot/cosmetic_head",
+  "validators": ["curios:tag"]
+}

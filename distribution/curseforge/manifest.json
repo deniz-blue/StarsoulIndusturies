@@ -1,0 +1,18 @@
+{
+    "minecraft": {
+        "version": "{{minecraft}}",
+        "modLoaders": [
+            {
+                "id": "neoforge-{{neoforge}}",
+                "primary": true
+            }
+        ]
+    },
+    "manifestType": "minecraftModpack",
+    "manifestVersion": 1,
+    "name": "{{name}}",
+    "version": "{{version}}",
+    "author": "deniz-blue",
+    "files": [],
+    "overrides": "overrides"
+}

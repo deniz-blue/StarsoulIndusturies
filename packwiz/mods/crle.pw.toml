@@ -1,0 +1,13 @@
+name = "Create Redstone Link Essentials (CRLE)"
+filename = "Create_Redstone_Link_Essentials-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/P4Vm95Tl/versions/sUJS9gpi/Create_Redstone_Link_Essentials-1.0.1.jar"
+hash-format = "sha512"
+hash = "b1735fe05b9ce6a59b706f565619dd2fb3ea1d1ba31f31d564dbc738bd99fa73260d8b3e3ebb3cd22b2d02142344f277d722f8972d58ea61eec6eb97500bce6c"
+
+[update]
+[update.modrinth]
+mod-id = "P4Vm95Tl"
+version = "sUJS9gpi"

@@ -1,0 +1,13 @@
+name = "Create: Compact Flap"
+filename = "compactflap-neoforge-1.21.1-1.0.4.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Rsk2MfzV/versions/OLen1ZcN/compactflap-neoforge-1.21.1-1.0.4.1.jar"
+hash-format = "sha512"
+hash = "cf0ab3ac05b1b5d4801594446f77d29d0231cf46fba2cd51a210c4560e6098c3019ed412d38696b15577d3613e6b98dab009f631aaef5737f4e9d6cdebd14dbf"
+
+[update]
+[update.modrinth]
+mod-id = "Rsk2MfzV"
+version = "OLen1ZcN"

@@ -1,0 +1,19 @@
+{
+    "components": [
+        {
+            "important": true,
+            "uid": "net.minecraft",
+            "version": "{{minecraft}}"
+        },
+        {
+            "uid": "net.neoforged",
+            "version": "{{neoforge}}"
+        },
+        {
+            "cachedName": "unsup",
+            "uid": "com.unascribed.unsup",
+            "version": "{{unsup}}"
+        }
+    ],
+    "formatVersion": 1
+}

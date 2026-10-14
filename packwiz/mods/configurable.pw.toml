@@ -1,0 +1,13 @@
+name = "Configurable"
+filename = "configurable-3.5.2+1.21.1-neoforge.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/lGffrQ3O/versions/8gFREgfa/configurable-3.5.2%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "87f511ddd00d10c885b0e1f45c5cb38c67e46c2b1bbcc0ef1ee90a9f86ddc062435503782dd1b627394c04177ce5ff0c735d72cf6b26a520f11895116083a9a2"
+
+[update]
+[update.modrinth]
+mod-id = "lGffrQ3O"
+version = "8gFREgfa"

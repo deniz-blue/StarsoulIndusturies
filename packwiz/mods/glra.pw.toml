@@ -1,0 +1,13 @@
+name = "GriefLogger Rollback Addon (GLRA)"
+filename = "griefloggerrollbackaddon_GLRA-1.0.0-neoforge1.21.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/9zz45oFQ/versions/5tkgw70K/griefloggerrollbackaddon_GLRA-1.0.0-neoforge1.21.1.jar"
+hash-format = "sha512"
+hash = "901798725d02d2f720922f6b4641ecb2046349622e4b6e931cc8b75f25b1789e5a6f3d0e687b56c828f1c1f2ad0e6870d33e93d41c2e95b1fef1220b16d7ca1a"
+
+[update]
+[update.modrinth]
+mod-id = "9zz45oFQ"
+version = "5tkgw70K"

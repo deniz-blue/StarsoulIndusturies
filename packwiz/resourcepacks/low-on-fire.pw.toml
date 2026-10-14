@@ -1,0 +1,13 @@
+name = "Low On Fire"
+filename = "LowOnFire v26.2§8.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/RRxvWKNC/versions/yQdcUfnr/LowOnFire%20v26.2%C2%A78.zip"
+hash-format = "sha512"
+hash = "713a20a8171c8249c30d9eb72342162754c627c7a86dc0971cb555faf43c322c181fd5546e0c770fc9ae922161ee846a7af951267c1d9a8a75af466a17e19d5e"
+
+[update]
+[update.modrinth]
+mod-id = "RRxvWKNC"
+version = "yQdcUfnr"

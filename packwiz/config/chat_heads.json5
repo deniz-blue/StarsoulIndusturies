@@ -1,0 +1,22 @@
+{
+	"renderPosition": "BEFORE_NAME",
+	"threeDeeNess": 0.0,
+	"offsetNonPlayerText": true,
+	"senderDetection": "UUID_AND_HEURISTIC",
+	"smartHeuristics": true,
+	"handleSystemMessages": true,
+	"drawShadow": true,
+	"nameAliases": {
+		"<CREATETANKS071>": "like",
+		"<itzmeradiant>": "uhh",
+		"<Glitch_Gamer873>": "it?",
+		"<torokin1>": "the",
+		"<PigEnder2015>": "there*",
+		"<HakuEden>": "it",
+		"<chinox16>": "better",
+		"<thunder11218>": "insane",
+		"<D30thbyb1rb>": "heavy",
+		"<3zkMC>": "that",
+		"<UrbanGoose_>": "it?"
+	}
+}

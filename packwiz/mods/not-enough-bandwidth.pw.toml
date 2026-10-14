@@ -1,0 +1,13 @@
+name = "Not Enough Bandwidth"
+filename = "NotEnoughBandwidth-0.3.18+prototype+teacon.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/c7sFoV9J/versions/tbBqTIJY/NotEnoughBandwidth-0.3.18%2Bprototype%2Bteacon.jar"
+hash-format = "sha512"
+hash = "11628cf575b5ef2a073befa08908d76bcd1378fe7a6b828f125b01904c7bd0afa4773c83551082eef36707b63f40909d2a76a9c1ce3020d7302f4a20b9e9a4fb"
+
+[update]
+[update.modrinth]
+mod-id = "c7sFoV9J"
+version = "tbBqTIJY"

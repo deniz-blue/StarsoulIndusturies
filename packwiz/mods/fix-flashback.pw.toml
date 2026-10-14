@@ -1,0 +1,13 @@
+name = "Fix Flashback"
+filename = "fix_flashback-1.0.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/vtiIHV8K/versions/CYbAdg9i/fix_flashback-1.0.3.jar"
+hash-format = "sha512"
+hash = "d8552fd15134069b7f4d578dc48a4cc533298856ee6f6334970a869f2da2c97bf92053bfd52ff7bd6478d08200d953c8f017b5149871156949eda166cdca72c6"
+
+[update]
+[update.modrinth]
+mod-id = "vtiIHV8K"
+version = "CYbAdg9i"

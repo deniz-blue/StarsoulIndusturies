@@ -1,0 +1,13 @@
+name = "AeroWear"
+filename = "aerowear-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dCCUTVG5/versions/u99MUD28/aerowear-1.0.0.jar"
+hash-format = "sha512"
+hash = "48694c17879a0bdc63c3f15406afdca486375ce4cd68fa915862c12aae3d883a1603e645901474df87f4a2bda83c9e70466d4d60e793cec50619b057af269983"
+
+[update]
+[update.modrinth]
+mod-id = "dCCUTVG5"
+version = "u99MUD28"

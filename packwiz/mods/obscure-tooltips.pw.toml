@@ -1,0 +1,13 @@
+name = "Obscure Tooltips"
+filename = "obscure_tooltips-neoforge-1.21.1-4.2.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/5vetjDBY/versions/f7xkynP2/obscure_tooltips-neoforge-1.21.1-4.2.4.jar"
+hash-format = "sha512"
+hash = "0b0e63f145b065d44683f7693c0288007d1e7dc505dd1c3e1cdb92b13625c0cba6feb81db6b6e61f201aa16cf7e0974222c59552d143de7c89aea5db556513f5"
+
+[update]
+[update.modrinth]
+mod-id = "5vetjDBY"
+version = "f7xkynP2"

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{name}}</title>
+<link rel="icon" href="icon.png">
+<style>
+:root { color-scheme: dark; --bg: #0e0e11; --surface: #18181d; --line: #2b2b33; --text: #ececf1; --muted: #9b9ba8; --accent: #a97dff; }
+body { font: 17px/1.55 system-ui, sans-serif; background: var(--bg); color: var(--text); max-width: 46rem; margin: 3rem auto; padding: 0 1rem; }
+a { color: var(--accent); }
+h1 { margin: 0; font-size: 2.4rem; }
+h2 { margin: 0 0 .4rem; font-size: 1.2rem; }
+button, input { font: inherit; }
+code { white-space: nowrap; font-size: .9em; background: var(--surface); padding: .1rem .35rem; border-radius: .3rem; }
+.hero { display: flex; flex-direction: column; align-items: center; gap: .8rem; margin-bottom: 2rem; text-align: center; }
+.subtitle { margin: -.4rem 0 0; color: var(--muted); font-size: 1.15rem; }
+.icon { width: 5.5rem; height: 5.5rem; image-rendering: pixelated; border-radius: .8rem; }
+.launchers { display: flex; justify-content: center; gap: clamp(.3rem, 1.5vw, .6rem); margin-bottom: 2rem; }
+.launcher { flex: 0 1 8.4rem; min-width: 0; box-sizing: border-box; font-size: clamp(.55rem, 2.5vw, 1rem); display: flex; flex-direction: column; align-items: center; gap: .6rem; padding: 1.1rem .15rem .9rem; background: var(--surface); border: 2px solid var(--line); border-radius: .8rem; cursor: pointer; font-weight: 600; text-align: center; line-height: 1.2; }
+.launcher:hover { border-color: var(--muted); }
+.launcher:has(input:checked) { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--surface)); }
+.launcher input { position: absolute; opacity: 0; pointer-events: none; }
+.launcher img { width: 3.5rem; max-width: 100%; height: auto; aspect-ratio: 1; }
+.panel { display: none; }
+body:has(input[value=prism]:checked) #prism { display: block; }
+body:has(input[value=modrinth]:checked) #modrinth { display: block; }
+body:has(input[value=curseforge]:checked) #curseforge { display: block; }
+body:has(input[value=other]:checked) #other { display: block; }
+.steps { list-style: none; padding: 0; margin: 0; counter-reset: step; }
+.steps > li { counter-increment: step; position: relative; padding: 0 0 1.8rem 3.2rem; }
+.steps > li::before { content: counter(step); position: absolute; left: 0; top: -.1rem; width: 2.2rem; height: 2.2rem; border-radius: 50%; background: var(--accent); color: var(--bg); font-weight: 700; display: grid; place-items: center; }
+.steps p { margin: .4rem 0; }
+.button { display: block; width: fit-content; margin: 1rem auto; padding: .8rem 1.8rem; font-size: 1.05rem; border-radius: .5rem; background: var(--accent); color: var(--bg); font-weight: 600; text-decoration: none; }
+.buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: .8rem; margin: 1rem 0; }
+.buttons .button { margin: 0; }
+.button.secondary { background: var(--surface); color: var(--text); border: 1px solid var(--line); }
+.muted { color: var(--muted); }
+</style>
+</head>
+<body>
+
+<main>
+<header class="hero"><img class="icon" src="icon.png" alt=""><h1>{{name}}</h1><p class="subtitle">Choose your Launcher</p></header>
+
+<div class="launchers">
+<label class="launcher"><input type="radio" name="launcher" value="prism" autocomplete="off"><img src="assets/prism.svg" alt=""><span>Prism</span></label>
+<label class="launcher"><input type="radio" name="launcher" value="modrinth" autocomplete="off"><img src="assets/modrinth.svg" alt=""><span>Modrinth</span></label>
+<label class="launcher"><input type="radio" name="launcher" value="curseforge" autocomplete="off"><img src="assets/curseforge.svg" alt=""><span>CurseForge</span></label>
+<label class="launcher"><input type="radio" name="launcher" value="other" autocomplete="off"><img src="assets/other.svg" alt=""><span>Other</span></label>
+</div>
+
+<section id="prism" class="panel">
+<ol class="steps">
+<li>
+<h2>Add {{name}}</h2>
+<div class="buttons">
+<a class="button" href="prismlauncher://import?url={{url}}/StarsoulIndusturies-Prism.zip">Launch Prism with Modpack</a>
+<a class="button secondary" href="StarsoulIndusturies-Prism.zip" download>Download Instance Zip</a>
+</div>
+<p>Click <b>Launch Prism with Modpack</b>, click <b>Yes</b>, then <b>OK</b>. Or download the zip and drag it onto Prism's window.</p>
+</li>
+<li>
+<h2>Play</h2>
+<p>Click {{name}}, then click <b>Launch</b>. If Prism asks to download Java, say yes.</p>
+<p>The first start downloads every mod, so it takes a few minutes. A small window shows how far along it is. After that, new mods and updates come in on their own.</p>
+</li>
+</ol>
+</section>
+
+<section id="modrinth" class="panel">
+<ol class="steps">
+<li>
+<h2>Add {{name}}</h2>
+<p><a class="button" href="StarsoulIndusturies.mrpack" download>Download StarsoulIndusturies.mrpack</a></p>
+<p>Open the downloaded file. Modrinth App adds {{name}} by itself.</p>
+</li>
+<li>
+<h2>Play</h2>
+<p>Click {{name}}, then <b>Play</b>.</p>
+<p>The first start downloads every mod, so it takes a few minutes. A small window shows how far along it is. After that, new mods and updates come in on their own.</p>
+</li>
+</ol>
+</section>
+
+<section id="curseforge" class="panel">
+<ol class="steps">
+<li>
+<h2>Add {{name}}</h2>
+<p><a class="button" href="StarsoulIndusturies-CurseForge.zip" download>Download the CurseForge zip</a></p>
+<p>In CurseForge, open <b>Minecraft</b>, click <b>Create Custom Profile</b>, then <b>Import Profile</b>, and pick the zip.</p>
+</li>
+<li>
+<h2>Play</h2>
+<p>The first start downloads every mod, so it takes a few minutes. A small window shows how far along it is. After that, new mods and updates come in on their own.</p>
+</li>
+</ol>
+</section>
+
+<section id="other" class="panel">
+<p>Any launcher that lets you set JVM arguments works, the official Minecraft Launcher too.</p>
+<ol class="steps">
+<li>
+<h2>Make an instance</h2>
+<p>Minecraft {{minecraft}} with NeoForge {{neoforge}}.</p>
+<p>In the Minecraft Launcher: run the <a href="https://maven.neoforged.net/releases/net/neoforged/neoforge/{{neoforge}}/neoforge-{{neoforge}}-installer.jar">NeoForge installer</a> and click <b>Install client</b>. Then open <b>Installations</b> → <b>New installation</b>, pick <b>neoforge-{{neoforge}}</b> and an empty folder as the game directory.</p>
+</li>
+<li>
+<h2>Add unsup</h2>
+<p>Download <a href="unsup.jar">unsup.jar</a> and <a href="unsup.ini" download>unsup.ini</a> into the instance's game folder, the one that has <code>options.txt</code>. In the Minecraft Launcher, that's the game directory you picked.</p>
+<p>Add <code>-javaagent:unsup.jar</code> to the instance's JVM arguments. The Minecraft Launcher has them under <b>More options</b>.</p>
+</li>
+<li>
+<h2>Play</h2>
+<p>The first start downloads every mod, so it takes a few minutes. A small window shows how far along it is. After that, new mods and updates come in on their own.</p>
+<p>The server is <code>starsoul.industries</code>.</p>
+<p class="muted">When the NeoForge version changes, change it in the launcher too.</p>
+</li>
+</ol>
+</section>
+
+</main>
+
+</body>
+</html>

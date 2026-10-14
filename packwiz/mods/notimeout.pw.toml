@@ -1,0 +1,13 @@
+name = "NoTimeOut"
+filename = "notimeout-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PcexUBVK/versions/muGr2AV7/notimeout-1.21.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "03083f5f24093eb016627611c41f1d0b415584d8577da9cfc905db07a6f9c07f07dcdda93b31386f16e8f32b04f2971e2bc75951b38d378ddf9c38d36510f258"
+
+[update]
+[update.modrinth]
+mod-id = "PcexUBVK"
+version = "muGr2AV7"

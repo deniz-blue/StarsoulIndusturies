@@ -1,0 +1,13 @@
+name = "Unique Dark Hotbar Add-On"
+filename = "UD - Hotbar add-on 1.20.2-26.x.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/q7RxqAgg/versions/E1iucp4w/UD%20-%20Hotbar%20add-on%201.20.2-26.x.zip"
+hash-format = "sha512"
+hash = "2ec2aa15cce154823fe9b8715032ab8bdf0d77469e783ccc9c5d53f31cece95b0a6f63e76fee0fdce2530e70fd68d92c2a2b26897b445fb6b62c7c08b3fe0900"
+
+[update]
+[update.modrinth]
+mod-id = "q7RxqAgg"
+version = "E1iucp4w"

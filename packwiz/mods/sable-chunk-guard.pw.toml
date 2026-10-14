@@ -1,0 +1,13 @@
+name = "Sable Chunk Guard"
+filename = "sable-chunk-guard-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/1Fxnt8na/versions/aftA84Bf/sable-chunk-guard-1.0.0.jar"
+hash-format = "sha512"
+hash = "4ab1c49dbeabd35c4aeef0d6228b9e1a3ee4881c17fee9e6251a76238fe4d196cb5371a2558a9f799ee098f269316f3a1194a69196b27b93ee138ab600d1b7c1"
+
+[update]
+[update.modrinth]
+mod-id = "1Fxnt8na"
+version = "aftA84Bf"
