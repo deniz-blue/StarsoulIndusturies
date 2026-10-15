@@ -251,7 +251,7 @@ metafile = true
 
 [[files]]
 file = "mods/axiom.pw.toml"
-hash = "1ecc7eab7f0619f315d92c622fe878b21853fb99ef3816b44bef39464b8b502c"
+hash = "97fcda99a93799281fe5fe2a11f9fd43945983d87de2790d1537a2b4db017b3d"
 metafile = true
 
 [[files]]
@@ -336,7 +336,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "127ef479277e6156f1f53c6c11955076d64d38a947efb1745efe3285eb447b31"
+hash = "a38d72ca403e9064338be6e0cf69532768b0c1aba8f88703a8ce74c2734da522"
 metafile = true
 
 [[files]]
@@ -631,7 +631,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "b0faf39468b193ee8c710ef30b095b6a9883362de0df1ccc5c00e72b4d188005"
+hash = "c490f7b680875f034af39a1556911d6edb1dcdd76a114ee6a4eca0f158cd92b2"
 metafile = true
 
 [[files]]
