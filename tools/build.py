@@ -110,6 +110,7 @@ zip_layers(BUILD / f"{NAME}-CurseForge.zip", [(DIST / "curseforge", ""), (game_f
 write_filled(icon, BUILD / "icon.png")
 write_filled(game_folder / "unsup.ini", BUILD / "unsup.ini")
 write_filled(relauncher / "unsup.jar", BUILD / "unsup.jar")
+shutil.copy(relauncher / "mods" / "starsoul-early-fixes.jar", BUILD / "files")
 write_filled(DIST / "server" / "unsup.ini", BUILD / "server" / "unsup.ini")
 
 print(f"built {BUILD}")
