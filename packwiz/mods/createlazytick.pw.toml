@@ -1,13 +1,13 @@
 name = "Create: LazyTick"
-filename = "CreateLazyTick-2.6.25-6.0.10-neoforge-1.21.1.jar"
+filename = "CreateLazyTick-2.7.31-6.0.10-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Z0d7hFh4/versions/T7P4cSSt/CreateLazyTick-2.6.25-6.0.10-neoforge-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/Z0d7hFh4/versions/FB71PjzD/CreateLazyTick-2.7.31-6.0.10-neoforge-1.21.1.jar"
 hash-format = "sha512"
-hash = "162370d0afe8fd16225cb88364ac50a5219504c8d49200ce3e9ecfbf99747cfba21409303ff6768060fe2530cfdf931d1c8c50644333d85271ed8c514dfeaaed"
+hash = "26bfec5b371df87f39a1a2c4cc14dc6eb3bba987cd2f9b12578380f21a1aafc4dd0a0179edee8cdb8a02de36b7749df458ad3fde441f5767e2a4a9ed8b958f39"
 
 [update]
 [update.modrinth]
 mod-id = "Z0d7hFh4"
-version = "T7P4cSSt"
+version = "FB71PjzD"

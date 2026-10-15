@@ -501,7 +501,7 @@ metafile = true
 
 [[files]]
 file = "mods/createlazytick.pw.toml"
-hash = "0590e6ac543f33f0df98b90fe1ccfd57bbfe2af396dc3ef87264c313f104e7ff"
+hash = "ae07584746932264822a2311be8391ca00ed6b504ea8973e12f7707f91a825a5"
 metafile = true
 
 [[files]]
