@@ -89,14 +89,6 @@ file = "config/sodium-options.json"
 hash = "ef3242a314c4311b64b88ce016acea790d42a35f7c81f0a02934841e64efcda1"
 
 [[files]]
-file = "config/sounds/chat.json"
-hash = "79955b921a63862ffc0006e670d24a5cc37fa2be5fc990d2695ba6931e21eee1"
-
-[[files]]
-file = "config/voicechat/voicechat-client.properties"
-hash = "a7201282fe603384c505f1dad3dbcd9b607275cc90f8a8c25177dcc8ad3040ce"
-
-[[files]]
 file = "config/xaero/minimap/client.cfg"
 hash = "d3157c542e7db308edbb212a7e7afde1832a9648771cdf7cee270d0b8cd0baf2"
 
