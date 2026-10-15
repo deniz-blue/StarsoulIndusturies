@@ -251,7 +251,7 @@ metafile = true
 
 [[files]]
 file = "mods/axiom.pw.toml"
-hash = "6fc229981227c05d1d80dc637a359cf965e56cd3495b646434563cf8c7bbbfe6"
+hash = "1ecc7eab7f0619f315d92c622fe878b21853fb99ef3816b44bef39464b8b502c"
 metafile = true
 
 [[files]]
