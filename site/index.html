@@ -38,6 +38,7 @@ body:has(input[value=other]:checked) #other { display: block; }
 .buttons .button { margin: 0; }
 .button.secondary { background: var(--surface); color: var(--text); border: 1px solid var(--line); }
 .muted { color: var(--muted); }
+.shot { display: block; max-width: 100%; margin: .6rem 0 .4rem; border: 1px solid var(--line); border-radius: .5rem; }
 .ui { display: inline-block; margin: .1rem 0; padding: .05rem .5rem; font-size: .88em; line-height: 1.5; white-space: nowrap; }
 .ui.page { padding: .1rem .7rem; border-radius: .4rem; background: var(--accent); color: var(--bg); font-weight: 600; }
 .ui.page.secondary { background: var(--surface); color: var(--text); border: 1px solid var(--line); }
@@ -77,9 +78,9 @@ body:has(input[value=other]:checked) #other { display: block; }
 <p>If nothing happens, do it by hand instead:</p>
 <ol>
 <li>Click the second button above. The file lands in your <b>Downloads</b> folder.</li>
-<li>In Prism, click <span class="ui">Add Instance</span> at the top left.</li>
+<li>In Prism, click <span class="ui">Add Instance</span> at the top left.<img class="shot" src="assets/prism-add-instance.png" alt=""></li>
 <li>On the left of the window that opens, pick <span class="ui">Import</span>.</li>
-<li>Click <span class="ui">Browse</span>, go to your Downloads folder and pick <code>StarsoulIndusturies-Prism.zip</code>.</li>
+<li>Click <span class="ui">Browse</span>, go to your Downloads folder and pick <code>StarsoulIndusturies-Prism.zip</code>.<img class="shot" src="assets/prism-import.png" alt=""></li>
 <li>Click <span class="ui">OK</span>. {{name}} now shows up in Prism's list.</li>
 </ol>
 <p class="muted">Don't unzip the file. Prism wants the zip as it is.</p>
@@ -101,14 +102,14 @@ body:has(input[value=other]:checked) #other { display: block; }
 <p>If that doesn't work, add it by hand:</p>
 <ol>
 <li>Open the <b>Modrinth App</b> (the launcher, not the website).</li>
-<li>Click <span class="ui primary">+ New instance</span>.</li>
-<li>Pick <span class="ui card">Upload a modpack</span>, then choose <code>StarsoulIndusturies.mrpack</code> from your Downloads folder.</li>
-<li>Wait for it to finish. {{name}} now shows up in your library.</li>
+<li>Click <span class="ui primary">+ New instance</span>.<img class="shot" src="assets/mr-new-instance.png" alt=""></li>
+<li>Pick <span class="ui card">Upload a modpack</span>, then choose <code>StarsoulIndusturies.mrpack</code> from your Downloads folder.<img class="shot" src="assets/mr-upload.png" alt=""></li>
 </ol>
+<p>Either way, Modrinth warns that the file isn't published on Modrinth. Click <span class="ui">Install anyway</span>.<img class="shot" src="assets/mr-install-anyway.png" alt=""></p>
 </li>
 <li>
 <h2>Play</h2>
-<p>Click {{name}}, then <span class="ui primary">Play</span>.</p>
+<p>Open {{name}} and click <span class="ui primary">▷ Play</span>.<img class="shot" src="assets/mr-play.png" alt=""></p>
 <p>The modpack will be automatically updated every time you launch the game. The IP address is already pre-filled for you, but here it is just in case: <code>starsoul.industries</code></p>
 </li>
 </ol>
@@ -121,16 +122,16 @@ body:has(input[value=other]:checked) #other { display: block; }
 <p><a class="button" href="StarsoulIndusturies-CurseForge.zip" download>Download the CurseForge zip</a></p>
 <ol>
 <li>Click the button above. The file lands in your <b>Downloads</b> folder.</li>
-<li>Open the <b>CurseForge</b> app and click <span class="ui">Minecraft</span>.</li>
-<li>At the top right, click <span class="ui primary">Create Custom Profile</span>.</li>
-<li>In the window that opens, click <span class="ui link">⤓ Import</span> at the top.</li>
-<li>Under <b>Import Profile .zip</b>, click <span class="ui outline">Choose .zip file</span> and pick <code>StarsoulIndusturies-CurseForge.zip</code> from your Downloads folder.</li>
-<li>Wait for it to finish. {{name}} now shows up under <span class="ui">My Modpacks</span>.</li>
+<li>Open the <b>CurseForge</b> app, go to Minecraft, and click <span class="ui link">⤓ Import</span> under <b>My Modpacks</b>.<img class="shot" src="assets/cf-import.png" alt=""></li>
+<li>Click <span class="ui outline">Choose .zip file</span> and pick <code>StarsoulIndusturies-CurseForge.zip</code> from your Downloads folder.<img class="shot" src="assets/cf-choose-zip.png" alt=""></li>
+<li>CurseForge warns about 2 files that aren't on CurseForge. They are needed for updates: tick <b>I understand…</b>, then click <span class="ui">⚠ All Files</span>.<img class="shot" src="assets/cf-all-files.png" alt=""></li>
+<li>Wait for it to finish. {{name}} now shows up under My Modpacks.</li>
 </ol>
 <p class="muted">Don't unzip the file. CurseForge wants the zip as it is.</p>
 </li>
 <li>
 <h2>Play</h2>
+<p>Click <span class="ui primary">Play</span> on {{name}}.<img class="shot" src="assets/cf-play.png" alt=""></p>
 <p>The modpack will be automatically updated every time you launch the game. The IP address is already pre-filled for you, but here it is just in case: <code>starsoul.industries</code></p>
 </li>
 </ol>
