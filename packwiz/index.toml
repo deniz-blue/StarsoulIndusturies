@@ -33,10 +33,6 @@ file = "config/emi.css"
 hash = "0f143ae7acedef62193ad5f6022825c48479786b06d2416e87076522bd4af386"
 
 [[files]]
-file = "config/fml.toml"
-hash = "514ca389c59f890c74e1a83f82f74a250f106f1a7bab77045a158366badd473a"
-
-[[files]]
 file = "config/jei-server.toml"
 hash = "57d741871716e29b3a318b625e740d590598f001c362b6a4a95e3ee628c5cbc3"
 
