@@ -25,6 +25,17 @@ StartupEvents.registry('creative_mode_tab', event => {
 });
 
 StartupEvents.registry('item', event => {
+    event.create('incomplete_cog', 'create:sequenced_assembly');
+
+    event.create('malformed_cog')
+        .displayName('Malformed Cog')
+        .unstackable()
+        .tooltip(Text.gray('Whoops!'));
+
+    event.create('unprocessed_cog')
+        .displayName('Unprocessed Cog')
+        .unstackable();
+
     for (let i = 1; i <= HELMET_COUNT; i++) {
         event.create(`helmet_cosmetic_${i}`)
             .displayName(`Helmet Cosmetic ${i}`)
@@ -36,17 +47,6 @@ StartupEvents.registry('item', event => {
             .displayName(`Back Cosmetic ${i}`)
             .unstackable();
     }
-
-    event.create('incomplete_cog', 'create:sequenced_assembly');
-
-    event.create('malformed_cog')
-        .displayName('Malformed Cog')
-        .unstackable()
-        .tooltip(Text.gray('Whoops!'));
-
-    event.create('unprocessed_cog')
-        .displayName('Unprocessed Cog')
-        .unstackable();
 });
 
 StartupEvents.modifyCreativeTab('kubejs:tab', event => {
@@ -66,7 +66,7 @@ StartupEvents.registry('block', event => {
     }
 
     event.create('charcoal_block')
-        .displayName("Block of Charcoal")
+        .displayName('Block of Charcoal')
         .stoneSoundType()
         .tagBoth('aeronautics:burner_fire')
         .tagBoth('aeronautics:levitite_adjacent_catalyzer')

@@ -10,7 +10,7 @@ hash = "00267a602028cbb037dcb0b5f803db31bed284235ca9c1ea189ad4179311a2f4"
 
 [[files]]
 file = "config/createcobblestone-common.toml"
-hash = "5ad018e189e3d37965accbde4d3962bfb017b3cf78d3772db08e121dc5ad07ef"
+hash = "0ad17da933e97f96d7691f2deee7f23bfc8aa282ce9af2f79c709842519d4fb6"
 
 [[files]]
 file = "config/creativecore-client.json"
@@ -31,10 +31,6 @@ hash = "19beff174af18a8ea0337db360ffe5d2029470aa326d405cc1766c22f47d1816"
 [[files]]
 file = "config/emi.css"
 hash = "0f143ae7acedef62193ad5f6022825c48479786b06d2416e87076522bd4af386"
-
-[[files]]
-file = "config/enderpearl_backport.json"
-hash = "50992aaa1f08a068d2ac875a60d7a2707e430ee15af25b081320ec853b37609f"
 
 [[files]]
 file = "config/jei-server.toml"
@@ -78,7 +74,7 @@ hash = "ade1b4a28332a849a0b3dfe006db3d1ef22810301999316fd58a34b130968fb5"
 
 [[files]]
 file = "config/servercore/config.yml"
-hash = "d2d02ed29be121564e2ac0ca9b9b45733974bc9aef7d3e5c2238df431ea651ed"
+hash = "ac708fd7ecc8fae2a8f00f28fdda6938c28a82f5b530025b70c7c8d0820bd1a4"
 
 [[files]]
 file = "config/skinlayers.json"
@@ -114,7 +110,7 @@ hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_cog.png"
-hash = "14c9ff7f290315ab98aa66b59b1b934c53a34d57078ec5434a7d8ff5fb70339d"
+hash = "bedb80a357f3a527ffb6e4650ec4a2e3d71162ba3ffae4c132dfe3f7c7217cce"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/malformed_cog.png"
@@ -145,6 +141,10 @@ file = "kubejs/client_scripts/main.js"
 hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
 
 [[files]]
+file = "kubejs/client_scripts/registrymod.js"
+hash = "78f621b6da799f7e9a9fc7e49a8910b1e423d0362101677cf97902743c607ba5"
+
+[[files]]
 file = "kubejs/config/client.json"
 hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
 
@@ -169,6 +169,10 @@ file = "kubejs/data/starsoul/curios/slots/head.json"
 hash = "c59b94f2aa924976c62aa10f6dd2536b2105cbc334e2dbc36a6f9e539d2abe39"
 
 [[files]]
+file = "kubejs/server_scripts/commands.js"
+hash = "285abb9e46ac8ea8c062bd4a98057a6027e0eb1de080ff4ab51af2fffe82d82b"
+
+[[files]]
 file = "kubejs/server_scripts/curios_tags.js"
 hash = "4990d982a059d88cb5956310cb76a5c91bfb7e408409a01e5ac9e120ea09b5b3"
 
@@ -186,7 +190,7 @@ hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
 file = "kubejs/startup_scripts/registry.js"
-hash = "9a68719659b0713176e3c830cd214756aac0f96326db7cad9431fbe14c0e94d4"
+hash = "203254bc9ed0777624e1b99720bc27a9fe44c96aa9d1d7b1371128b2ddbb92a5"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
