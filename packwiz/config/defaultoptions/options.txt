@@ -1,0 +1,8 @@
+onboardAccessibility:false
+tutorialStep:none
+skipMultiplayerWarning:true
+joinedFirstServer:true
+realmsNotifications:false
+renderDistance:10
+simulationDistance:6
+guiScale:3

@@ -1,0 +1,6 @@
+key_justzoom.keybinds.keybind.open_options:key.keyboard.o
+key_gui.xaero_new_waypoint:key.keyboard.j
+key_gui.xaero_enlarge_map:key.keyboard.unknown
+key_key.mute_microphone:key.keyboard.comma
+key_key.voice_chat_group:key.keyboard.period
+key_create_radar.key.binocular.use:key.keyboard.i

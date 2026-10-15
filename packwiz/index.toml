@@ -25,6 +25,18 @@ file = "config/cubes_without_borders.json"
 hash = "62653cfff0be4fc3afe6f93b8a3d969b0915fa7d0d12a26231aae606641a8499"
 
 [[files]]
+file = "config/defaultoptions-common.toml"
+hash = "f20fee49128bf89d75c333a1e62b12261021bcea36957d84fdbf561f6a351063"
+
+[[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "2a5c7df0ff7f414cc7454f3d0806c4cf78f7c8e2f41b7078621d6564a46ca67f"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "f07a6810c9f802a78a490f8e82540f92d654a806bfe073f159dfe1b059d8022e"
+
+[[files]]
 file = "config/dynamiccrosshair.json5"
 hash = "19beff174af18a8ea0337db360ffe5d2029470aa326d405cc1766c22f47d1816"
 
@@ -59,10 +71,6 @@ hash = "4eb3a3eb280558bdd2665fb4792d32551cb6dddc468776e66afc1c3ea981781e"
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
 hash = "c61f6d37414195060577c260d883880f4fb41a04cf66f25ccd8930e11448e698"
-
-[[files]]
-file = "config/justzoom/config.txt"
-hash = "d0dcbc7c9c28a398ad2b81c1f6779f34beffbf45560c8c02c063077ab32ded45"
 
 [[files]]
 file = "config/notenoughanimations.json"
@@ -245,6 +253,11 @@ metafile = true
 [[files]]
 file = "mods/azimuth-api.pw.toml"
 hash = "3f829f54e19ebb32f23f554e05bd49c005dfc057933e07d0df4f85e7085d314d"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "4322901ed0553e0c2ead4d365a33bbc9e2d740c4b721f90c8023ed49c42e9387"
 metafile = true
 
 [[files]]
@@ -515,6 +528,11 @@ metafile = true
 [[files]]
 file = "mods/customskinloader.pw.toml"
 hash = "6dc69e48da9a2dadcce285602296efc868b9e429ff3c7cc7a4e99c5dcd10e61a"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "a6967d761dde867ccc1af53dc9f4e530eb9917a9cb21d0fc15708e8cd2c0f2ba"
 metafile = true
 
 [[files]]
