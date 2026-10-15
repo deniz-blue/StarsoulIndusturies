@@ -22,3 +22,32 @@ flavors = "flashback_on"
 
 [metafile.create-aeronautics-flashback]
 flavors = "flashback_on"
+
+[flavor_groups.effects]
+name = "Fancy effects"
+description = "Extra particles (rain, splashes, fireflies and more) and Sound Physics reverb. Turn it off for more FPS."
+side = "client"
+[[flavor_groups.effects.choices]]
+id = "effects_on"
+name = "On"
+[[flavor_groups.effects.choices]]
+id = "effects_off"
+name = "Off"
+
+[metafile.cool-rain-reforged]
+flavors = "effects_on"
+
+[metafile.particle-core]
+flavors = "effects_on"
+
+[metafile.particle-effects]
+flavors = "effects_on"
+
+[metafile.particle-rain]
+flavors = "effects_on"
+
+[metafile.sound-physics-remastered]
+flavors = "effects_on"
+
+[metafile.subtle-effects]
+flavors = "effects_on"
