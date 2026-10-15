@@ -319,7 +319,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "a38d72ca403e9064338be6e0cf69532768b0c1aba8f88703a8ce74c2734da522"
+hash = "127ef479277e6156f1f53c6c11955076d64d38a947efb1745efe3285eb447b31"
 metafile = true
 
 [[files]]
@@ -609,7 +609,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "c490f7b680875f034af39a1556911d6edb1dcdd76a114ee6a4eca0f158cd92b2"
+hash = "b0faf39468b193ee8c710ef30b095b6a9883362de0df1ccc5c00e72b4d188005"
 metafile = true
 
 [[files]]
@@ -849,7 +849,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
-hash = "97660396e7f075f4c9ca8447878ec3da58ebea9ed464cdb494d4db1d62989936"
+hash = "d22d3dad65c22acb508823667ca42d751d919753922a18fae50ccf656fa07a43"
 metafile = true
 
 [[files]]

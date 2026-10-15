@@ -1,0 +1,24 @@
+[flavor_groups.flashback]
+name = "Flashback (experimental)"
+description = "Replay recording and camera tool. It is a Fabric mod run through Sinytra Connector and can break the game, so leave it off unless you want it."
+side = "client"
+
+[[flavor_groups.flashback.choices]]
+id = "flashback_off"
+name = "Off"
+
+[[flavor_groups.flashback.choices]]
+id = "flashback_on"
+name = "On"
+
+[metafile.flashback]
+flavors = "flashback_on"
+
+[metafile.fix-flashback]
+flavors = "flashback_on"
+
+[metafile.create-flashback]
+flavors = "flashback_on"
+
+[metafile.create-aeronautics-flashback]
+flavors = "flashback_on"

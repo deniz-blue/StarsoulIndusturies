@@ -87,7 +87,7 @@ def copy_packwiz():
     index = tomllib.loads((PACKWIZ / index_file).read_text(encoding="utf-8"))
     for entry in index["files"]:
         require_packwiz_hash(PACKWIZ / entry["file"], entry.get("hash-format", index["hash-format"]), entry["hash"])
-    for name in ["pack.toml", index_file, *(entry["file"] for entry in index["files"])]:
+    for name in ["pack.toml", "unsup.toml", index_file, *(entry["file"] for entry in index["files"])]:
         target = BUILD / "packwiz" / name
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy(PACKWIZ / name, target)
