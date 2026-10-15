@@ -776,11 +776,6 @@ hash = "51e129832b04acd57da470fc41725bad5e101b6a6b1d4901fd8ea7a92b14e13d"
 metafile = true
 
 [[files]]
-file = "mods/localized-chat.pw.toml"
-hash = "a08079b71ad7870a1d22b71969c71bd7bf426b304ed807e9dc13976909948910"
-metafile = true
-
-[[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "5c4078f8ff8f2ec7aeba3e6b4066a9a67e0d57be42afe16871fd32f0c4429347"
 metafile = true
