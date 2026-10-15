@@ -1,0 +1,13 @@
+name = "ShatterLib | OctoLib"
+filename = "OctoLib-NEOFORGE-0.6.2+1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RH2KUdKJ/versions/yVCCi6TK/OctoLib-NEOFORGE-0.6.2%2B1.21.jar"
+hash-format = "sha512"
+hash = "c33faa056c9d5403f06b7aa883290c86c33dcea3502f99720df98eccbd819cd3050fb2ffecf048f2dbee1b69a14e9dc6c23245f35ba3a78e46b056859666a60a"
+
+[update]
+[update.modrinth]
+mod-id = "RH2KUdKJ"
+version = "yVCCi6TK"

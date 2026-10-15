@@ -828,6 +828,11 @@ hash = "09ba6db54e6f13fafa1e12a9adcd83db9137617d631288579f520ab11b4bfe9a"
 metafile = true
 
 [[files]]
+file = "mods/notenoughrecipebook.pw.toml"
+hash = "6df80014ec12832c5627e60f7c916e0cb8a9d8dbb3f7c4ff863de3a6e39957aa"
+metafile = true
+
+[[files]]
 file = "mods/notimeout.pw.toml"
 hash = "f99561e8ec2fecbae752dfd3bcf56fc5739e66836d1513eb7c2cd79275649bba"
 metafile = true
@@ -940,6 +945,11 @@ metafile = true
 [[files]]
 file = "mods/servercore.pw.toml"
 hash = "860d3b3e2c407980ece69e51896fb5e2e1ffcdb63b6956d440f331cf73777c83"
+metafile = true
+
+[[files]]
+file = "mods/shatterbyte-lib.pw.toml"
+hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
 metafile = true
 
 [[files]]
