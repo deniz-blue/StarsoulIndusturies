@@ -142,7 +142,7 @@ hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
 
 [[files]]
 file = "kubejs/client_scripts/registrymod.js"
-hash = "78f621b6da799f7e9a9fc7e49a8910b1e423d0362101677cf97902743c607ba5"
+hash = "5664776dac648fd16a0fc42c67201fef6cc26c20207cd5145bfd43a0b5becfc8"
 
 [[files]]
 file = "kubejs/config/client.json"
