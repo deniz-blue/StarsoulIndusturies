@@ -9,15 +9,16 @@ import tomllib
 import zipfile
 from pathlib import Path, PurePosixPath
 
+from pack_site import URL
 from png_to_qoi import encode_qoi, read_png_rgba, resize_nearest
 
 REPO = Path(__file__).resolve().parent.parent
 PACKWIZ = REPO / "packwiz"
 DIST = REPO / "distribution"
 SITE = REPO / "site"
+BUNDLED = REPO / "files"
 BUILD = REPO / "build"
 NAME = "StarsoulIndusturies"
-URL = "https://starsoul-industuries.denizblue.workers.dev"
 FILLED_SUFFIXES = {".cfg", ".html", ".ini", ".json"}
 UPDATER_ICON_SIZE = 64
 
@@ -95,6 +96,7 @@ def copy_packwiz():
 shutil.rmtree(BUILD, ignore_errors=True)
 BUILD.mkdir()
 copy_packwiz()
+shutil.copytree(BUNDLED, BUILD / "files")
 copy_folder_filled(SITE, BUILD)
 
 game_folder = DIST / "game-folder"

@@ -344,6 +344,11 @@ hash = "ba904d5c6a361b648fa7df9ecb8133ef6d1cdc596edb0be128b5562ebbdc14ae"
 metafile = true
 
 [[files]]
+file = "mods/create-advanced-optimization.pw.toml"
+hash = "70f47022e40ba6d4449ea5b4d436e6342b597c429df47a5ee6d42631ec6c85dc"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-flashback.pw.toml"
 hash = "ffce1f7608e0c8cdec8d9e8e6ed0f26e7b722e7283f2bd421758040591a6f972"
 metafile = true
@@ -439,6 +444,16 @@ hash = "fa055bd70b881f74c4e896c01d85a021f1298de584e5baabb3a86dd12130beb1"
 metafile = true
 
 [[files]]
+file = "mods/create-server-optimizer.pw.toml"
+hash = "4ebc689abc505c9ad270271420492ae1350322afe6b458d43ea1c8795faf67ce"
+metafile = true
+
+[[files]]
+file = "mods/create-simulated-fixed-ropes.pw.toml"
+hash = "4c2d11ada4f0f3a416d40dc518ebb9bb3f4dd18892f727c3e6c4fcee60deacb5"
+metafile = true
+
+[[files]]
 file = "mods/create-sound-of-steam.pw.toml"
 hash = "a7a87fc6ea98d8fbaa426258990f2dec714699e98fb8a083f9a399c90d02844f"
 metafile = true
@@ -501,6 +516,11 @@ metafile = true
 [[files]]
 file = "mods/deployer.pw.toml"
 hash = "0e4942ab12e496d3649dc35f1734c20c9fb46e235265f7076a2465eb1b139473"
+metafile = true
+
+[[files]]
+file = "mods/discordhook.pw.toml"
+hash = "1a27ffcbdcff3f156be5f0aacd291f716120499cbe1a82d431b09797c4f7100c"
 metafile = true
 
 [[files]]
@@ -605,7 +625,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "5a26489b734991c0511abfe43bf9143c935b8483d854a78fecd2e84993fb09cc"
+hash = "35779b39ddc06059ec483b33de2ecfdc3adb95c0a49e69b6701fb0024827e2f5"
 metafile = true
 
 [[files]]
@@ -666,6 +686,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "4de3e4a1a49e332c1ad313283e0403c4273b628d634c17a9ff0c9da3d6b67f9a"
+metafile = true
+
+[[files]]
+file = "mods/janet.pw.toml"
+hash = "e73b9757442a69a4a628f44d362ee78829be1ea1e5c3ca758d06e3e379d7c00d"
 metafile = true
 
 [[files]]
@@ -884,8 +909,8 @@ hash = "0cb5ff691bb436844457bc9b0ca8110959012b6db04aefbcc2486ab683e18ab5"
 metafile = true
 
 [[files]]
-file = "mods/sable-eeaao.pw.toml"
-hash = "2e3731c583f7e9a3a8d8da6a1331d2a126314760432ddaf4b9193ae324ccd438"
+file = "mods/sable-optimized-entities.pw.toml"
+hash = "0f988decc997ba24cb4bb89dd05fd4b54de6e6a5224ecad90812d3f90585c6b8"
 metafile = true
 
 [[files]]
@@ -909,8 +934,9 @@ hash = "860d3b3e2c407980ece69e51896fb5e2e1ffcdb63b6956d440f331cf73777c83"
 metafile = true
 
 [[files]]
-file = "mods/shitfixes-1.0.15.jar"
-hash = "474a4cef3f5e4daeaf652cab1c3caa1ce6648f451428b4d1d9223e51e69d5396"
+file = "mods/shitfixes.pw.toml"
+hash = "a1a6a95b6a85dde07180357dd4298d705f761ede5679603bb0b81ee8d75ca50a"
+metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
