@@ -29,6 +29,10 @@ file = "config/defaultoptions-common.toml"
 hash = "f20fee49128bf89d75c333a1e62b12261021bcea36957d84fdbf561f6a351063"
 
 [[files]]
+file = "config/defaultoptions/extra/config/figura.json"
+hash = "94e5bf824ad98db448c1d6896ebcb66b8f3db78b4b9ca920d2962d66824ddb13"
+
+[[files]]
 file = "config/defaultoptions/keybindings.txt"
 hash = "2a5c7df0ff7f414cc7454f3d0806c4cf78f7c8e2f41b7078621d6564a46ca67f"
 
