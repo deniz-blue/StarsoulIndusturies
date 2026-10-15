@@ -17,7 +17,7 @@ DIST = REPO / "distribution"
 SITE = REPO / "site"
 BUILD = REPO / "build"
 NAME = "StarsoulIndusturies"
-URL = "https://modpack.starsoul.industries"
+URL = "https://starsoul-industuries.denizblue.workers.dev"
 FILLED_SUFFIXES = {".cfg", ".html", ".ini", ".json"}
 UPDATER_ICON_SIZE = 64
 
