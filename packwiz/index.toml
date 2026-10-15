@@ -585,6 +585,11 @@ hash = "37ae0fc372cc387710fb7cb525f79a405e88f9e88786f83c1e0834e127997d35"
 metafile = true
 
 [[files]]
+file = "mods/essential.pw.toml"
+hash = "b8704efc4521c57265565573b51b98e5128b0270e2494592edd64960a1919078"
+metafile = true
+
+[[files]]
 file = "mods/explosive-enhancement-forge.pw.toml"
 hash = "e2ac64c1fe834e9ea0a9094e5baf15a69be32cb219b8feea00803b5b2b8c50ef"
 metafile = true
