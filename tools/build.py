@@ -26,6 +26,8 @@ UPDATER_ICON_SIZE = 64
 
 pack = tomllib.loads((PACKWIZ / "pack.toml").read_text(encoding="utf-8"))
 unsup_patch = json.loads((DIST / "prism" / "patches" / "com.unascribed.unsup.json").read_text(encoding="utf-8"))
+if pack["versions"].get("unsup") != unsup_patch["version"]:
+    raise SystemExit(f"pack.toml [versions] unsup must be {unsup_patch['version']}, the Prism patch version: unsup copies it into Prism's components")
 icon_key = re.search(r"^iconKey=(.+)$", (DIST / "prism" / "instance.cfg").read_text(encoding="utf-8"), re.M)[1]
 icon = DIST / "prism" / f"{icon_key}.png"
 placeholder_values = {
