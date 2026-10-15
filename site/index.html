@@ -31,11 +31,26 @@ body:has(input[value=other]:checked) #other { display: block; }
 .steps > li { counter-increment: step; position: relative; padding: 0 0 1.8rem 3.2rem; }
 .steps > li::before { content: counter(step); position: absolute; left: 0; top: -.1rem; width: 2.2rem; height: 2.2rem; border-radius: 50%; background: var(--accent); color: var(--bg); font-weight: 700; display: grid; place-items: center; }
 .steps p { margin: .4rem 0; }
+.steps ol { margin: .4rem 0; padding-left: 1.4rem; }
+.steps ol li { margin: .25rem 0; }
 .button { display: block; width: fit-content; margin: 1rem auto; padding: .8rem 1.8rem; font-size: 1.05rem; border-radius: .5rem; background: var(--accent); color: var(--bg); font-weight: 600; text-decoration: none; }
 .buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: .8rem; margin: 1rem 0; }
 .buttons .button { margin: 0; }
 .button.secondary { background: var(--surface); color: var(--text); border: 1px solid var(--line); }
 .muted { color: var(--muted); }
+.ui { display: inline-block; margin: .1rem 0; padding: .05rem .5rem; font-size: .88em; line-height: 1.5; white-space: nowrap; }
+.ui.page { padding: .1rem .7rem; border-radius: .4rem; background: var(--accent); color: var(--bg); font-weight: 600; }
+.ui.page.secondary { background: var(--surface); color: var(--text); border: 1px solid var(--line); }
+#prism .ui:not(.page) { font-family: "Segoe UI", "Noto Sans", sans-serif; font-weight: 400; color: #e6e6e6; background: linear-gradient(#4a4a4f, #3b3b40); border: 1px solid #1e1e22; border-radius: 3px; box-shadow: inset 0 1px #5b5b61; }
+#modrinth .ui { font-weight: 700; color: #b0bac5; background: #33363d; border-radius: .75rem; padding: .1rem .75rem; }
+#modrinth .ui.primary { background: #1bd96a; color: #000; }
+#modrinth .ui.card { color: #fff; background: #26292f; border: 1px solid #383b42; border-radius: .6rem; padding: .15rem .7rem; }
+#curseforge .ui { font-weight: 600; color: #fff; background: #3a3a40; border-radius: 4px; padding: .1rem .65rem; }
+#curseforge .ui.primary { background: #f16436; }
+#curseforge .ui.link { background: #1c1c1f; color: #a8a8ad; font-weight: 400; padding: .1rem .6rem; }
+#curseforge .ui.outline { font-family: Lato, "Noto Sans", sans-serif; font-weight: 400; background: transparent; border: 1px solid #8a8a8f; border-radius: 2px; color: #eee; }
+#other .ui { font-weight: 600; color: #fff; background: #2b2b2b; border: 1px solid #4a4a4a; border-radius: 2px; }
+#other .ui.primary { background: #008542; border-color: #008542; }
 </style>
 </head>
 <body>
@@ -44,7 +59,7 @@ body:has(input[value=other]:checked) #other { display: block; }
 <header class="hero"><img class="icon" src="icon.png" alt=""><h1>{{name}}</h1><p class="subtitle">Choose your Launcher</p></header>
 
 <div class="launchers">
-<label class="launcher"><input type="radio" name="launcher" value="prism" autocomplete="off"><img src="assets/prism.svg" alt=""><span>Prism</span></label>
+<label class="launcher"><input type="radio" name="launcher" value="prism" autocomplete="off" checked><img src="assets/prism.svg" alt=""><span>Prism</span></label>
 <label class="launcher"><input type="radio" name="launcher" value="modrinth" autocomplete="off"><img src="assets/modrinth.svg" alt=""><span>Modrinth</span></label>
 <label class="launcher"><input type="radio" name="launcher" value="curseforge" autocomplete="off"><img src="assets/curseforge.svg" alt=""><span>CurseForge</span></label>
 <label class="launcher"><input type="radio" name="launcher" value="other" autocomplete="off"><img src="assets/other.svg" alt=""><span>Other</span></label>
@@ -58,12 +73,21 @@ body:has(input[value=other]:checked) #other { display: block; }
 <a class="button" href="prismlauncher://import?url={{url}}/StarsoulIndusturies-Prism.zip">Launch Prism with Modpack</a>
 <a class="button secondary" href="StarsoulIndusturies-Prism.zip" download>Download Instance Zip</a>
 </div>
-<p>Click <b>Launch Prism with Modpack</b>, click <b>Yes</b>, then <b>OK</b>. Or download the zip and drag it onto Prism's window.</p>
+<p>Click the button above. Your browser asks to open Prism Launcher: allow it. Prism then asks whether to import the modpack: click <span class="ui">Yes</span>, then <span class="ui">OK</span>.</p>
+<p>If nothing happens, do it by hand instead:</p>
+<ol>
+<li>Click the second button above. The file lands in your <b>Downloads</b> folder.</li>
+<li>In Prism, click <span class="ui">Add Instance</span> at the top left.</li>
+<li>On the left of the window that opens, pick <span class="ui">Import</span>.</li>
+<li>Click <span class="ui">Browse</span>, go to your Downloads folder and pick <code>StarsoulIndusturies-Prism.zip</code>.</li>
+<li>Click <span class="ui">OK</span>. {{name}} now shows up in Prism's list.</li>
+</ol>
+<p class="muted">Don't unzip the file. Prism wants the zip as it is.</p>
 </li>
 <li>
 <h2>Play</h2>
-<p>Click {{name}}, then click <b>Launch</b>. If Prism asks to download Java, say yes.</p>
-<p>The first start downloads every mod, so it takes a few minutes. A small window shows how far along it is. After that, new mods and updates come in on their own.</p>
+<p>Click {{name}}, then click <span class="ui">Launch</span>. If Prism asks to download Java, say yes.</p>
+<p>The modpack will be automatically updated every time you launch the game. The IP address is already pre-filled for you, but here it is just in case: <code>starsoul.industries</code></p>
 </li>
 </ol>
 </section>
@@ -73,12 +97,19 @@ body:has(input[value=other]:checked) #other { display: block; }
 <li>
 <h2>Add {{name}}</h2>
 <p><a class="button" href="StarsoulIndusturies.mrpack" download>Download StarsoulIndusturies.mrpack</a></p>
-<p>Open the downloaded file. Modrinth App adds {{name}} by itself.</p>
+<p>Double-click the downloaded file (it's in your <b>Downloads</b> folder). The Modrinth App opens and adds {{name}} by itself.</p>
+<p>If that doesn't work, add it by hand:</p>
+<ol>
+<li>Open the <b>Modrinth App</b> (the launcher, not the website).</li>
+<li>Click <span class="ui primary">+ New instance</span>.</li>
+<li>Pick <span class="ui card">Upload a modpack</span>, then choose <code>StarsoulIndusturies.mrpack</code> from your Downloads folder.</li>
+<li>Wait for it to finish. {{name}} now shows up in your library.</li>
+</ol>
 </li>
 <li>
 <h2>Play</h2>
-<p>Click {{name}}, then <b>Play</b>.</p>
-<p>The first start downloads every mod, so it takes a few minutes. A small window shows how far along it is. After that, new mods and updates come in on their own.</p>
+<p>Click {{name}}, then <span class="ui primary">Play</span>.</p>
+<p>The modpack will be automatically updated every time you launch the game. The IP address is already pre-filled for you, but here it is just in case: <code>starsoul.industries</code></p>
 </li>
 </ol>
 </section>
@@ -88,11 +119,19 @@ body:has(input[value=other]:checked) #other { display: block; }
 <li>
 <h2>Add {{name}}</h2>
 <p><a class="button" href="StarsoulIndusturies-CurseForge.zip" download>Download the CurseForge zip</a></p>
-<p>In CurseForge, open <b>Minecraft</b>, click <b>Create Custom Profile</b>, then <b>Import Profile</b>, and pick the zip.</p>
+<ol>
+<li>Click the button above. The file lands in your <b>Downloads</b> folder.</li>
+<li>Open the <b>CurseForge</b> app and click <span class="ui">Minecraft</span>.</li>
+<li>At the top right, click <span class="ui primary">Create Custom Profile</span>.</li>
+<li>In the window that opens, click <span class="ui link">⤓ Import</span> at the top.</li>
+<li>Under <b>Import Profile .zip</b>, click <span class="ui outline">Choose .zip file</span> and pick <code>StarsoulIndusturies-CurseForge.zip</code> from your Downloads folder.</li>
+<li>Wait for it to finish. {{name}} now shows up under <span class="ui">My Modpacks</span>.</li>
+</ol>
+<p class="muted">Don't unzip the file. CurseForge wants the zip as it is.</p>
 </li>
 <li>
 <h2>Play</h2>
-<p>The first start downloads every mod, so it takes a few minutes. A small window shows how far along it is. After that, new mods and updates come in on their own.</p>
+<p>The modpack will be automatically updated every time you launch the game. The IP address is already pre-filled for you, but here it is just in case: <code>starsoul.industries</code></p>
 </li>
 </ol>
 </section>
@@ -103,17 +142,16 @@ body:has(input[value=other]:checked) #other { display: block; }
 <li>
 <h2>Make an instance</h2>
 <p>Minecraft {{minecraft}} with NeoForge {{neoforge}}.</p>
-<p>In the Minecraft Launcher: run the <a href="https://maven.neoforged.net/releases/net/neoforged/neoforge/{{neoforge}}/neoforge-{{neoforge}}-installer.jar">NeoForge installer</a> and click <b>Install client</b>. Then open <b>Installations</b> → <b>New installation</b>, pick <b>neoforge-{{neoforge}}</b> and an empty folder as the game directory.</p>
+<p>In the Minecraft Launcher: run the <a href="https://maven.neoforged.net/releases/net/neoforged/neoforge/{{neoforge}}/neoforge-{{neoforge}}-installer.jar">NeoForge installer</a> and click <span class="ui primary">Install client</span>. Then open <span class="ui">Installations</span> → <span class="ui">New installation</span>, pick <span class="ui">neoforge-{{neoforge}}</span> and an empty folder as the game directory.</p>
 </li>
 <li>
 <h2>Add unsup</h2>
 <p>Download <a href="unsup.jar">unsup.jar</a> and <a href="unsup.ini" download>unsup.ini</a> into the instance's game folder, the one that has <code>options.txt</code>. In the Minecraft Launcher, that's the game directory you picked.</p>
-<p>Add <code>-javaagent:unsup.jar</code> to the instance's JVM arguments. The Minecraft Launcher has them under <b>More options</b>.</p>
+<p>Add <code>-javaagent:unsup.jar</code> to the instance's JVM arguments. The Minecraft Launcher has them under <span class="ui">More options</span>.</p>
 </li>
 <li>
 <h2>Play</h2>
-<p>The first start downloads every mod, so it takes a few minutes. A small window shows how far along it is. After that, new mods and updates come in on their own.</p>
-<p>The server is <code>starsoul.industries</code>.</p>
+<p>The modpack will be automatically updated every time you launch the game. The IP address is already pre-filled for you, but here it is just in case: <code>starsoul.industries</code></p>
 <p class="muted">When the NeoForge version changes, change it in the launcher too.</p>
 </li>
 </ol>
