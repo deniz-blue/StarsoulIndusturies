@@ -1,6 +1,6 @@
 # StarsoulIndusturies
 
-Modpack for Sky Garden
+Modpack for Starsoul
 
 Modpack and all files are under `packwiz` directory!
 
