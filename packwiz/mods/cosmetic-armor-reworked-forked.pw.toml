@@ -1,0 +1,13 @@
+name = "Cosmetic Armor Reworked Forked"
+filename = "cosmeticarmorreworkedforked-neoforge-1.21.1-0.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6cpT8CUC/versions/U6kExSSz/cosmeticarmorreworkedforked-neoforge-1.21.1-0.0.4.jar"
+hash-format = "sha512"
+hash = "f89df56fd777592a91f63063d6b0b67166bd60d6453dc3e2526fed1c39eedb37b676ebb03fe19d8ea986285a9998442ff2f8a221af4a26ac0771bc7e4588b1d3"
+
+[update]
+[update.modrinth]
+mod-id = "6cpT8CUC"
+version = "U6kExSSz"

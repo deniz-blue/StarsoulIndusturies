@@ -1,42 +1,4 @@
-
-const HELMET_COUNT = 150;
-const TROPHY_COUNT = 100;
-const BACK_COUNT = 50;
-
-const cosmeticItems = [];
-
-for (let i = 1; i <= HELMET_COUNT; i++) {
-    cosmeticItems.push(`kubejs:helmet_cosmetic_${i}`);
-}
-
-for (let i = 1; i <= BACK_COUNT; i++) {
-    cosmeticItems.push(`kubejs:back_cosmetic_${i}`);
-}
-
-for (let i = 1; i <= TROPHY_COUNT; i++) {
-    cosmeticItems.push(`kubejs:trophy_${i}`);
-}
-
-StartupEvents.registry('creative_mode_tab', event => {
-    event.create('cosmephie')
-        .displayName('Cosmetics and Trophies')
-        .icon(() => 'minecraft:turtle_helmet')
-        .content(() => cosmeticItems);
-});
-
 StartupEvents.registry('item', event => {
-    for (let i = 1; i <= HELMET_COUNT; i++) {
-        event.create(`helmet_cosmetic_${i}`)
-            .displayName(`Helmet Cosmetic ${i}`)
-            .unstackable();
-    }
-
-    for (let i = 1; i <= BACK_COUNT; i++) {
-        event.create(`back_cosmetic_${i}`)
-            .displayName(`Back Cosmetic ${i}`)
-            .unstackable();
-    }
-
     event.create('incomplete_cog', 'create:sequenced_assembly');
 
     event.create('malformed_cog')
@@ -49,22 +11,7 @@ StartupEvents.registry('item', event => {
         .unstackable();
 });
 
-StartupEvents.modifyCreativeTab('kubejs:tab', event => {
-    for (const item of cosmeticItems) {
-        event.remove(item);
-    }
-});
-
 StartupEvents.registry('block', event => {
-    for (let i = 1; i <= TROPHY_COUNT; i++) {
-        event.create(`trophy_${i}`)
-            .displayName(`Trophy ${i}`)
-            .stoneSoundType()
-            .tagBlock('create:wrench_pickup')
-            .hardness(1.5)
-            .resistance(6);
-    }
-
     event.create('charcoal_block')
         .displayName("Block of Charcoal")
         .stoneSoundType()
