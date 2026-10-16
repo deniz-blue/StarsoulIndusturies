@@ -109,16 +109,72 @@ file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
+file = "kubejs/assets/kubejs/blockstates/trophy_1.json"
+hash = "815866fcd7d72d81d553f149661176e21bc1f21e5237d219225e2a62678ca04a"
+
+[[files]]
+file = "kubejs/assets/kubejs/blockstates/trophy_2.json"
+hash = "ff338c3938839208708d58da48993611f139900e1426188f43f567518f589bdd"
+
+[[files]]
+file = "kubejs/assets/kubejs/blockstates/trophy_3.json"
+hash = "89dcd3a18c77f7bdf6d4334a3363b722e58f259af7325bd2920399ed52dc959e"
+
+[[files]]
+file = "kubejs/assets/kubejs/geo/armor/helmet_cosmetic_1.geo.json"
+hash = "afc11e6ef63ba4bd478bcc4b41b0369f6596697c18144b4d2a457b8066360f61"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/trophy_1.json"
+hash = "a4616c92b385b1caf0a676f3fd53cd6e7b022b46cac14140008278113475437d"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/trophy_2.json"
+hash = "0917e0b5b4940207cc070057735936d988f028090bd270a01c60c839efaed998"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/trophy_3.json"
+hash = "614a00e1534e0a25ed072ce09a041ab5f04ca93e39275a296522a0d97d889dab"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/helmet_cosmetic_1.json"
+hash = "dc4e01c2c4e53154dba08e556d59940114ac0e93cff456571d72ce5e85de0c6d"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/trophy_1.json"
+hash = "a3858e19299e004d8dc74db36240fd978ba11491a4554b7a5726a29e6e1eff91"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/trophy_2.json"
+hash = "c45e88bdbd70880c232a09f0391571df24fc451234a466a7bad2dbe009ebbc9b"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/trophy_3.json"
+hash = "a358a603aee7a927f151c67a3c01241db8c12bad0080e8f0d5901cac43246365"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/armor/helmet_cosmetic_1.png"
+hash = "c94a597a303fa4a1b7a4a969a5127dde743f687f550b2542929f3f688f48cdd7"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/charcoal_block.png"
 hash = "cba7c7b0b9105f5506ae1305cf1afdae6cc4a43115ac62c161c768f0c41d0f9e"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/block/example_block.png"
-hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+file = "kubejs/assets/kubejs/textures/block/trophy_1.png"
+hash = "a9517a6c6b56c7a3efb438a674563965210d2a653dc85501594f1cb72cc7f641"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/example_item.png"
-hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+file = "kubejs/assets/kubejs/textures/block/trophy_2.png"
+hash = "f48e93f429a4f64b9eebfbb8e1bdd78f86458e49dbf713a99dc0ec38c9d8ef83"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/trophy_3.png"
+hash = "1ccb5405dfb7c8a0c3624302f8b6d694554b5c6efba466d05accd848aeebd038"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/helmet_cosmetic_1.png"
+hash = "dcfaebff24bdf517d9c2b824e158d340ebf3b6792b7be2edd614f8ab05e9fad0"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_cog.png"
@@ -129,20 +185,24 @@ file = "kubejs/assets/kubejs/textures/item/malformed_cog.png"
 hash = "69f753c417ee7525a86d50b1f66cccc0b0c6f78828a467c7f483d9798496b344"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/trophy_1.png"
+hash = "a9517a6c6b56c7a3efb438a674563965210d2a653dc85501594f1cb72cc7f641"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/trophy_2.png"
+hash = "f48e93f429a4f64b9eebfbb8e1bdd78f86458e49dbf713a99dc0ec38c9d8ef83"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/trophy_3.png"
+hash = "1ccb5405dfb7c8a0c3624302f8b6d694554b5c6efba466d05accd848aeebd038"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/unprocessed_cog.png"
 hash = "77a115d719f8bda23a160d1e08a8b939510b4944f0154283abe0ff58a7e60f15"
 
 [[files]]
 file = "kubejs/assets/starsoul/lang/en_us.json"
-hash = "1ccddad2283f3693c370db9cdd9f07a876ed8a03123f2039e5899c362753ad26"
-
-[[files]]
-file = "kubejs/assets/starsoul/textures/slot/cosmetic_chest.png"
-hash = "f2e444473a566f79c8d746137f9e7391174a49321ccd58723fd5b02af765ab68"
-
-[[files]]
-file = "kubejs/assets/starsoul/textures/slot/cosmetic_head.png"
-hash = "0c473045022e9385816db63e4003bcf2a18d02a48fa546d8fa0ee6055c901029"
+hash = "4e6d8bbbd863246e53a14bac0cee2e2c6aa2d8f874826cc054a6f912a9ac8317"
 
 [[files]]
 file = "kubejs/assets/starsoul/textures/slot/goggles.png"
@@ -169,20 +229,16 @@ file = "kubejs/data/starsoul/curios/entities/player.json"
 hash = "451f53aad886390b70c23f911bc134a140c93624633bc597d5eb93d1f98e5a88"
 
 [[files]]
-file = "kubejs/data/starsoul/curios/slots/cosmetic_chest.json"
-hash = "0afb71a954b3f5a433870f996c44af9c675fd3efee6bbf7ce68ee585979755ac"
-
-[[files]]
-file = "kubejs/data/starsoul/curios/slots/cosmetic_head.json"
-hash = "fc2dc364ace0ba89fc3f04353a88a21d811efe68989880999650b9c3fb8aac3c"
-
-[[files]]
 file = "kubejs/data/starsoul/curios/slots/head.json"
 hash = "c59b94f2aa924976c62aa10f6dd2536b2105cbc334e2dbc36a6f9e539d2abe39"
 
 [[files]]
 file = "kubejs/server_scripts/commands.js"
 hash = "285abb9e46ac8ea8c062bd4a98057a6027e0eb1de080ff4ab51af2fffe82d82b"
+
+[[files]]
+file = "kubejs/server_scripts/cosmeticstuff.js"
+hash = "0ed86cc1cbd1097c6eb8d11810769d1e5cbbd1268745ea542de4510ee650add6"
 
 [[files]]
 file = "kubejs/server_scripts/curios_tags.js"
@@ -197,12 +253,16 @@ file = "kubejs/server_scripts/recipes.js"
 hash = "3e54cfccb77da30e2c4f4f56754f9007fd3004c8b6623adb90bfbc713d847eb4"
 
 [[files]]
+file = "kubejs/startup_scripts/cosmeticregistration.js"
+hash = "1ee0ca8b78802f99d24f3f673ca71909c6556647dff44f6e89ba3778e8a87caf"
+
+[[files]]
 file = "kubejs/startup_scripts/main.js"
 hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
 file = "kubejs/startup_scripts/registry.js"
-hash = "203254bc9ed0777624e1b99720bc27a9fe44c96aa9d1d7b1371128b2ddbb92a5"
+hash = "308c5a444b68fe57f037e62023e247f1ea458ea5e443a7e3a904c5326e776676"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -357,6 +417,11 @@ metafile = true
 [[files]]
 file = "mods/copycats.pw.toml"
 hash = "4892513825f87217b6cc3f4d3ec4dcd3965b96dede8cc10d6578c4769102ae8e"
+metafile = true
+
+[[files]]
+file = "mods/cosmetic-armor-reworked-forked.pw.toml"
+hash = "a46ca4af9976720616c93d993965bd15317ed82746230c702c55eaf447be88fd"
 metafile = true
 
 [[files]]
