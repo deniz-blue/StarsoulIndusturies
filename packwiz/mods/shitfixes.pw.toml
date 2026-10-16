@@ -1,8 +1,8 @@
 name = "shitfixes"
-filename = "shitfixes-1.0.15.jar"
+filename = "shitfixes-1.0.16.jar"
 side = "both"
 
 [download]
-url = "https://starsoul-industuries.denizblue.workers.dev/files/shitfixes-1.0.15.jar"
+url = "https://starsoul-industuries.denizblue.workers.dev/files/shitfixes-1.0.16.jar"
 hash-format = "sha512"
-hash = "1c6282010a823693bf305cc8ce757af924fe8b241eb8a07d4cca2f2af533db98e102f16c2031c176d57e60351dfdb7c17ed99d2993300ae6ac651b21c3ea975f"
+hash = "2f4869fd1de5d785ebb6b4f443f8f3c3d8439840eb6fe23bdaec1093eaf69d904325618209db2851e93957a5fe66a2971885888a894d8bc1e537f4f91355bbb4"
