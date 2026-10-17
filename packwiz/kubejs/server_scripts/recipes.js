@@ -163,5 +163,31 @@ ServerEvents.recipes((event) => {
       }
   )
 
+  event.shaped(
+    Item.of('minecraft:item_frame[minecraft:entity_data={id:"minecraft:item_frame",Invisible:1b},minecraft:custom_name=\'{"text":"Invisible Item Frame","italic":false}\']', 1),
+    [
+        'BBB',
+        'BAB',
+        'BBB'
+    ],
+    {
+        A: 'minecraft:item_frame',
+        B: 'minecraft:glass_pane'
+    }
+  );
+
+  event.shaped(
+    Item.of('minecraft:glow_item_frame[minecraft:entity_data={id:"minecraft:glow_item_frame",Invisible:1b},minecraft:custom_name=\'{"text":"Invisible Glow Item Frame","italic":false}\']'),
+    [
+        'BBB',
+        'BAB',
+        'BBB'
+    ],
+    {
+        A: 'minecraft:glow_item_frame',
+        B: 'minecraft:glass_pane'
+    }
+  );
+
   });
   
