@@ -1,8 +1,8 @@
 name = "janet"
-filename = "janet-0.5.0.jar"
+filename = "janet-0.7.0.jar"
 side = "server"
 
 [download]
-url = "https://starsoul-industuries.denizblue.workers.dev/files/janet-0.5.0.jar"
+url = "https://starsoul-industuries.denizblue.workers.dev/files/janet-0.7.0.jar"
 hash-format = "sha512"
-hash = "1eae965eef84cd61ad52b6da709e624af3628abd800d85daa55b9d96565fd366a44266a419f212ea48d0134263d959c0d6b875cbd9016e9b201aa2e87449fde7"
+hash = "193d80f27fc3201ba627380e515bcd142f57f72b5c048bf946d891f282fd90073b7fd771d63809eff667db3f811508e90093589b84ebf8c85aa536332db8de9f"
