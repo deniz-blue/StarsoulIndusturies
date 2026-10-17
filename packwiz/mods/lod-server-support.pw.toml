@@ -1,6 +1,6 @@
-name = "LOD Server Support"
+name = "LOD Server Support (client)"
 filename = "lod-server-support-neoforge-0.19.0+1.21.1.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/lKiXKLvv/versions/ydDRzPcM/lod-server-support-neoforge-0.19.0%2B1.21.1.jar"

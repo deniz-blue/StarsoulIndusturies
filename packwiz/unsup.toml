@@ -82,3 +82,6 @@ flavors = "voxy_on"
 
 [metafile.voxy]
 flavors = "voxy_on"
+
+[metafile.lod-server-support]
+flavors = "voxy_on"

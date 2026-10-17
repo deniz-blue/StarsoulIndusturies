@@ -850,8 +850,13 @@ hash = "51e129832b04acd57da470fc41725bad5e101b6a6b1d4901fd8ea7a92b14e13d"
 metafile = true
 
 [[files]]
+file = "mods/lod-server-support-server.pw.toml"
+hash = "650cd9dd9f6f1622201b93ec97f030661e039c68fb503dcee931cbfe2a4fd637"
+metafile = true
+
+[[files]]
 file = "mods/lod-server-support.pw.toml"
-hash = "5cdfdedd26a707de2a8f6ecf6bc9c7a8002a8b0e296116b6e85b81e1dbca7787"
+hash = "899f1618c2eaebb647fbf476bc7f426c283d5c3813a51359df79710c3a120124"
 metafile = true
 
 [[files]]
