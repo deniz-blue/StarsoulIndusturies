@@ -850,6 +850,11 @@ hash = "51e129832b04acd57da470fc41725bad5e101b6a6b1d4901fd8ea7a92b14e13d"
 metafile = true
 
 [[files]]
+file = "mods/lod-server-support.pw.toml"
+hash = "5cdfdedd26a707de2a8f6ecf6bc9c7a8002a8b0e296116b6e85b81e1dbca7787"
+metafile = true
+
+[[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "5c4078f8ff8f2ec7aeba3e6b4066a9a67e0d57be42afe16871fd32f0c4429347"
 metafile = true
@@ -960,6 +965,11 @@ hash = "00887452f4c902a5f98fc42875d522e59948b60c20d887855a183c0f7235c641"
 metafile = true
 
 [[files]]
+file = "mods/polymorph.pw.toml"
+hash = "d935e4ce118d15c88b10809df85e801f0e9577855f870f3c28e5a0bd5e7fecf6"
+metafile = true
+
+[[files]]
 file = "mods/polytone.pw.toml"
 hash = "d8746d3dd79faddbcdcf81b8cddfabcd91f7832625e6dc9cc18f997e3dd43237"
 metafile = true
@@ -992,6 +1002,11 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
+metafile = true
+
+[[files]]
+file = "mods/roxy.pw.toml"
+hash = "436decd82e30156f5b3896583d523f7c7b3a1f9d6754d914b36dea1cede1afb1"
 metafile = true
 
 [[files]]
@@ -1122,6 +1137,11 @@ metafile = true
 [[files]]
 file = "mods/vc-admin-voice-chat-moderation-tool.pw.toml"
 hash = "25c53f68e0e163cd13ad8a4edb5d784dcf5771e90794aaa10800e970507c63ef"
+metafile = true
+
+[[files]]
+file = "mods/voxy.pw.toml"
+hash = "1924382a3123d3933bf05403e7f0e4a01b7cb26f879866bd293c259c276fa9eb"
 metafile = true
 
 [[files]]

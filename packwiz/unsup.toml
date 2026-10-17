@@ -65,3 +65,20 @@ name = "Off"
 
 [metafile.essential]
 flavors = "essential_on"
+
+[flavor_groups.voxy]
+name = "Voxy (far terrain)"
+description = "Renders terrain hundreds of chunks away, sent by the server. Voxy is a Fabric mod loaded through Roxy. It needs OpenGL 4.6, so it doesn't run on macOS."
+side = "client"
+[[flavor_groups.voxy.choices]]
+id = "voxy_off"
+name = "Off"
+[[flavor_groups.voxy.choices]]
+id = "voxy_on"
+name = "On"
+
+[metafile.roxy]
+flavors = "voxy_on"
+
+[metafile.voxy]
+flavors = "voxy_on"
