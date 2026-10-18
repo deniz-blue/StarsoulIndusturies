@@ -961,7 +961,7 @@ metafile = true
 
 [[files]]
 file = "mods/platform.pw.toml"
-hash = "00887452f4c902a5f98fc42875d522e59948b60c20d887855a183c0f7235c641"
+hash = "3c65a8f21aaef8027725c78919c9df619487cff48e9a3b46c05bf301ad451ca7"
 metafile = true
 
 [[files]]
