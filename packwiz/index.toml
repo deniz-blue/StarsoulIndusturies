@@ -1036,7 +1036,7 @@ metafile = true
 
 [[files]]
 file = "mods/sable.pw.toml"
-hash = "a1fa121ed5d0207e4cdd3f545d043f68f9a4bb38dcb21278b968fad5e4cefe4a"
+hash = "1b5b03cee3349b070c7860c9988cd6346d5648e411ac3d05833a369bbec753aa"
 metafile = true
 
 [[files]]
@@ -1142,6 +1142,16 @@ metafile = true
 [[files]]
 file = "mods/vc-admin-voice-chat-moderation-tool.pw.toml"
 hash = "25c53f68e0e163cd13ad8a4edb5d784dcf5771e90794aaa10800e970507c63ef"
+metafile = true
+
+[[files]]
+file = "mods/very-aero-players.pw.toml"
+hash = "c436f260dbbd8f249bb29b9df57e8fe8654fed291c0913f0abde0ec94a6c5711"
+metafile = true
+
+[[files]]
+file = "mods/very-many-players.pw.toml"
+hash = "b7bf3f728c4dd09af1ca1117fe3e29aea9bb5eb3582ef1060dd5c82685181995"
 metafile = true
 
 [[files]]
