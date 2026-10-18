@@ -34,3 +34,27 @@ change can be tried in real Prism before anyone gets it: `prismlauncher --launch
 `git push` runs `dev.py check --pushing` first and stops if it fails (the hook is in
 `tools/hooks`, turned on with `git config core.hooksPath tools/hooks`).
 
+## Server from a terminal
+
+`tools/starsoul.py` talks to the server through Kinetic Panel: console, power, logs and
+files. It needs [uv](https://docs.astral.sh/uv/), which fetches its two libraries on the
+first run.
+
+Once:
+
+1. Make an API key in Kinetic Panel (Account → API Credentials).
+2. Put it in `~/.config/kinetic-panel/token`, and the server's id (the part after
+   `/server/` in the panel's address) in `~/.config/kinetic-panel/server`. On Windows
+   `~` is your user folder.
+3. To type `starsoul` anywhere: `ln -s "$PWD/tools/starsoul.py" ~/.local/bin/starsoul`.
+   Without it, `uv run tools/starsoul.py status` and so on.
+
+```sh
+starsoul                 # live console with a prompt
+starsoul send list       # one command, prints what follows
+starsoul status          # state, uptime, memory, cpu, disk
+starsoul restart         # also start, stop, kill; waits until the panel says it's done
+starsoul logs 200        # end of latest.log (times are UTC)
+starsoul ls config       # the server's files; `get <file>` downloads one
+```
+
