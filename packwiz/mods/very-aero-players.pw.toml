@@ -1,8 +1,0 @@
-name = "Very Aero Players"
-filename = "very_aero_players-0.1.0.jar"
-side = "both"
-
-[download]
-url = "https://starsoul-industuries.denizblue.workers.dev/files/very_aero_players-0.1.0.jar"
-hash-format = "sha512"
-hash = "0cdff4c596e9b8e4c3b7cd1cbb756f2cbc4ec813acd7d11ac9fa4922db8e66152598b5dad7b10e78d0610c12f9f219a336e5ccca270378956fc1c871a314f822"
