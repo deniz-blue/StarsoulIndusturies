@@ -274,6 +274,11 @@ hash = "b3b67f83faf9dcc4985b7a13fa8affb71062461d271f80cc0958652df9f3126b"
 metafile = true
 
 [[files]]
+file = "mods/achievements-optimizer.pw.toml"
+hash = "3ef06116165a362b37e3622e4b78b49b33a5d8707d38c2243b2014f9ba35fa01"
+metafile = true
+
+[[files]]
 file = "mods/aeroclaims.pw.toml"
 hash = "1c5563e7403bacd29da9faac0d4ca293165f11bebd1a282322134a4912b3bb0a"
 metafile = true
