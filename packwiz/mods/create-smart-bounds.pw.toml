@@ -1,0 +1,13 @@
+name = "Create Smart Bounds"
+filename = "smart_bounds-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/kSok4DxT/versions/HXviiJ3I/smart_bounds-1.0.0.jar"
+hash-format = "sha512"
+hash = "1aeacbd4981e3ad48c49fc813d63ff260a704347154f4a1f4290f123d17ba7e5dde51e881edae92d50370e9b1f515b8805dbf86f5778a42ccbda7a6e9e87f9ff"
+
+[update]
+[update.modrinth]
+mod-id = "kSok4DxT"
+version = "HXviiJ3I"

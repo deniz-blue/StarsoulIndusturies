@@ -85,6 +85,10 @@ file = "config/notenoughanimations.json"
 hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
+file = "config/nowheel.json"
+hash = "361f14e2253b53daf541b6814ac0389056ee5c2cc2dcdd71b8ad31827cddeab6"
+
+[[files]]
 file = "config/resourcify.json"
 hash = "ade1b4a28332a849a0b3dfe006db3d1ef22810301999316fd58a34b130968fb5"
 
@@ -529,6 +533,11 @@ hash = "d290744f98921535c739cb0b60accacce012e8693f5bef6996ffd37d490c39d7"
 metafile = true
 
 [[files]]
+file = "mods/create-nowheel.pw.toml"
+hash = "b5c4217d430af59d3243e8717ad09398864b726272e1ded301f182604d704a45"
+metafile = true
+
+[[files]]
 file = "mods/create-propulsion-simulated.pw.toml"
 hash = "f82cdd570cb4f6bd9b87a6a30c5e5ecc23125dfcecc715d4950a17301de8c58a"
 metafile = true
@@ -551,6 +560,11 @@ metafile = true
 [[files]]
 file = "mods/create-simulated-fixed-ropes.pw.toml"
 hash = "4c2d11ada4f0f3a416d40dc518ebb9bb3f4dd18892f727c3e6c4fcee60deacb5"
+metafile = true
+
+[[files]]
+file = "mods/create-smart-bounds.pw.toml"
+hash = "7e6cdbf3b08697812e6954426b5e1aa8f3159d48e5b63913d2814a54f62d52dc"
 metafile = true
 
 [[files]]

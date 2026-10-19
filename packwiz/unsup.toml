@@ -108,3 +108,21 @@ name = "Off"
 
 [metafile.bobby]
 flavors = "bobby_on"
+
+
+
+[flavor_groups.create_optimizations]
+name = "Create Mod Performance Mods"
+description = "Other selective Performance FPS mods for Create. (Optional since it might have very small visual bugs)"
+side = "client"
+[[flavor_groups.create_optimizations.choices]]
+id = "create_optimizations_on"
+name = "On"
+[[flavor_groups.create_optimizations.choices]]
+id = "create_optimizations_off"
+name = "Off"
+
+[metafile.create-nowheel]
+flavors = "create_optimizations_on"
+[metafile.create-smart-bounds]
+flavors = "create_optimizations_on"
