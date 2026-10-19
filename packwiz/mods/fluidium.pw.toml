@@ -1,0 +1,13 @@
+name = "Fluidium"
+filename = "fluidium-1.21.1-1.4.0.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "f056fb9c47f03be2d157957082a1d0745df39e7a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7481400
+project-id = 1306029

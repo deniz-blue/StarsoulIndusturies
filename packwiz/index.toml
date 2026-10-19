@@ -49,6 +49,10 @@ file = "config/emi.css"
 hash = "0f143ae7acedef62193ad5f6022825c48479786b06d2416e87076522bd4af386"
 
 [[files]]
+file = "config/fluidium.json"
+hash = "f3f1d53568e6ba1c6e006083aa6e08bdf5758e1c106dda2bc5d044b4ac4c42d4"
+
+[[files]]
 file = "config/jei-server.toml"
 hash = "57d741871716e29b3a318b625e740d590598f001c362b6a4a95e3ee628c5cbc3"
 
@@ -615,6 +619,11 @@ hash = "50de1919e6cc3104a4a2557b0644c15f5a56722cf76a19b194ec6ecf61bcae13"
 metafile = true
 
 [[files]]
+file = "mods/duplicationless.pw.toml"
+hash = "a14a8dbc242c21d65d61e9680980ca62dc668f9c398d15e9a0b5389055256f60"
+metafile = true
+
+[[files]]
 file = "mods/dynamiccrosshair.pw.toml"
 hash = "41ddb2dfcf6b2d87bd52d0fb8dc9c8c3a7e3e83f9f1cbf9c495ab195333dfbd9"
 metafile = true
@@ -692,6 +701,11 @@ metafile = true
 [[files]]
 file = "mods/flashback.pw.toml"
 hash = "c337d7c488d58a47c391324d50bac84705516434e01c7e29b542699b87cee211"
+metafile = true
+
+[[files]]
+file = "mods/fluidium.pw.toml"
+hash = "af3df6e04fa6f7ee9adf708e87ccefe42ffcb64add8bd80b09658433a8560a74"
 metafile = true
 
 [[files]]
