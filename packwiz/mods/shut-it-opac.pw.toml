@@ -1,0 +1,8 @@
+name = "Shut It OPAC!"
+filename = "shut_it_opac-0.1.0.jar"
+side = "server"
+
+[download]
+url = "https://starsoul-industuries.denizblue.workers.dev/files/shut_it_opac-0.1.0.jar"
+hash-format = "sha512"
+hash = "3fdf7df03e3176382cd174df1d804256ab6c204ce32e0d6e6339bd96da7c513b0d6f68ce662db6979869ecb063d381d2ff86bb14c38a4d4c1603017e8e69e57a"

@@ -1098,6 +1098,11 @@ hash = "c62b21ac2a09f5e6f3a2d5d16a518f97eb977b879a417164ff1bb4a1ea465f93"
 metafile = true
 
 [[files]]
+file = "mods/shut-it-opac.pw.toml"
+hash = "22e9eba2b2d8db9b802f82342d21dcb06a299c8663e044e0ef5f36ed27265406"
+metafile = true
+
+[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "8045c493b0eb0196880817b529417742bb65b250805cc14f7abe5ac5f1e4d4b1"
 metafile = true
