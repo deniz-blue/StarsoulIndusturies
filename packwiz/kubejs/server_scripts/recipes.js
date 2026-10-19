@@ -133,13 +133,13 @@ ServerEvents.recipes((event) => {
   event.shapeless(Item.of("minecraft:charcoal", 9), ["kubejs:charcoal_block"])
   event.remove({id:"createcasing:crafting/fluid_pipe/brass_vertical"})
   event.remove({id:"create_connected:crafting/kinetics/item_silo"})
-  event.remove({id:"aeroworks:gyroscope"})
+  //event.remove({id:"aeroworks:gyroscope"})
   //monorails crash the server
   event.remove({
     type: "create:sequenced_assembly",
     output: "railways:track_monorail"
   })
-  event.recipes.create
+  /*event.recipes.create
     .crushing(
       [
         CreateItem.of("create:flywheel", 1),
@@ -147,7 +147,7 @@ ServerEvents.recipes((event) => {
       ],
       "aeroworks:gyroscope",
     )
-    .id("kubejs:gyroscope_recycling");
+    .id("kubejs:gyroscope_recycling");*/
   
   event.shaped(
     Item.of(`minecraft:dragon_egg[custom_name='{"italic":false,"text":"Fake Dragon Egg"}',rarity="rare"]`, 4),
