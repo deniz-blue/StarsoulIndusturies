@@ -23,6 +23,9 @@ flavors = "flashback_on"
 [metafile.create-aeronautics-flashback]
 flavors = "flashback_on"
 
+
+
+
 [flavor_groups.effects]
 name = "Fancy effects"
 description = "Extra particles (rain, splashes, fireflies and more) and Sound Physics reverb. Turn it off for more FPS."
@@ -52,6 +55,8 @@ flavors = "effects_on"
 [metafile.subtle-effects]
 flavors = "effects_on"
 
+
+
 [flavor_groups.essential]
 name = "Essential"
 description = "Essential Mod: friends, screenshots, cosmetics and hosting singleplayer worlds for friends."
@@ -65,6 +70,8 @@ name = "Off"
 
 [metafile.essential]
 flavors = "essential_on"
+
+
 
 [flavor_groups.voxy]
 name = "Voxy (far terrain)"
@@ -85,3 +92,19 @@ flavors = "voxy_on"
 
 [metafile.lod-server-support]
 flavors = "voxy_on"
+
+
+
+[flavor_groups.bobby]
+name = "Bobby"
+description = "(RECOMMENDED!) Fixes random weird blinking on the Starsoul Server. Also, makes your Render Distance greater than the server's Render Distance."
+side = "client"
+[[flavor_groups.bobby.choices]]
+id = "bobby_on"
+name = "On"
+[[flavor_groups.bobby.choices]]
+id = "bobby_off"
+name = "Off"
+
+[metafile.bobby]
+flavors = "bobby_on"

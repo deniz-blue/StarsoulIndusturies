@@ -354,6 +354,11 @@ hash = "a73d8679c4bfd8fcb09b3c1397ee437fe22486db2a5819fad0a5a09fb281d952"
 metafile = true
 
 [[files]]
+file = "mods/bobby.pw.toml"
+hash = "45ffd0f1d01dee1c16c71bc4371b8a9bd64c96d30eabda818983afd0f4d62f5e"
+metafile = true
+
+[[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "22d9510588b081cf9905f6549d24bc11012aa8d9c7d38a8619ab9db5ccb7b9a8"
 metafile = true
