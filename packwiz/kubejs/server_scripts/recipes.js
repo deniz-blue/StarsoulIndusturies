@@ -100,7 +100,7 @@ ServerEvents.recipes((event) => {
   const t = "kubejs:incomplete_cog";
   event.recipes.create.sequenced_assembly(
       [
-        CreateItem.of("numismatics:cog", 0.01),
+        CreateItem.of("numismatics:cog", 0.1),
         CreateItem.of("create:crushed_raw_gold",0.09),
         CreateItem.of("createdeco:netherite_nugget",0.03),
         CreateItem.of("minecraft:gold_ingot",0.09),
