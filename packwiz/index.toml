@@ -258,7 +258,7 @@ hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "2bbb0fffdd4edb9bbed40328b911749ab34c0d953f0cbf3fc3089751b70ded76"
+hash = "ced4dbdd3d4dd1b9fa614086895b2ab088243ed06de70d6b667e87787fecfc60"
 
 [[files]]
 file = "kubejs/startup_scripts/cosmeticregistration.js"
