@@ -241,6 +241,10 @@ file = "kubejs/data/starsoul/curios/slots/head.json"
 hash = "c59b94f2aa924976c62aa10f6dd2536b2105cbc334e2dbc36a6f9e539d2abe39"
 
 [[files]]
+file = "kubejs/server_scripts/allofthosemodsaredumbandstupid.js"
+hash = "7dfe1fa6b52de3d53a2236f67c9e96aa0d03b4b23fe6f5922dea26c050ca438d"
+
+[[files]]
 file = "kubejs/server_scripts/commands.js"
 hash = "285abb9e46ac8ea8c062bd4a98057a6027e0eb1de080ff4ab51af2fffe82d82b"
 
@@ -258,7 +262,7 @@ hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "8d44eafc93480d510588504e38a7946a29edacd9eaa549cb0b3e544fa6ca3c67"
+hash = "55fca74301c5e1e175d2b2144333baf1927e06eb5f37a3f475602a93335f44ac"
 
 [[files]]
 file = "kubejs/startup_scripts/cosmeticregistration.js"
