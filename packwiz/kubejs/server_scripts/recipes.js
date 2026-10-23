@@ -97,38 +97,38 @@ ServerEvents.recipes((event) => {
       "minecraft:tuff",
     )
     .id("kubejs:tuff_crushing");
-  const t = "kubejs:incomplete_cog";
-  event.recipes.create.sequenced_assembly(
-      [
-        CreateItem.of("numismatics:cog", 0.1),
-        CreateItem.of("create:crushed_raw_gold",0.09),
-        CreateItem.of("createdeco:netherite_nugget",0.03),
-        CreateItem.of("minecraft:gold_ingot",0.09),
-        CreateItem.of("minecraft:gold_nugget",0.09),
-        CreateItem.of("create:golden_sheet",0.09),
-        CreateItem.of("createdeco:gold_coin",0.09),
-        CreateItem.of("kubejs:malformed_cog",0.05),
-        CreateItem.of("createdeco:industrial_iron_nugget",0.09),
-        CreateItem.of("createdeco:netherite_coin",0.09)
-    ],
-    "kubejs:unprocessed_cog",
-    [
-        event.recipes.create.filling(t,[t,Fluid.of('minecraft:lava',250)]),
-        event.recipes.create.pressing(t,t),
-        event.recipes.create.pressing(t,t),
-        event.recipes.create.cutting(t,t),
-    ]
-  ).transitionalItem('kubejs:incomplete_cog').loops(20).id('cog_from_netherite_nugget');
+  // const t = "kubejs:incomplete_cog";
+  // event.recipes.create.sequenced_assembly(
+  //     [
+  //       CreateItem.of("numismatics:cog", 0.1),
+  //       CreateItem.of("create:crushed_raw_gold",0.09),
+  //       CreateItem.of("createdeco:netherite_nugget",0.03),
+  //       CreateItem.of("minecraft:gold_ingot",0.09),
+  //       CreateItem.of("minecraft:gold_nugget",0.09),
+  //       CreateItem.of("create:golden_sheet",0.09),
+  //       CreateItem.of("createdeco:gold_coin",0.09),
+  //       CreateItem.of("kubejs:malformed_cog",0.05),
+  //       CreateItem.of("createdeco:industrial_iron_nugget",0.09),
+  //       CreateItem.of("createdeco:netherite_coin",0.09)
+  //   ],
+  //   "kubejs:unprocessed_cog",
+  //   [
+    //     event.recipes.create.filling(t,[t,Fluid.of('minecraft:lava',250)]),
+    //     event.recipes.create.pressing(t,t),
+    //     event.recipes.create.pressing(t,t),
+    //     event.recipes.create.cutting(t,t),
+    // ]
+  // ).transitionalItem('kubejs:incomplete_cog').loops(20).id('cog_from_netherite_nugget');
   
-  event.recipes.create.deploying('kubejs:unprocessed_cog',['create:golden_sheet','createdeco:netherite_nugget'])
+  // event.recipes.create.deploying('kubejs:unprocessed_cog',['create:golden_sheet','createdeco:netherite_nugget'])
   
-  event.recipes.create.crushing(
-      [
-          CreateItem.of('create:crushed_raw_gold',1),
-          CreateItem.of('createdeco:netherite_nugget',0.05)
-      ],
-      'kubejs:malformed_cog'
-  );
+  // event.recipes.create.crushing(
+  //     [
+  //         CreateItem.of('create:crushed_raw_gold',1),
+  //         CreateItem.of('createdeco:netherite_nugget',0.05)
+  //     ],
+  //     'kubejs:malformed_cog'
+  // );
   event.shapeless("kubejs:charcoal_block", ["9x minecraft:charcoal"])
   event.shapeless(Item.of("minecraft:charcoal", 9), ["kubejs:charcoal_block"])
   event.remove({id:"createcasing:crafting/fluid_pipe/brass_vertical"})
@@ -139,7 +139,7 @@ ServerEvents.recipes((event) => {
     type: "create:sequenced_assembly",
     output: "railways:track_monorail"
   })
-  /*event.recipes.create
+  event.recipes.create
     .crushing(
       [
         CreateItem.of("create:flywheel", 1),
@@ -147,7 +147,7 @@ ServerEvents.recipes((event) => {
       ],
       "aeroworks:gyroscope",
     )
-    .id("kubejs:gyroscope_recycling");*/
+    .id("kubejs:gyroscope_recycling");
   
   event.shaped(
     Item.of(`minecraft:dragon_egg[custom_name='{"italic":false,"text":"Fake Dragon Egg"}',rarity="rare"]`, 4),
