@@ -97,43 +97,27 @@ ServerEvents.recipes((event) => {
       "minecraft:tuff",
     )
     .id("kubejs:tuff_crushing");
-  // const t = "kubejs:incomplete_cog";
-  // event.recipes.create.sequenced_assembly(
-  //     [
-  //       CreateItem.of("numismatics:cog", 0.1),
-  //       CreateItem.of("create:crushed_raw_gold",0.09),
-  //       CreateItem.of("createdeco:netherite_nugget",0.03),
-  //       CreateItem.of("minecraft:gold_ingot",0.09),
-  //       CreateItem.of("minecraft:gold_nugget",0.09),
-  //       CreateItem.of("create:golden_sheet",0.09),
-  //       CreateItem.of("createdeco:gold_coin",0.09),
-  //       CreateItem.of("kubejs:malformed_cog",0.05),
-  //       CreateItem.of("createdeco:industrial_iron_nugget",0.09),
-  //       CreateItem.of("createdeco:netherite_coin",0.09)
-  //   ],
-  //   "kubejs:unprocessed_cog",
-  //   [
-    //     event.recipes.create.filling(t,[t,Fluid.of('minecraft:lava',250)]),
-    //     event.recipes.create.pressing(t,t),
-    //     event.recipes.create.pressing(t,t),
-    //     event.recipes.create.cutting(t,t),
-    // ]
-  // ).transitionalItem('kubejs:incomplete_cog').loops(20).id('cog_from_netherite_nugget');
+
+  //Mycelium recipe
+  event.custom({
+   "type": "dndesires:seething",
+   "ingredients": [
+     {
+       "item": "minecraft:grass_block"
+     }
+   ],
+   "results": [
+     {
+       "id": "minecraft:mycelium"
+      }
+    ]
+  })
   
-  // event.recipes.create.deploying('kubejs:unprocessed_cog',['create:golden_sheet','createdeco:netherite_nugget'])
-  
-  // event.recipes.create.crushing(
-  //     [
-  //         CreateItem.of('create:crushed_raw_gold',1),
-  //         CreateItem.of('createdeco:netherite_nugget',0.05)
-  //     ],
-  //     'kubejs:malformed_cog'
-  // );
   event.shapeless("kubejs:charcoal_block", ["9x minecraft:charcoal"])
   event.shapeless(Item.of("minecraft:charcoal", 9), ["kubejs:charcoal_block"])
   event.remove({id:"createcasing:crafting/fluid_pipe/brass_vertical"})
   event.remove({id:"create_connected:crafting/kinetics/item_silo"})
-  //event.remove({id:"aeroworks:gyroscope"})
+
   //monorails crash the server
   event.remove({
     type: "create:sequenced_assembly",
@@ -148,7 +132,8 @@ ServerEvents.recipes((event) => {
       "aeroworks:gyroscope",
     )
     .id("kubejs:gyroscope_recycling");
-  
+
+  //Fake egg
   event.shaped(
     Item.of(`minecraft:dragon_egg[custom_name='{"italic":false,"text":"Fake Dragon Egg"}',rarity="rare"]`, 4),
     [
@@ -163,6 +148,7 @@ ServerEvents.recipes((event) => {
       }
   )
 
+  //Invisible Item Frame
   event.shaped(
     Item.of('minecraft:item_frame[minecraft:entity_data={id:"minecraft:item_frame",Invisible:1b},minecraft:custom_name=\'{"text":"Invisible Item Frame","italic":false}\']', 1),
     [
@@ -176,6 +162,7 @@ ServerEvents.recipes((event) => {
     }
   );
 
+  //Invisible Glow Item Frame
   event.shaped(
     Item.of('minecraft:glow_item_frame[minecraft:entity_data={id:"minecraft:glow_item_frame",Invisible:1b},minecraft:custom_name=\'{"text":"Invisible Glow Item Frame","italic":false}\']'),
     [
@@ -189,5 +176,132 @@ ServerEvents.recipes((event) => {
     }
   );
 
-  });
-  
+  //Grass Block
+  event.shaped(
+    Item.of('minecraft:grass_block', 1),
+    [
+        'A',
+        'B'
+    ],
+    {
+      A: 'minecraft:wheat_seeds',
+      B: 'minecraft:dirt'
+    }
+  );
+
+  //casing stuff
+
+  //Chromatic Compound Recipe
+  event.recipes.create
+      .mixing("create:chromatic_compound", [
+      "create:polished_rose_quartz",
+      "create:polished_rose_quartz",
+      "minecraft:redstone",
+      "create:powdered_obsidian",
+      "aeronautics:end_stone_powder",
+      ]).heated()
+      .id("kubejs:chromatic_compound_from_mixing");
+
+  //Shadow Steel Recipe A
+  event.recipes.create
+      .haunting("create:shadow_steel", "create:chromatic_compound")
+      .id("kubejs:chromatic_compound_to_shadow_steel");
+
+  //Shadow Steel Recipe B  
+  event.recipes.create
+      .haunting("create:shadow_steel", "create:refined_radiance")
+      .id("kubejs:refined_radiance_to_shadow_steel");
+
+  //Refined Radiance Recipe A
+  event.recipes.minecraft
+      .blasting("create:refined_radiance", "create:chromatic_compound")
+      .id("kubejs:chromatic_compound_to_refined_radiance");
+
+  //Refined Radiance Recipe B  
+  event.recipes.minecraft
+      .blasting("create:refined_radiance", "create:shadow_steel")
+      .id("kubejs:shadow_steel_to_refined_radiance");
+
+  //Shadow Casing Recipe A
+  event.custom({
+  "type": "create:item_application",
+  "ingredients": [
+      {
+      "tag": "c:stripped_woods"
+      },
+      {
+      "item": "create:shadow_steel"
+      }
+  ],
+  "results": [
+      {
+      "id": "create:shadow_steel_casing"
+      }
+  ]
+  })
+
+  //Shadow Casing Recipe B
+  event.custom({
+  "type": "create:item_application",
+  "ingredients": [
+      {
+      "tag": "c:stripped_logs"
+      },
+      {
+      "item": "create:shadow_steel"
+      }
+  ],
+  "results": [
+      {
+      "id": "create:shadow_steel_casing"
+      }
+  ]
+  })
+
+  //Shadow Casing Recipe C  
+  event.recipes.create
+      .haunting("create:shadow_steel_casing", "create:refined_radiance_casing")
+      .id("kubejs:refined_radiance_casing_to_shadow_steel_casing");
+
+  //Refined Radiance Casing Recipe A
+  event.custom({
+  "type": "create:item_application",
+  "ingredients": [
+      {
+      "tag": "c:stripped_woods"
+      },
+      {
+      "item": "create:refined_radiance"
+      }
+  ],
+  "results": [
+      {
+      "id": "create:refined_radiance_casing"
+      }
+  ]
+  })
+
+  //Refined Radiance Casing Recipe B
+  event.custom({
+  "type": "create:item_application",
+  "ingredients": [
+      {
+      "tag": "c:stripped_logs"
+      },
+      {
+      "item": "create:refined_radiance"
+      }
+  ],
+  "results": [
+      {
+      "id": "create:refined_radiance_casing"
+      }
+  ]
+  })
+
+  //Refined Radiance Casing Recipe C
+  event.recipes.minecraft
+      .blasting("create:refined_radiance_casing", "create:shadow_steel_casing")
+      .id("kubejs:shadow_steel_casing_to_refined_radiance_casing");
+
+})

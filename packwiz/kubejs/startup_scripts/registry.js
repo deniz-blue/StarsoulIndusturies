@@ -13,7 +13,7 @@ StartupEvents.registry('item', event => {
 
 StartupEvents.registry('block', event => {
     event.create('charcoal_block')
-        .displayName('Block of Charcoal')
+        .displayName("Block of Charcoal")
         .stoneSoundType()
         .tagBoth('aeronautics:burner_fire')
         .tagBoth('aeronautics:levitite_adjacent_catalyzer')
@@ -37,3 +37,16 @@ ItemEvents.modification(event => {
         item.burnTime = 16000;
     });
 });
+
+//create is so dumb it hid all this stuff smh
+StartupEvents.modifyCreativeTab('minecraft:ingredients', event => {
+    event.add('create:chromatic_compound')
+    event.add('create:shadow_steel')
+    event.add('create:refined_radiance')
+})
+
+StartupEvents.modifyCreativeTab('minecraft:building_blocks', event => {
+    event.add('create:shadow_steel_casing')
+    event.add('create:refined_radiance_casing')
+})
+

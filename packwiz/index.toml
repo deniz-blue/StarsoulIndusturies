@@ -261,8 +261,12 @@ file = "kubejs/server_scripts/main.js"
 hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
 [[files]]
+file = "kubejs/server_scripts/recipearchive.js"
+hash = "ea741308a15d676171f155ffafbfca7a9de4f5e29d9a4ac393d77c5235ab3084"
+
+[[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "55fca74301c5e1e175d2b2144333baf1927e06eb5f37a3f475602a93335f44ac"
+hash = "3434bb245b5c30e2b360ceaf913a4df944dff24a1eda7e3eab34e3e881069101"
 
 [[files]]
 file = "kubejs/startup_scripts/cosmeticregistration.js"
@@ -274,7 +278,7 @@ hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
 file = "kubejs/startup_scripts/registry.js"
-hash = "308c5a444b68fe57f037e62023e247f1ea458ea5e443a7e3a904c5326e776676"
+hash = "8b66e12a166954b2721a01a0720cf0f9e337a1ed4c0c24eb53fcabb8a8d4732b"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
