@@ -1,16 +1,3 @@
-StartupEvents.registry('item', event => {
-    event.create('incomplete_cog', 'create:sequenced_assembly');
-
-    event.create('malformed_cog')
-        .displayName('Malformed Cog')
-        .unstackable()
-        .tooltip(Text.gray('Whoops!'));
-
-    event.create('unprocessed_cog')
-        .displayName('Unprocessed Cog')
-        .unstackable();
-});
-
 StartupEvents.registry('block', event => {
     event.create('charcoal_block')
         .displayName("Block of Charcoal")
@@ -38,7 +25,7 @@ ItemEvents.modification(event => {
     });
 });
 
-//create is so dumb it hid all this stuff smh
+//create hid all this stuff smh
 StartupEvents.modifyCreativeTab('minecraft:ingredients', event => {
     event.add('create:chromatic_compound')
     event.add('create:shadow_steel')
