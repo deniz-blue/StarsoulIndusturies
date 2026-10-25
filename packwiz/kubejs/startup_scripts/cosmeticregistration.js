@@ -16,23 +16,18 @@ StartupEvents.registry('creative_mode_tab', event => {
         .icon(() => 'minecraft:turtle_helmet')
         .content(() => cosmeticItems);
 });
-
 StartupEvents.registry('item', event => {
         for (let i = 1; i <= HELMET_COUNT; i++) {
-        event.create(`helmet_cosmetic_${i}`, 'anim_helmet')
+        event.create(`helmet_cosmetic_${i}`)
             .displayName(`Helmet Cosmetic ${i}`)
             .material('iron')
-            .defaultGeoModel()
-            .armorItemUseGeoModel()
             .unstackable();
     }
 
     for (let i = 1; i <= BACK_COUNT; i++) {
-        event.create(`back_cosmetic_${i}`, 'anim_chestplate')
+        event.create(`back_cosmetic_${i}`)
             .displayName(`Back Cosmetic ${i}`)
             .material('iron')
-            .defaultGeoModel()
-            .armorItemUseGeoModel()
             .unstackable();
     }
 })
