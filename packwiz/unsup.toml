@@ -126,3 +126,31 @@ name = "Off"
 flavors = "create_optimizations_on"
 [metafile.create-smart-bounds]
 flavors = "create_optimizations_on"
+
+
+[flavor_groups.figura]
+name = "Figura"
+description = "Adds Figura Mod, allowing avatar and nameplate customizations"
+side = "client"
+[[flavor_groups.figura.choices]]
+id = "figura_on"
+name = "On"
+[[flavor_groups.figura.choices]]
+id = "figura_off"
+name = "Off"
+[metafile.figura]
+flavors = "figura_on"
+
+[flavor_groups.xaeroplus]
+name = "Xaero Plus"
+description = "Adds waypoints along side other features to the map system"
+side = "client"
+[[flavor_groups.xaeroplus.choices]]
+id = "xaeroplus_on"
+name = "On"
+[[flavor_groups.xaeroplus.choices]]
+id = "xaeroplus_off"
+name = "Off"
+[metafile.xaeroplus]
+flavors = "xaeroplus_on"
+

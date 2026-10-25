@@ -266,7 +266,7 @@ hash = "ea741308a15d676171f155ffafbfca7a9de4f5e29d9a4ac393d77c5235ab3084"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "3434bb245b5c30e2b360ceaf913a4df944dff24a1eda7e3eab34e3e881069101"
+hash = "45d73a87da9681bf61c489528be76df05a3c696befa8fc31058bf07e76f083b7"
 
 [[files]]
 file = "kubejs/startup_scripts/cosmeticregistration.js"
@@ -471,16 +471,6 @@ hash = "3b8895369640b2a52d3e05f7186185ba6798e44d513f11c5427a0fe9c16769e9"
 metafile = true
 
 [[files]]
-file = "mods/create-aeroworks.pw.toml"
-hash = "210419599e24212d879f58d0b3bacb74dec6d64703f49f1c547440bf7705e942"
-metafile = true
-
-[[files]]
-file = "mods/create-big-cannons.pw.toml"
-hash = "a0e9ff95570cd9af3374ca8b44aa095447baf94e565f46ae99819d52a9b48dc1"
-metafile = true
-
-[[files]]
 file = "mods/create-bits-n-bobs.pw.toml"
 hash = "2aa588c0760e81c40fae4df29e14643ddb19d40474bf177206a8f687e70b953e"
 metafile = true
@@ -488,11 +478,6 @@ metafile = true
 [[files]]
 file = "mods/create-cobblestone.pw.toml"
 hash = "4d1e7881798e3e72bf619c45f384cd284b1d31ebad84bb4615eeeaa3ecf3ca77"
-metafile = true
-
-[[files]]
-file = "mods/create-compact-flap.pw.toml"
-hash = "8357524fb98d75ce1c11e1385744c1e4897ac0551c81f60ae437e5a52ed8d995"
 metafile = true
 
 [[files]]
@@ -548,16 +533,6 @@ metafile = true
 [[files]]
 file = "mods/create-propulsion-simulated.pw.toml"
 hash = "f82cdd570cb4f6bd9b87a6a30c5e5ecc23125dfcecc715d4950a17301de8c58a"
-metafile = true
-
-[[files]]
-file = "mods/create-radars.pw.toml"
-hash = "c24712eb82bb29d7ed210d7bc175baeb3b022c3b365b2dd0275c25f690e98f52"
-metafile = true
-
-[[files]]
-file = "mods/create-security-program.pw.toml"
-hash = "fa055bd70b881f74c4e896c01d85a021f1298de584e5baabb3a86dd12130beb1"
 metafile = true
 
 [[files]]
@@ -931,11 +906,6 @@ hash = "2fee19326825d0bfbfdd94b5a7c6ca5603f803e769f28870b53c7eeda519a243"
 metafile = true
 
 [[files]]
-file = "mods/neogeckojs.pw.toml"
-hash = "36ad68f4132156b3d0c59b2953687147ebb41e975036741b3222e7875944bc7f"
-metafile = true
-
-[[files]]
 file = "mods/neruina.pw.toml"
 hash = "79c6106de5e745f13fcc242a6f21509a63ab84ca59fdedd97a0ca207a893c04d"
 metafile = true
@@ -973,11 +943,6 @@ metafile = true
 [[files]]
 file = "mods/notimeout.pw.toml"
 hash = "f99561e8ec2fecbae752dfd3bcf56fc5739e66836d1513eb7c2cd79275649bba"
-metafile = true
-
-[[files]]
-file = "mods/numismatics.pw.toml"
-hash = "840eb517a83c586b9f543ab9781d4c8529b6fedf2d679f411577c7a583e50fe5"
 metafile = true
 
 [[files]]

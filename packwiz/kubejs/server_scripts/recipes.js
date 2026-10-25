@@ -123,15 +123,6 @@ ServerEvents.recipes((event) => {
     type: "create:sequenced_assembly",
     output: "railways:track_monorail"
   })
-  event.recipes.create
-    .crushing(
-      [
-        CreateItem.of("create:flywheel", 1),
-        CreateItem.of("simulated:gimbal_sensor", 1),
-      ],
-      "aeroworks:gyroscope",
-    )
-    .id("kubejs:gyroscope_recycling");
 
   //Fake egg
   event.shaped(
