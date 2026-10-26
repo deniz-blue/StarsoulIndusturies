@@ -234,7 +234,7 @@ hash = "ea741308a15d676171f155ffafbfca7a9de4f5e29d9a4ac393d77c5235ab3084"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "a199dc7304a97b862f92fd46f2de5858d582e08b21ce326641bab8a6d59add9f"
+hash = "6883bb0eaf83bb563dc786572eae211a033853210d29744d1e00908aaf57fcf2"
 
 [[files]]
 file = "kubejs/startup_scripts/cosmeticregistration.js"
@@ -770,7 +770,7 @@ metafile = true
 
 [[files]]
 file = "mods/janet.pw.toml"
-hash = "60bbd414091311df8202c0f40b4602ca363dc64814919e70867facbd7336c52b"
+hash = "aa48be708ff36adf21de32b16c420a70ae72a5c30d748e07b54630e68ca01305"
 metafile = true
 
 [[files]]
