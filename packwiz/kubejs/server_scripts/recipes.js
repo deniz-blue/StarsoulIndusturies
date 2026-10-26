@@ -295,4 +295,50 @@ ServerEvents.recipes((event) => {
       .blasting("create:refined_radiance_casing", "create:shadow_steel_casing")
       .id("kubejs:shadow_steel_casing_to_refined_radiance_casing");
 
+
+    //i too, am NOT typing allat out
+  const brewinnotchewin = [
+    // [Output/Liquid]
+    'brewinandchewin:beer',
+    'brewinandchewin:vodka',
+    'brewinandchewin:mead',
+    'brewinandchewin:rice_wine',
+    'brewinandchewin:pale_jane',
+    'brewinandchewin:egg_grog',
+    'brewinandchewin:glittering_grenadine',
+    'brewinandchewin:saccharine_rum',
+    'brewinandchewin:salty_folly',
+    'brewinandchewin:bloody_mary',
+    'brewinandchewin:red_rum',
+    'brewinandchewin:strongroot_ale',
+    'brewinandchewin:steel_toe_stout',
+    'brewinandchewin:dread_nog',
+    'brewinandchewin:withering_dross',
+    'brewinandchewin:kombucha',
+  ]
+
+  brewinnotchewin.forEach((liquidysolid) => {
+    event.recipes.create.filling(Item.of(liquidysolid), ['brewinandchewin:tankard', Fluid.of(liquidysolid, 250)])
+  })
+
+  brewinnotchewin.forEach((liquidysolid) => {
+    event.recipes.create.emptying(
+      [
+        Fluid.of(liquidysolid, 250),
+        Item.of('brewinandchewin:tankard')
+      ],
+      Item.of(liquidysolid)
+    )
+  })
+
+  const notbrewinbutchewin = [
+    // [Output, Liquid]
+    ['brewinandchewin:unripe_flaxen_cheese_wheel', 'brewinandchewin:flaxen_cheese'],
+    ['brewinandchewin:unripe_scarlet_cheese_wheel', 'brewinandchewin:scarlet_cheese'],
+  ]
+
+  notbrewinbutchewin.forEach(([output, liquid]) => {
+    event.recipes.create.filling(output, ['minecraft:honeycomb', Fluid.of(liquid, 1000)])
+  })
+
 })
