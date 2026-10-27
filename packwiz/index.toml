@@ -839,11 +839,6 @@ hash = "650cd9dd9f6f1622201b93ec97f030661e039c68fb503dcee931cbfe2a4fd637"
 metafile = true
 
 [[files]]
-file = "mods/lod-server-support.pw.toml"
-hash = "899f1618c2eaebb647fbf476bc7f426c283d5c3813a51359df79710c3a120124"
-metafile = true
-
-[[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "5c4078f8ff8f2ec7aeba3e6b4066a9a67e0d57be42afe16871fd32f0c4429347"
 metafile = true
@@ -984,11 +979,6 @@ hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
 metafile = true
 
 [[files]]
-file = "mods/roxy.pw.toml"
-hash = "436decd82e30156f5b3896583d523f7c7b3a1f9d6754d914b36dea1cede1afb1"
-metafile = true
-
-[[files]]
 file = "mods/rpl.pw.toml"
 hash = "7815e5a589de0c02a62ae83590e1f75f4d0c269e48f2435ce2ac448976ddf49f"
 metafile = true
@@ -1121,11 +1111,6 @@ metafile = true
 [[files]]
 file = "mods/vc-admin-voice-chat-moderation-tool.pw.toml"
 hash = "25c53f68e0e163cd13ad8a4edb5d784dcf5771e90794aaa10800e970507c63ef"
-metafile = true
-
-[[files]]
-file = "mods/voxy.pw.toml"
-hash = "1924382a3123d3933bf05403e7f0e4a01b7cb26f879866bd293c259c276fa9eb"
 metafile = true
 
 [[files]]
