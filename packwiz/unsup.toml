@@ -132,3 +132,16 @@ name = "Off"
 [metafile.xaeroplus]
 flavors = "xaeroplus_on"
 
+
+[flavor_groups.axiom]
+name = "Axiom"
+description = "Building and world editing tool. The server has it either way, so turn it off if you don't build with it."
+side = "client"
+[[flavor_groups.axiom.choices]]
+id = "axiom_on"
+name = "On"
+[[flavor_groups.axiom.choices]]
+id = "axiom_off"
+name = "Off"
+[metafile.axiom-client]
+flavors = "axiom_on"

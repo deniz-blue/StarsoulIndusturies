@@ -299,8 +299,13 @@ hash = "34884777f4f465d4fb826f0121d3b290a68ad40bc9d1031dc2df401568fc0879"
 metafile = true
 
 [[files]]
+file = "mods/axiom-client.pw.toml"
+hash = "4baaece77c13618c6cceb7a925627565c799ccd390fa9e1c84ac83c0f1e21ad7"
+metafile = true
+
+[[files]]
 file = "mods/axiom.pw.toml"
-hash = "97fcda99a93799281fe5fe2a11f9fd43945983d87de2790d1537a2b4db017b3d"
+hash = "1ecc7eab7f0619f315d92c622fe878b21853fb99ef3816b44bef39464b8b502c"
 metafile = true
 
 [[files]]
