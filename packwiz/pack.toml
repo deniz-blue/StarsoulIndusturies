@@ -1,12 +1,13 @@
-name = "Starsoul Industuries"
+name = "Starsoul Industries"
 version = "1.0.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "0afedfd3698731c5145aac0c960d06d4cb2fea64e04e6d08890d621d9c7e4d52"
+hash = "909ca0b0565c877b8841e6c9cb89bc13d2b81b73599e1edb2c9abc77205f49b1"
 
 [versions]
 minecraft = "1.21.1"
 neoforge = "21.1.251"
+unsup = "1.2.7"

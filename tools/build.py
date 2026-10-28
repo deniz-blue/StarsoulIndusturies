@@ -9,15 +9,16 @@ import tomllib
 import zipfile
 from pathlib import Path, PurePosixPath
 
+from pack_site import URL
 from png_to_qoi import encode_qoi, read_png_rgba, resize_nearest
 
 REPO = Path(__file__).resolve().parent.parent
 PACKWIZ = REPO / "packwiz"
 DIST = REPO / "distribution"
 SITE = REPO / "site"
+BUNDLED = REPO / "files"
 BUILD = REPO / "build"
 NAME = "StarsoulIndusturies"
-URL = "https://starsoul-industuries.denizblue.workers.dev"
 FILLED_SUFFIXES = {".cfg", ".html", ".ini", ".json"}
 UPDATER_ICON_SIZE = 64
 
@@ -25,6 +26,8 @@ UPDATER_ICON_SIZE = 64
 
 pack = tomllib.loads((PACKWIZ / "pack.toml").read_text(encoding="utf-8"))
 unsup_patch = json.loads((DIST / "prism" / "patches" / "com.unascribed.unsup.json").read_text(encoding="utf-8"))
+if pack["versions"].get("unsup") != unsup_patch["version"]:
+    raise SystemExit(f"pack.toml [versions] unsup must be {unsup_patch['version']}, the Prism patch version: unsup copies it into Prism's components")
 icon_key = re.search(r"^iconKey=(.+)$", (DIST / "prism" / "instance.cfg").read_text(encoding="utf-8"), re.M)[1]
 icon = DIST / "prism" / f"{icon_key}.png"
 placeholder_values = {
@@ -86,7 +89,7 @@ def copy_packwiz():
     index = tomllib.loads((PACKWIZ / index_file).read_text(encoding="utf-8"))
     for entry in index["files"]:
         require_packwiz_hash(PACKWIZ / entry["file"], entry.get("hash-format", index["hash-format"]), entry["hash"])
-    for name in ["pack.toml", index_file, *(entry["file"] for entry in index["files"])]:
+    for name in ["pack.toml", "unsup.toml", index_file, *(entry["file"] for entry in index["files"])]:
         target = BUILD / "packwiz" / name
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy(PACKWIZ / name, target)
@@ -95,6 +98,7 @@ def copy_packwiz():
 shutil.rmtree(BUILD, ignore_errors=True)
 BUILD.mkdir()
 copy_packwiz()
+shutil.copytree(BUNDLED, BUILD / "files")
 copy_folder_filled(SITE, BUILD)
 
 game_folder = DIST / "game-folder"
@@ -106,6 +110,7 @@ zip_layers(BUILD / f"{NAME}-CurseForge.zip", [(DIST / "curseforge", ""), (game_f
 write_filled(icon, BUILD / "icon.png")
 write_filled(game_folder / "unsup.ini", BUILD / "unsup.ini")
 write_filled(relauncher / "unsup.jar", BUILD / "unsup.jar")
+shutil.copy(relauncher / "mods" / "starsoul-early-fixes.jar", BUILD / "files")
 write_filled(DIST / "server" / "unsup.ini", BUILD / "server" / "unsup.ini")
 
 print(f"built {BUILD}")

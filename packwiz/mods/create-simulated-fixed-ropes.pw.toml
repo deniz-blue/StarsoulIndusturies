@@ -1,0 +1,8 @@
+name = "Create Simulated Fixed Ropes"
+filename = "create_simulated_fixed_ropes-0.1.0.jar"
+side = "server"
+
+[download]
+url = "https://starsoul-industuries.denizblue.workers.dev/files/create_simulated_fixed_ropes-0.1.0.jar"
+hash-format = "sha512"
+hash = "b26602c666deb132ca138df11e0b00420bcf5b3c5f5bb31a67d81f13cc25b5352e8128b4e7dd6d151760e7cea9255bd7c17e082749d6150c34de56d7a2be3f2e"

@@ -1,0 +1,8 @@
+name = "discordhook"
+filename = "discordhook-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://starsoul-industuries.denizblue.workers.dev/files/discordhook-1.0.0.jar"
+hash-format = "sha512"
+hash = "41145ff6f88d162a49202d6f7473e6058da723e2f400df7f68544c8599f8a7d6d812ce31a547750a8b150462a8ba7c42a4784437e20093a8ec4d29f929dba6f7"

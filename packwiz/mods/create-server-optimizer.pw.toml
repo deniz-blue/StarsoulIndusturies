@@ -1,0 +1,8 @@
+name = "Create Server Optimizer"
+filename = "Create-Server-Optimizer-NeoForge-1.21.1-2.3.0.jar"
+side = "server"
+
+[download]
+url = "https://starsoul-industuries.denizblue.workers.dev/files/Create-Server-Optimizer-NeoForge-1.21.1-2.3.0.jar"
+hash-format = "sha512"
+hash = "9f27f929546feab0850593894ebe0b7be88d98dc3de13fc6ffce79cc665ebe87505e2fc172447ed67e63d27421ed71f306fc521c2bf1fb44c94b3339cfb516e6"

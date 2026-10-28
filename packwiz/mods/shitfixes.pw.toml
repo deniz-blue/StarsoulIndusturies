@@ -1,0 +1,8 @@
+name = "shitfixes"
+filename = "shitfixes-1.0.16.jar"
+side = "both"
+
+[download]
+url = "https://starsoul-industuries.denizblue.workers.dev/files/shitfixes-1.0.16.jar"
+hash-format = "sha512"
+hash = "2f4869fd1de5d785ebb6b4f443f8f3c3d8439840eb6fe23bdaec1093eaf69d904325618209db2851e93957a5fe66a2971885888a894d8bc1e537f4f91355bbb4"

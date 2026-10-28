@@ -1,13 +1,13 @@
 name = "Axiom"
-filename = "Axiom-5.4.2-for-MC1.21.1.jar"
-side = "server"
+filename = "Axiom-6.1.3-for-MC1.21.1.jar"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/N6n5dqoA/versions/BzK22yyR/Axiom-5.4.2-for-MC1.21.1.jar"
+url = "https://cdn.modrinth.com/data/N6n5dqoA/versions/vHcXJQqi/Axiom-6.1.3-for-MC1.21.1.jar"
 hash-format = "sha512"
-hash = "b73711c2809d2461dc2dfd92069a7ad3b986d7d70a11b927d2fc8c133158a4af29ea156208c42a6e61f2c26afbc5623806314622da8f4b3f21ae90c9949138e7"
+hash = "f33aa312d2b7412f38aa3bd44755e853ee58c1ab411dc80a443b36c590d10cbc9867ea9b88da02e5a462ef3221a5f43e1d1192177ad03c5c74299d0b3249cc0d"
 
 [update]
 [update.modrinth]
 mod-id = "N6n5dqoA"
-version = "BzK22yyR"
+version = "vHcXJQqi"

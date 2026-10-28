@@ -1,0 +1,8 @@
+name = "Sable: Optimized Entities"
+filename = "sable_optimized_entities-0.1.1.jar"
+side = "server"
+
+[download]
+url = "https://starsoul-industuries.denizblue.workers.dev/files/sable_optimized_entities-0.1.1.jar"
+hash-format = "sha512"
+hash = "e3b47f1ffcddf8ace17b214f622901910d0a5dde2a1091a15c17f57c48e89d6d506f935897c8de0c1a0d79e90b46ce68393f3cfdc295014529cb8b6e4be79737"

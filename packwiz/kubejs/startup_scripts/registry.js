@@ -13,7 +13,7 @@ StartupEvents.registry('item', event => {
 
 StartupEvents.registry('block', event => {
     event.create('charcoal_block')
-        .displayName("Block of Charcoal")
+        .displayName('Block of Charcoal')
         .stoneSoundType()
         .tagBoth('aeronautics:burner_fire')
         .tagBoth('aeronautics:levitite_adjacent_catalyzer')
