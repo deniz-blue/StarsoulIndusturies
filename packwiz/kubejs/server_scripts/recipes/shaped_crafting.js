@@ -54,4 +54,79 @@ ServerEvents.recipes((event) => {
       B: 'minecraft:dirt'
     }
   );
+
+  // copper chain fix
+  event.shaped(
+    Item.of('minecraft:copper_chain', 1),
+    [
+      'A',
+      'B',
+      'A'
+    ],
+    {
+      A: '#c:nuggets/copper',
+      B: 'minecraft:copper_ingot'
+    }
+  )
+  .id("kubejs:copper_chain_fix");
+
+  // copper torch fix
+  event.shaped(
+    Item.of('minecraft:copper_torch', 4),
+    [
+      'A',
+      'B',
+      'C'
+    ],
+    {
+      A: '#c:nuggets/copper',
+      B: '#minecraft:coals',
+      C: 'minecraft:stick'
+    }
+  )
+  .id("kubejs:copper_torch_fix");
+
+  // copper lantern fix
+  event.shaped(
+    Item.of('minecraft:copper_lantern', 1),
+    [
+      'AAA',
+      'ABA',
+      'AAA'
+    ],
+    {
+      A: '#c:nuggets/copper',
+      B: 'minecraft:copper_torch'
+    }
+  )
+  .id("kubejs:copper_lantern_fix");
+
+  // tuning wire fix
+  event.shaped(
+    Item.of('pipeorgans:tuning_wire', 6),
+    [
+      'AA ',
+      'AA ',
+      ' AA'
+    ],
+    {
+      A: '#c:nuggets/copper'
+    }
+  )
+  .id("kubejs:tuning_wire_fix");
+
+  // liquid vector thruster fix
+  event.shaped(
+    Item.of('createpropulsion:liquid_vector_thruster', 1),
+    [
+      'ABA',
+      'CDC'
+    ],
+    {
+      A: 'create:copper_sheet',
+      B: 'createpropulsion:thruster',
+      C: '#c:nuggets/copper',
+      D: 'simulated:gimbal_sensor'
+    }
+  )
 })

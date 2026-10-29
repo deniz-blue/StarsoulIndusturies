@@ -1,7 +1,8 @@
 ServerEvents.recipes((event) => {
-  // [Output, [Ingredient(s)], Fluid, Amount, Name]
+  // [[Output(s)], [Ingredient(s)], Fluid, Amount, Name]
   const liquidmixing = [
-    ["minecraft:redstone", ["create:cinder_flour", "minecraft:gunpowder"], "minecraft:lava", 150, "redstone"]
+    [["minecraft:redstone"], ["create:cinder_flour", "minecraft:gunpowder"], "minecraft:lava", 150, "redstone"],
+    [["minecraft:sculk", "minecraft:sculk_catalyst"], ["minecraft:sculk_catalyst"], "create_enchantment_industry:experience", 50, "sculk"]
   ]
 
   liquidmixing.forEach(([output, ingredient, fluid, amount, name]) => {
