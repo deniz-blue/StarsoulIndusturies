@@ -1,4 +1,5 @@
 ItemEvents.modifyTooltips(event => {
+
     event.modify('kubejs:trophy_1', tooltip => {
         tooltip.removeLine(0);
         tooltip.insert(0, Text.gold('1st Place Trophy').italic(false));
@@ -16,4 +17,10 @@ ItemEvents.modifyTooltips(event => {
         tooltip.insert(0, Text.of('3rd Place Trophy').color(0xB87333).italic(false));
         tooltip.add(Text.lightPurple('Congratulations on third place!').italic(false));
     });
-})
+
+    event.add(
+        'kubejs:helmet_cosmetic_1',
+        Text.green('How did you get this?').italic(false)
+    );
+
+});

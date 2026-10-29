@@ -213,32 +213,88 @@ file = "kubejs/data/starsoul/curios/slots/head.json"
 hash = "c59b94f2aa924976c62aa10f6dd2536b2105cbc334e2dbc36a6f9e539d2abe39"
 
 [[files]]
-file = "kubejs/server_scripts/commands.js"
-hash = "285abb9e46ac8ea8c062bd4a98057a6027e0eb1de080ff4ab51af2fffe82d82b"
-
-[[files]]
-file = "kubejs/server_scripts/cosmeticstuff.js"
-hash = "0006f2f857ca143ad2da83824cf33148e18dbabece9acf8357e0a083a61e5f1b"
-
-[[files]]
-file = "kubejs/server_scripts/curios_tags.js"
-hash = "154b245059ccff8d3c1d1c163cd17c8bf50c6c9f0c20ba9f1d7addbbf15f73fc"
-
-[[files]]
 file = "kubejs/server_scripts/main.js"
 hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
 [[files]]
-file = "kubejs/server_scripts/recipearchive.js"
+file = "kubejs/server_scripts/recipes.js"
+hash = "3e54cfccb77da30e2c4f4f56754f9007fd3004c8b6623adb90bfbc713d847eb4"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/blasting.js"
+hash = "40eaf940871ce164b6586ec4f2720f06d272492d88432a023be0de01c7278ff2"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/crushing.js"
+hash = "1d8695e4b1e99fee8ffacfeaaf3f132dc92d07bcec951af506311617317d7f3d"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/emptying.js"
+hash = "f9f87fdba61f0bd5ba40384be92a8b51a5b1e591cf354ecc19401fd922071e43"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/filling.js"
+hash = "dd4270aecf7e9df693cbc2554de912ad1d8e84604b37f69a4a6a170092c9f01c"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/haunting.js"
+hash = "1c427cd06f317b1181079678325a21e873270009c0edf60a4a4101aa4fdddc1a"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/heated_mixing.js"
+hash = "6123e0885a470fce5efbf797c5a2767e65b2ea73c17c347812232f32fc87eb3f"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/hydraulic.js"
+hash = "014b034c97eff5525a3d28c1403a6737e94d651620cd25d93e1bad27fb446811"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/item_application.js"
+hash = "c908eab18f7699b79724d88781c117d11dce68f8d5de9fc1b61b733816e1e5ee"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mixing(liquid).js"
+hash = "1d090ead94cfbdbc863f1a3a60460970d30504fd37b240c662b1b318d9a51cea"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mixing.js"
+hash = "6e479ada2b5efae735058588b39d8509aa7a0f1269bd18ecde6948b2e9dec8f8"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/remove_recipe.js"
+hash = "e6cb9f1f2559872c9d583a01177fc77d344acab0e51623813d5375339f9c9e30"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/seething.js"
+hash = "5233479dc3a9d944cca5fe7760ee260c7d2f5eb245e5d6ba7390c71c71235ded"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/shaped_crafting.js"
+hash = "33d0d6dc9c5aa95400d4aaf5bdea3adf088c9a055457924ed5a6d8275883cbfc"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/shapeless_crafting.js"
+hash = "3658d668425104905cf853f85691026c1e6251ddc593468a775375bb5921f7d5"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/smoking.js"
+hash = "cbf41089c1fe60f6d013f481e00d122bdf1066096f39d753cd0ef334dc74d09e"
+
+[[files]]
+file = "kubejs/server_scripts/serverside/commands.js"
+hash = "285abb9e46ac8ea8c062bd4a98057a6027e0eb1de080ff4ab51af2fffe82d82b"
+
+[[files]]
+file = "kubejs/server_scripts/serverside/curios_tags.js"
+hash = "4990d982a059d88cb5956310cb76a5c91bfb7e408409a01e5ac9e120ea09b5b3"
+
+[[files]]
+file = "kubejs/server_scripts/serverside/recipearchive.js"
 hash = "ea741308a15d676171f155ffafbfca7a9de4f5e29d9a4ac393d77c5235ab3084"
 
 [[files]]
-file = "kubejs/server_scripts/recipes.js"
-hash = "6883bb0eaf83bb563dc786572eae211a033853210d29744d1e00908aaf57fcf2"
-
-[[files]]
-file = "kubejs/startup_scripts/cosmeticregistration.js"
-hash = "c1ba3f00b9b7572f28a03d822e7f217610cf6dc3192fa9085b156dd7efdc6aa3"
+file = "kubejs/server_scripts/serverside/trophies.js"
+hash = "0ed86cc1cbd1097c6eb8d11810769d1e5cbbd1268745ea542de4510ee650add6"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -246,7 +302,7 @@ hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
 file = "kubejs/startup_scripts/registry.js"
-hash = "8ae237198079cb704416fc97fb2de3603a904efe1917174b820d0ec59a055b60"
+hash = "38e0bf789f2d181105ccb2a5335141f3d1fb6094d524aee8b1c074e53d40a608"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"

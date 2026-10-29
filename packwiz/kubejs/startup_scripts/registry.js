@@ -1,3 +1,16 @@
+StartupEvents.registry('item', event => {
+    event.create('incomplete_cog', 'create:sequenced_assembly');
+
+    event.create('malformed_cog')
+        .displayName('Malformed Cog')
+        .unstackable()
+        .tooltip(Text.gray('Whoops!'));
+
+    event.create('unprocessed_cog')
+        .displayName('Unprocessed Cog')
+        .unstackable();
+});
+
 StartupEvents.registry('block', event => {
     event.create('charcoal_block')
         .displayName("Block of Charcoal")
@@ -17,6 +30,33 @@ StartupEvents.registry('block', event => {
         .resistance(6)
         .mapColor('color_black')
         .instrument('basedrum');
+
+    event.create(`trophy_1`)
+        .displayName(`1st Place Trophy`)
+        .stoneSoundType()
+        .tagBlock('create:wrench_pickup')
+        .hardness(1.5)
+        .resistance(1200)
+        .notSolid()
+    .renderType('cutout');
+
+    event.create(`trophy_2`)
+        .displayName(`2nd Place Trophy`)
+        .stoneSoundType()
+        .tagBlock('create:wrench_pickup')
+        .hardness(1.5)
+        .resistance(1200)
+        .notSolid()
+    .renderType('cutout');
+
+    event.create(`trophy_3`)
+        .displayName(`3rd Place Trophy`)
+        .stoneSoundType()
+        .tagBlock('create:wrench_pickup')
+        .hardness(1.5)
+        .resistance(1200)
+        .notSolid()
+    .renderType('cutout');
 });
 
 ItemEvents.modification(event => {
@@ -24,16 +64,3 @@ ItemEvents.modification(event => {
         item.burnTime = 16000;
     });
 });
-
-//create hid all this stuff smh
-StartupEvents.modifyCreativeTab('minecraft:ingredients', event => {
-    event.add('create:chromatic_compound')
-    event.add('create:shadow_steel')
-    event.add('create:refined_radiance')
-})
-
-StartupEvents.modifyCreativeTab('minecraft:building_blocks', event => {
-    event.add('create:shadow_steel_casing')
-    event.add('create:refined_radiance_casing')
-})
-
