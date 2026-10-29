@@ -262,7 +262,7 @@ hash = "5683d338ac8780a922957cb97b3e883c68fb4ad621e9cbec916e3e0923f16654"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mixing.js"
-hash = "ad318e42ec01d25f1a006cf7cfb781aaa3b57eb049e72022030ed04b57c60f86"
+hash = "6af6f156b46e9665dd606a33f59b89eb52d08cec6c09268b838c74114a7920a0"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/pressing.js"
