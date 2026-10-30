@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
         ["createdeco:copper_coin", "minecraft:copper_nugget", "copper_coin"],
         [
             Item.of("farmersdelight:tree_bark", 4),
-            "#c:stripped_logs",
+            Ingredient.of("#c:stripped_logs"),
             "tree_bark",
         ],
     ];
