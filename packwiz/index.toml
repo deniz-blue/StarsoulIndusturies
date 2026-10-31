@@ -266,7 +266,7 @@ hash = "6af6f156b46e9665dd606a33f59b89eb52d08cec6c09268b838c74114a7920a0"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/pressing.js"
-hash = "a77cc70eba05f6ad033944742f5d704625516b6b7b74a3b49ad2f2d78633a3b2"
+hash = "5e36536ba51d95eef07dedfa2d0c45bfb010ba1c72e3ea4693c2ef113b8f0ccb"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove_recipe.js"
