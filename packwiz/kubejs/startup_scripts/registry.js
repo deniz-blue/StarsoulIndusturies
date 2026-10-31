@@ -64,3 +64,15 @@ ItemEvents.modification(event => {
         item.burnTime = 16000;
     });
 });
+
+//create hid all this stuff smh
+StartupEvents.modifyCreativeTab('minecraft:ingredients', event => {
+    event.add('create:chromatic_compound')
+    event.add('create:shadow_steel')
+    event.add('create:refined_radiance')
+})
+
+StartupEvents.modifyCreativeTab('minecraft:building_blocks', event => {
+    event.add('create:shadow_steel_casing')
+    event.add('create:refined_radiance_casing')
+})
