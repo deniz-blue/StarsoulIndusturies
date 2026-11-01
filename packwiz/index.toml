@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/asynclogger.toml"
+hash = "272198443b6047da462606a33a14d33cc91ec0f0095f6ad919214601f09bca88"
+
+[[files]]
 file = "config/chat_heads.json5"
 hash = "34964d0b63276a95c1cb145c08b01edfb818c1a74f5eb9c8b5e64019c130d72a"
 
