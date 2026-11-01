@@ -138,7 +138,7 @@ hash = "e5585be36be93b4030da6285edefa2810f184a4b94d95a0bab6eed9b8934f757"
 
 [[files]]
 file = "config/gnetum.json"
-hash = "531f820e2962fd71a7931386b76d80886086c150714fd1f36f39ee4e465c5f9a"
+hash = "bb6a7354638d1142e74ad5e71ff5ee3e77ad18ea42026678da8db4b503b4e285"
 
 [[files]]
 file = "config/jei-server.toml"
