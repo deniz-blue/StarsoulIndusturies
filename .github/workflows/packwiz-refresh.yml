@@ -1,0 +1,47 @@
+name: packwiz-refresh
+
+on:
+    push:
+        branches:
+            - "*"
+    workflow_dispatch:
+
+jobs:
+    pre-build:
+        runs-on: ubuntu-latest
+
+        permissions:
+            contents: write
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v7
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Set up Go
+              uses: actions/setup-go@v7
+              with:
+                  go-version: "1.27"
+
+            - name: Install Packwiz
+              run: |
+                  go install github.com/packwiz/packwiz@latest
+
+            - name: Packwiz Refresh
+              working-directory: ./packwiz/
+              run: |
+                  packwiz refresh
+
+            - name: Check for changes and push back
+              run: |
+                  git config --global user.name "github-actions[bot]"
+                  git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+                  git add -A
+                  if git diff --cached --quiet; then
+                    echo "No changes to push."
+                  else
+                    git commit -m "packwiz refresh"
+                    git push
+                  fi
