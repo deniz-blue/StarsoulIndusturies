@@ -24,8 +24,6 @@ flavors = "flashback_on"
 flavors = "flashback_on"
 
 
-
-
 [flavor_groups.effects]
 name = "Fancy effects"
 description = "Extra particles (rain, splashes, fireflies and more) and Sound Physics reverb. Turn it off for more FPS."
@@ -56,7 +54,6 @@ flavors = "effects_on"
 flavors = "effects_on"
 
 
-
 [flavor_groups.essential]
 name = "Essential"
 description = "Essential Mod: friends, screenshots, cosmetics and hosting singleplayer worlds for friends."
@@ -72,9 +69,8 @@ name = "Off"
 flavors = "essential_on"
 
 
-
 [flavor_groups.bobby]
-name = "Bobby"
+name = "Bobby (RECOMMENDED!)"
 description = "(RECOMMENDED!) Fixes random weird blinking on the Starsoul Server. Also, makes your Render Distance greater than the server's Render Distance."
 side = "client"
 [[flavor_groups.bobby.choices]]
@@ -87,7 +83,25 @@ name = "Off"
 [metafile.bobby]
 flavors = "bobby_on"
 
+[flavor_groups.fancymenu]
+name = "Fancy Menu"
+description = "Makes your loading screen SKY-LESS branded and makes it look cool"
+side = "client"
+[[flavor_groups.fancymenu.choices]]
+id = "fancymenu_on"
+name = "On"
+[[flavor_groups.fancymenu.choices]]
+id = "fancymenu_off"
+name = "Off"
 
+[metafile.fancymenu]
+flavors = "fancymenu_on"
+[metafile.drippy-early-loading-module]
+flavors = "fancymenu_on"
+[metafile.drippy-loading-screen]
+flavors = "fancymenu_on"
+[metafile.melody]
+flavors = "fancymenu_on"
 
 [flavor_groups.create_optimizations]
 name = "Create Mod Performance Mods"
