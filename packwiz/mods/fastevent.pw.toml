@@ -1,6 +1,6 @@
 name = "FastEvent"
 filename = "FastEvent-1.21.1-neoforge-1.1.2.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/LauZQ6kM/versions/tOzxJSj2/FastEvent-1.21.1-neoforge-1.1.2.jar"

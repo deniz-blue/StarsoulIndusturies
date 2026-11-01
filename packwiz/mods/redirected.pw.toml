@@ -1,6 +1,6 @@
 name = "Redirected"
 filename = "redirected-neoforge-1.0.0-1.21.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/hhnR8xqU/versions/B9DLRbbX/redirected-neoforge-1.0.0-1.21.1.jar"
