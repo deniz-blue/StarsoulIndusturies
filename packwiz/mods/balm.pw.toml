@@ -1,6 +1,6 @@
 name = "Balm"
 filename = "balm-neoforge-1.21.1-21.0.66.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/MBAkmtvl/versions/CquiaiDj/balm-neoforge-1.21.1-21.0.66.jar"
