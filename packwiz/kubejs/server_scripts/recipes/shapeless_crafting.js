@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
         ["minecraft:sculk_vein", 4, ["minecraft:sculk"], "sculk_vein"],
         ["minecraft:quartz", 4, ["minecraft:quartz_block"], "quartz"],
         [
-            "minecraft:wool",
+            "minecraft:white_wool",
             2,
             [Item.of("rusticdelight:cotton_boll", 8)],
             "cotton_to_wool",
