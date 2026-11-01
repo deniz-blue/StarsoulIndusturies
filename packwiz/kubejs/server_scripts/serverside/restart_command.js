@@ -138,7 +138,8 @@ const onRestartSequence = (ctx) => {
                 "playsound minecraft:block.beacon.activate master @s ~ ~ ~ 1 1.3",
             );
 
-            server.runCommandSilent("/sable paused true");
+            server.runCommandSilent("sable paused true");
+            server.runCommandSilent("whitelist on");
         }
 
         if (counter === 0) {
@@ -153,17 +154,18 @@ const onRestartSequence = (ctx) => {
                 "bossbar remove kubejs:restart_progress_bar",
             );
             server.runCommandSilent(
-                "/function alert_noteblocks_for_restart:uninstall",
+                "function alert_noteblocks_for_restart:uninstall",
             );
         }
 
         let shouldStopServer =
-            Date.now() - dateBeforeRestart > (5 * MINUTE + 15) * 1_000;
+            Date.now() - dateBeforeRestart > (5 * MINUTE + 10) * 1_000;
 
         if (shouldStopServer) {
+            server.runCommandSilent("whitelist off");
             clearInterval(countdownIntervalID);
             server.tell("Stopping actually!");
-            server.runCommandSilent("/stop");
+            server.runCommandSilent("stop");
         }
     }, 1000);
 
