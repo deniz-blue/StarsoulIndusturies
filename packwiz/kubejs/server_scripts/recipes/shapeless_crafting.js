@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
         ["minecraft:sculk", 1, ["4x minecraft:sculk_vein"], "sculk"],
         ["minecraft:sculk_vein", 4, ["minecraft:sculk"], "sculk_vein"],
         ["minecraft:quartz", 4, ["minecraft:quartz_block"], "quartz"],
-        ["wool", 2, [Item.of("rusticdelight:cotton")], "cotton_to_wool"],
+        ["wool", 2, [Item.of("rusticdelight:cotton_boll")], "cotton_to_wool"],
     ];
 
     shapelessrecipe.forEach(([output, amount, input, name]) => {
