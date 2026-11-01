@@ -4,14 +4,20 @@ const RESTART_PROG_BAR_ID = "kubejs:restart_progress_bar";
 const serverStartingIn = `{"text":"S","color":"#ffff66"},{"text":"e","color":"#fffb67"},{"text":"r","color":"#fff868"},{"text":"v","color":"#fff468"},{"text":"e","color":"#fff069"},{"text":"r","color":"#ffed6a"},{"text":" ","color":"#ffe96b"},{"text":"R","color":"#ffe66c"},{"text":"e","color":"#ffe26c"},{"text":"s","color":"#ffde6d"},{"text":"t","color":"#ffdb6e"},{"text":"a","color":"#ffd76f"},{"text":"r","color":"#ffd36f"},{"text":"t","color":"#ffd070"},{"text":"i","color":"#ffcc71"},{"text":"n","color":"#ffc972"},{"text":"g","color":"#ffc573"},{"text":" ","color":"#ffc173"},{"text":"i","color":"#ffbe74"},{"text":"n","color":"#ffba75"}`;
 
 const setupProgBar = (server, counter) => {
-    server.runCommand(
+    server.runCommandSilent(
         `bossbar add ${RESTART_PROG_BAR_ID} [${serverStartingIn}]`,
     );
-    server.runCommand(`bossbar set ${RESTART_PROG_BAR_ID} color yellow`);
-    server.runCommand(`bossbar set ${RESTART_PROG_BAR_ID} style notched_10`);
-    server.runCommand(`bossbar set ${RESTART_PROG_BAR_ID} max ${counter}`);
-    server.runCommand(`bossbar set ${RESTART_PROG_BAR_ID} value ${counter}`);
-    server.runCommand(`bossbar set ${RESTART_PROG_BAR_ID} players @a`);
+    server.runCommandSilent(`bossbar set ${RESTART_PROG_BAR_ID} color yellow`);
+    server.runCommandSilent(
+        `bossbar set ${RESTART_PROG_BAR_ID} style notched_10`,
+    );
+    server.runCommandSilent(
+        `bossbar set ${RESTART_PROG_BAR_ID} max ${counter}`,
+    );
+    server.runCommandSilent(
+        `bossbar set ${RESTART_PROG_BAR_ID} value ${counter}`,
+    );
+    server.runCommandSilent(`bossbar set ${RESTART_PROG_BAR_ID} players @a`);
 };
 
 const runCommandToPlayers = (server, command) => {
@@ -69,7 +75,9 @@ const onRestartSequence = (ctx) => {
 
         // make new joined players see counter after the beginning restart sequence
         if (counter % 5)
-            server.runCommand(`bossbar set ${RESTART_PROG_BAR_ID} players @a`);
+            server.runCommandSilent(
+                `bossbar set ${RESTART_PROG_BAR_ID} players @a`,
+            );
 
         if (counter === 2 * MINUTE) {
             runMessageTitle(server, "Server restart in 2 minutes!", "yellow");
@@ -137,12 +145,13 @@ const onRestartSequence = (ctx) => {
             server.runCommandSilent(
                 "kick @a Server is restarting. Come back for a while!",
             );
-            server.runCommandSilent("/whitelist on");
             return;
         }
 
         if (counter === -1) {
-            server.runCommand("bossbar remove kubejs:restart_progress_bar");
+            server.runCommandSilent(
+                "bossbar remove kubejs:restart_progress_bar",
+            );
             server.runCommandSilent(
                 "/function alert_noteblocks_for_restart:uninstall",
             );
@@ -154,7 +163,6 @@ const onRestartSequence = (ctx) => {
         if (shouldStopServer) {
             clearInterval(countdownIntervalID);
             server.tell("Stopping actually!");
-            server.runCommandSilent("/whitelist off");
             server.runCommandSilent("/stop");
         }
     }, 1_000);
@@ -178,7 +186,7 @@ const cancel_restart = (ctx) => {
     );
 
     clearInterval(countdownIntervalID);
-    server.runCommand("bossbar remove kubejs:restart_progress_bar");
+    server.runCommandSilent("bossbar remove kubejs:restart_progress_bar");
     countdownIntervalID = 0;
 
     return 1;
