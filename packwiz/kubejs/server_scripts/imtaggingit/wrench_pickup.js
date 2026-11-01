@@ -10,6 +10,15 @@ ServerEvents.tags('block', event => {
         "minecraft:barrel",
         "farmersdelight:cooking_pot",
         "farmersdelight:stove",
+        "#minecraft:signs",
+        "#minecraft:hanging_signs",
+        "aeroclaims:claim_block",
+        "#minecraft:anvil",
+        "minecraft:enchanting_table",
+        "#create:seats",
+        "#createadditionallogistics:short_seats",
+        "#createadditionallogistics:tall_seats",
+        "interiors:kelp_seat"
     ]
 
     wrench_pickup_blocks.forEach(wrenchable => {

@@ -314,7 +314,7 @@ hash = "c59b94f2aa924976c62aa10f6dd2536b2105cbc334e2dbc36a6f9e539d2abe39"
 
 [[files]]
 file = "kubejs/server_scripts/imtaggingit/wrench_pickup.js"
-hash = "60c779e95996bf0ece56227e61d16024036901ef402ee5ec24229078ff8d9c65"
+hash = "7bec24ee74217cb79821658a2076f7c9dfedece5cbf6f46965dc7ead38938246"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -534,6 +534,11 @@ metafile = true
 [[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "80455b28c3010ad153ccabc2998cb445b9854b26b386628243a9c8160b8d7e8e"
+metafile = true
+
+[[files]]
+file = "mods/chat-reworked.pw.toml"
+hash = "60f793ed6695840a1456984067f6249fd95d86103663380bf5c57532a3882505"
 metafile = true
 
 [[files]]

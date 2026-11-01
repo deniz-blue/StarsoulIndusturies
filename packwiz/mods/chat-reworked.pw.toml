@@ -1,0 +1,13 @@
+name = "Chat Reworked"
+filename = "ChatReworked-neoforge-1.21.1-1.3.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oSjkVADK/versions/6y6Z5Pcf/ChatReworked-neoforge-1.21.1-1.3.5.jar"
+hash-format = "sha512"
+hash = "39448a9e4af89f7dabedd88b89a198bd741b88b28dc62d981ece04f05c6d9af36b989216387029f7e44d0ca093bc678cadcfe8a22759a4b216f8fe28abefbf89"
+
+[update]
+[update.modrinth]
+mod-id = "oSjkVADK"
+version = "6y6Z5Pcf"
