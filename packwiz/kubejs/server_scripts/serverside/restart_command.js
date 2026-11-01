@@ -186,16 +186,17 @@ const cancel_restart = (ctx) => {
         return 1;
     }
 
+    clearInterval(countdownIntervalID);
+    countdownIntervalID = 0;
+
     runMessageTitle(server, "Server restart cancelled! Phew...", "#00F43E");
     runCommandToPlayers(
         server,
         "playsound minecraft:block.note_block.pling master @s ~ ~ ~ 0.5 0.5",
     );
 
-    clearInterval(countdownIntervalID);
     server.runCommandSilent("function alert_noteblocks_for_restart:uninstall");
     server.runCommandSilent("bossbar remove kubejs:restart_progress_bar");
-    countdownIntervalID = 0;
 
     return 1;
 };
