@@ -502,6 +502,11 @@ hash = "93c4acd165a291c6d1e69c27b05b2747afc926b38a414712263fbc95f42da323"
 metafile = true
 
 [[files]]
+file = "mods/better-modlist.pw.toml"
+hash = "421bb187226a76e25fb0650382cf4b3e2824a8a315241ef3d17a6626be0e1580"
+metafile = true
+
+[[files]]
 file = "mods/better-tablist.pw.toml"
 hash = "bc0183232616bcb94170d7baa16caa15632adb98088fb279c93d9349bcab995e"
 metafile = true
@@ -1259,6 +1264,11 @@ metafile = true
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "3c24accda8011a6a5e04c49c40e39617bb04ab3a549d8f2e8180d3246fddac39"
+metafile = true
+
+[[files]]
+file = "mods/sneakfix.pw.toml"
+hash = "e92b15c57d030b82575952a4967d1ed9bda8e7e97b12ede3769fce92d7b605d4"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "SneakFix"
+filename = "SneakFix-1.0+mc1.21.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/RaezeNVw/versions/w7LKwOJK/SneakFix-1.0%2Bmc1.21.4.jar"
+hash-format = "sha512"
+hash = "450254ad25a2a4ac2f2886799a6bc0fec7f9873d5bf9c0260a9a56c02fe757644d610324ab538cf6cfa665e90b969aa0969f7d92be2ec5e5624fd87d25d381ab"
+
+[update]
+[update.modrinth]
+mod-id = "RaezeNVw"
+version = "w7LKwOJK"
