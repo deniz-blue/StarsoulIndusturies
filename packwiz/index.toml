@@ -402,7 +402,7 @@ hash = "ea741308a15d676171f155ffafbfca7a9de4f5e29d9a4ac393d77c5235ab3084"
 
 [[files]]
 file = "kubejs/server_scripts/serverside/restart_command.js"
-hash = "18092b67c3351e7e815f7037a260f17fab46166870f124d90fcdcdcbfef20fd5"
+hash = "c4922f0a37b386221af651a9c326fd7cc0cd0b34cdf20a31179a81877f7279d6"
 
 [[files]]
 file = "kubejs/server_scripts/serverside/trophies.js"
