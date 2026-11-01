@@ -959,6 +959,11 @@ hash = "aa48be708ff36adf21de32b16c420a70ae72a5c30d748e07b54630e68ca01305"
 metafile = true
 
 [[files]]
+file = "mods/jasione.pw.toml"
+hash = "f85e238f07782d2ba3c79d1e55636e1ed58e7da91052c6c6b6c79183035ddc8b"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
 hash = "bcb55ea65164c818f3d6afc291fae51c6e83f48234881e3a748b08930cd2f02f"
 metafile = true
@@ -1146,11 +1151,6 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "4ac632d7069d83fc65c39f4eafa924fccf7e6520abae2982047f48ccd83a358d"
-metafile = true
-
-[[files]]
-file = "mods/redirected.pw.toml"
-hash = "b0038c775e22fa883d474eb1ef0f686cc544091844e24a8a4b5774838059e808"
 metafile = true
 
 [[files]]
