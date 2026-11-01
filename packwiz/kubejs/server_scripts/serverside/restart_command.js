@@ -144,7 +144,7 @@ const onRestartSequence = (ctx) => {
 
         if (counter === 0) {
             server.runCommandSilent(
-                "kick @a Server is restarting. Come back for a while!",
+                "kick @a Server is restarting. To guarantee stability, please restart your game also to update your modpack!",
             );
             return;
         }
