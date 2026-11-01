@@ -1,0 +1,8 @@
+name = "Starsoul GUI Stuff"
+filename = "starsoul_gui_stuff-0.1.0.jar"
+side = "client"
+
+[download]
+url = "https://starsoul-industuries.denizblue.workers.dev/files/starsoul_gui_stuff-0.1.0.jar"
+hash-format = "sha512"
+hash = "bad1f3cc15263be815487b77acd75ea10395f96e207f1faee82c02904ae8953956378493102b9713173c7e8668fbb835638afe0679e76d9edf761286a65afc89"

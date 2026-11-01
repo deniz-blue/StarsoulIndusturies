@@ -301,6 +301,10 @@ file = "kubejs/server_scripts/serverside/recipearchive.js"
 hash = "ea741308a15d676171f155ffafbfca7a9de4f5e29d9a4ac393d77c5235ab3084"
 
 [[files]]
+file = "kubejs/server_scripts/serverside/restart_command.js"
+hash = "f3888eb2d124cb358228ac5f20c44392de1bc6fc9d5ed04fe982337766e4d871"
+
+[[files]]
 file = "kubejs/server_scripts/serverside/trophies.js"
 hash = "4009f41c153ed058ce26baf50a3f51f9b333e1001b48466df782e194b2968ec9"
 
@@ -1140,6 +1144,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "5995decc8738d7ddccec218dfa1ed95db9eca5bb64c98fd2cede8bf9bbc837c2"
+metafile = true
+
+[[files]]
+file = "mods/starsoul-gui-stuff.pw.toml"
+hash = "8a2ac115e92596fc636fd5817048c83bb3a0ae270c60c66e6a92d95b05b55ab9"
 metafile = true
 
 [[files]]
