@@ -274,11 +274,15 @@ hash = "5664776dac648fd16a0fc42c67201fef6cc26c20207cd5145bfd43a0b5becfc8"
 
 [[files]]
 file = "kubejs/config/client.json"
-hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
+hash = "7fe50ed1ed2a2646c5479b954af5d5fbbfc6a928b160fb2d3ccc8aafbdae8fd9"
 
 [[files]]
 file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
+
+[[files]]
+file = "kubejs/config/packicon.png"
+hash = "8285d4de05264e1b9df6be7d52f3704975345781262336003b2496b7a2d97fa7"
 
 [[files]]
 file = "kubejs/data/starsoul/curios/entities/player.json"
