@@ -157,7 +157,7 @@ const onRestartSequence = (ctx) => {
             server.runCommandSilent("/whitelist off");
             server.runCommandSilent("/stop");
         }
-    }, 50);
+    }, 1_000);
 
     return 1;
 };
