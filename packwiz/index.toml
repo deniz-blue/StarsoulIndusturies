@@ -129,6 +129,10 @@ file = "config/fluidium.json"
 hash = "f3f1d53568e6ba1c6e006083aa6e08bdf5758e1c106dda2bc5d044b4ac4c42d4"
 
 [[files]]
+file = "config/fml.toml"
+hash = "e5585be36be93b4030da6285edefa2810f184a4b94d95a0bab6eed9b8934f757"
+
+[[files]]
 file = "config/jei-server.toml"
 hash = "57d741871716e29b3a318b625e740d590598f001c362b6a4a95e3ee628c5cbc3"
 
