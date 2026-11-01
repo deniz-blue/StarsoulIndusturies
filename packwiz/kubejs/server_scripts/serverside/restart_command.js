@@ -188,6 +188,7 @@ const cancel_restart = (ctx) => {
     );
 
     clearInterval(countdownIntervalID);
+    server.runCommandSilent("function alert_noteblocks_for_restart:uninstall");
     server.runCommandSilent("bossbar remove kubejs:restart_progress_bar");
     countdownIntervalID = 0;
 
