@@ -1,260 +1,290 @@
 {
-  "enabled": {
-    "value": "ON"
-  },
-  "showHudFps": {
-    "value": "ON"
-  },
-  "downscale": {
-    "value": "OFF"
-  },
-  "numberOfPasses": 2,
-  "maxFps": 75,
-  "screenMaxFps": 60,
-  "mapVanillaElements": {
-    "aeroworks:joystick_hud": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
+    "enabled": {
+        "value": "ON"
     },
-    "create:value_settings": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
+    "showHudFps": {
+        "value": "ON"
     },
-    "minecraft:selected_item_name": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
+    "downscale": {
+        "value": "OFF"
     },
-    "minecraft:spectator_tooltip": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
+    "numberOfPasses": 2,
+    "maxFps": 75,
+    "screenMaxFps": 60,
+    "mapVanillaElements": {
+        "aeroworks:joystick_hud": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "create:value_settings": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "minecraft:selected_item_name": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "minecraft:spectator_tooltip": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "xaeroworldmap:crosshair_message": {
+            "enabled": {
+                "value": "OFF"
+            },
+            "pass": 1
+        },
+        "create:toolbox": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "createlazytick:lazytick_tooltip": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "brewinandchewin:tipsy": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "create_jetpack:jetpack_controls": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "minecraft:overlay_message": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "sidekick:creative_health": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "create:schematic": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "aeroworks:console_hud": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "figura:figura_underlay": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "minecraft:subtitle_overlay": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "create:blueprint": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "simulated:linked_typewriter_binding": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "create:track_placement": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "minecraft:sleep_overlay": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "minecraft:jump_meter": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "minecraft:experience_level": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "createbigcannons:gas_mask_overlay": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "createbigcannons:entity_goggles_overlay": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "minecraft:boss_overlay": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "minecraft:scoreboard_sidebar": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "minecraft:hotbar": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "figura:figura_overlay": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "create:linked_controller": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "gnetum:status_bar": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "minecraft:debug_overlay": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "minecraft:effects": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "gnetum:minecraft_hand": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "touys:camera": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "vista:viewfinder": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "minecraft:experience_bar": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "xaerohud:hud": {
+            "enabled": {
+                "value": "OFF"
+            },
+            "pass": 1
+        },
+        "minecraft:saving_indicator": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "minecraft:title": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "minecraft:tab_list": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "create:goggle_info": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        },
+        "minecraft:chat": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        }
     },
-    "create:toolbox": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
+    "mapModdedElementsPre": {
+        "chloride": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 1
+        }
     },
-    "createlazytick:lazytick_tooltip": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "create_jetpack:jetpack_controls": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "minecraft:overlay_message": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "sidekick:creative_health": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "create:schematic": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "aeroworks:console_hud": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "minecraft:subtitle_overlay": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "create:blueprint": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "simulated:linked_typewriter_binding": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "create:track_placement": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "minecraft:sleep_overlay": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "minecraft:jump_meter": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "minecraft:experience_level": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "createbigcannons:gas_mask_overlay": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "createbigcannons:entity_goggles_overlay": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "minecraft:boss_overlay": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "minecraft:scoreboard_sidebar": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "minecraft:hotbar": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "create:linked_controller": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "gnetum:status_bar": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "minecraft:debug_overlay": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "minecraft:effects": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "gnetum:minecraft_hand": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "touys:camera": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "vista:viewfinder": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "minecraft:experience_bar": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "minecraft:saving_indicator": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "minecraft:title": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "minecraft:tab_list": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "create:goggle_info": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    },
-    "minecraft:chat": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
+    "mapModdedElementsPost": {
+        "gnetum_unknown": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "fabric_rendering_v1": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        },
+        "jade": {
+            "enabled": {
+                "value": "AUTO"
+            },
+            "pass": 2
+        }
     }
-  },
-  "mapModdedElementsPre": {
-    "chloride": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 1
-    }
-  },
-  "mapModdedElementsPost": {
-    "gnetum_unknown": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "fabric_rendering_v1": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "jade": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    }
-  }
 }
