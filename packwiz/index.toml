@@ -70,11 +70,15 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "a83e520716f7d5fa43025d5991acd6e2160fc43ba604bd4c258b9f5c0812830f"
+hash = "a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
 hash = "ecb84aae7dbdcb3c25a85d2a5eed61027c66bf45b9755316ee573d96879704f6"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "71058d1a3a9ff2181fbb346792de265be5d6b2db3d4c78030e44ffd097e32a02"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -86,7 +90,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "6df834ff0756d1d57f5ff20abcc8d5e716f7736fe38f83f390d5b4f539b407ab"
+hash = "4f8268892d41a5ee02eeb7311c4c88bbccf8bd51d94c2bf0acd490cbe20ad43f"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -138,7 +142,7 @@ hash = "e5585be36be93b4030da6285edefa2810f184a4b94d95a0bab6eed9b8934f757"
 
 [[files]]
 file = "config/gnetum.json"
-hash = "531f820e2962fd71a7931386b76d80886086c150714fd1f36f39ee4e465c5f9a"
+hash = "bb6a7354638d1142e74ad5e71ff5ee3e77ad18ea42026678da8db4b503b4e285"
 
 [[files]]
 file = "config/jei-server.toml"
