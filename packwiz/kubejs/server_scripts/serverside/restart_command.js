@@ -36,12 +36,21 @@ const runMessageTitle = (server, title, color) => {
 let countdownIntervalID = 0;
 
 const onRestartSequence = (ctx) => {
+    let player = ctx.source.player;
+    let server = ctx.source.server;
+
     if (countdownIntervalID) {
         player.tell(Text.red("Server is already restarting!"));
         return 1;
     }
 
-    let server = ctx.source.server;
+    if (player) {
+        player.tell(
+            Text.red("Please use the Kinetic Panel schedule for a restart."),
+        );
+        return 1;
+    }
+
     let counter = 60 * 5;
     let dateBeforeRestart = Date.now();
 
@@ -193,7 +202,9 @@ ServerEvents.commandRegistry((event) => {
     const { commands: Commands } = event;
 
     event.register(
-        Commands.literal("ONLY_KINETIC_PANEL_IS_SAFE_TO_RUN_THIS")
+        Commands.literal(
+            "DO_NOT_RUN_THIS_ONLY_KINETIC_PANEL_IS_SAFE_TO_RUN_THIS",
+        )
             .requires((source) => source.hasPermission(4))
             .executes(onRestartSequence),
     );
