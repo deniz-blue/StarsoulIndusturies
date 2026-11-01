@@ -181,23 +181,11 @@ const cancel_restart = (ctx) => {
     let player = ctx.source.player;
     let server = ctx.source.server;
 
-    if (!countdownIntervalID) {
-        player.tell(Text.red("Server wasn't even restarting:!?::!?::!?:"));
-        return 1;
-    }
-
-    clearInterval(countdownIntervalID);
-    countdownIntervalID = 0;
-
-    runMessageTitle(server, "Server restart cancelled! Phew...", "#00F43E");
-    runCommandToPlayers(
-        server,
-        "playsound minecraft:block.note_block.pling master @s ~ ~ ~ 0.5 0.5",
+    player.tell(
+        Text.red(
+            "Since KubeJS cant stop a restart by sending stop command, i had to disable it until i found a wacky workaround -TuxeBro",
+        ),
     );
-
-    server.runCommandSilent("function alert_noteblocks_for_restart:uninstall");
-    server.runCommandSilent("bossbar remove kubejs:restart_progress_bar");
-
     return 1;
 };
 
