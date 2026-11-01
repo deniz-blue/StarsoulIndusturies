@@ -36,6 +36,11 @@ const runMessageTitle = (server, title, color) => {
 let countdownIntervalID = 0;
 
 const onRestartSequence = (ctx) => {
+    if (countdownIntervalID) {
+        player.tell(Text.red("Server is already restarting!"));
+        return 1;
+    }
+
     let server = ctx.source.server;
     let counter = 60 * 5;
     let dateBeforeRestart = Date.now();
