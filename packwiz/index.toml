@@ -382,7 +382,7 @@ hash = "e7c35bce34cf4a20df27f0f3841fc8938fa5b952bdf5341ec55f69da495af7d7"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shapeless_crafting.js"
-hash = "3a1d8987fc6ad80fe6fc59e766b767d21fd73786a12397dba94477fc0bcd3e47"
+hash = "58930549c6fe0a86c523bd661e2dab4c78a2c0b872c561e69a3c28a962785ba3"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/smoking.js"
