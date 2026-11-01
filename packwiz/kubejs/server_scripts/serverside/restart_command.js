@@ -165,7 +165,7 @@ const onRestartSequence = (ctx) => {
             server.tell("Stopping actually!");
             server.runCommandSilent("/stop");
         }
-    }, 1_000);
+    }, 1000);
 
     return 1;
 };
