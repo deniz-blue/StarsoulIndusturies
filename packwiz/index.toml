@@ -482,11 +482,6 @@ hash = "3f829f54e19ebb32f23f554e05bd49c005dfc057933e07d0df4f85e7085d314d"
 metafile = true
 
 [[files]]
-file = "mods/balm.pw.toml"
-hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
-metafile = true
-
-[[files]]
 file = "mods/bbrb.pw.toml"
 hash = "d3e067134ecb835b1a02e6f10666033d71ac017a21f17b3a5efeca756482642a"
 metafile = true
@@ -534,11 +529,6 @@ metafile = true
 [[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "80455b28c3010ad153ccabc2998cb445b9854b26b386628243a9c8160b8d7e8e"
-metafile = true
-
-[[files]]
-file = "mods/chat-reworked.pw.toml"
-hash = "60f793ed6695840a1456984067f6249fd95d86103663380bf5c57532a3882505"
 metafile = true
 
 [[files]]
