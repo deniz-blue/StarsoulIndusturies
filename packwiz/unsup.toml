@@ -59,11 +59,11 @@ name = "Essential"
 description = "Essential Mod: friends, screenshots, cosmetics and hosting singleplayer worlds for friends."
 side = "client"
 [[flavor_groups.essential.choices]]
-id = "essential_on"
-name = "On"
-[[flavor_groups.essential.choices]]
 id = "essential_off"
 name = "Off"
+[[flavor_groups.essential.choices]]
+id = "essential_on"
+name = "On"
 
 [metafile.essential]
 flavors = "essential_on"
@@ -152,10 +152,10 @@ name = "Axiom"
 description = "Building and world editing tool. The server has it either way, so turn it off if you don't build with it."
 side = "client"
 [[flavor_groups.axiom.choices]]
-id = "axiom_on"
-name = "On"
-[[flavor_groups.axiom.choices]]
 id = "axiom_off"
 name = "Off"
+[[flavor_groups.axiom.choices]]
+id = "axiom_on"
+name = "On"
 [metafile.axiom-client]
 flavors = "axiom_on"
