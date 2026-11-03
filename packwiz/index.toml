@@ -1182,6 +1182,11 @@ hash = "8690379014fbba53059759936c7deb4d62aabc7a2006da3d45929dc582b119b7"
 metafile = true
 
 [[files]]
+file = "mods/replyable.pw.toml"
+hash = "580d7b1acf214438618f5bfc030305b31f943766005696be70c238f8284d4588"
+metafile = true
+
+[[files]]
 file = "mods/resourcify.pw.toml"
 hash = "72b75c125aee339e96885264e722420b5741f5bedac10ca3fba210d71a3a3af4"
 metafile = true
@@ -1299,6 +1304,11 @@ metafile = true
 [[files]]
 file = "mods/starsoul-gui-stuff.pw.toml"
 hash = "8a2ac115e92596fc636fd5817048c83bb3a0ae270c60c66e6a92d95b05b55ab9"
+metafile = true
+
+[[files]]
+file = "mods/starsoul-restarter.pw.toml"
+hash = "5d83fbcbd5dc0c683fb05b2819175dbd9ea284ad84e08975d2aa456a374eb40c"
 metafile = true
 
 [[files]]

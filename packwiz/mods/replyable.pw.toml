@@ -1,0 +1,8 @@
+name = "Replyable"
+filename = "replyable-0.1.0.jar"
+side = "server"
+
+[download]
+url = "https://starsoul-industuries.denizblue.workers.dev/files/replyable-0.1.0.jar"
+hash-format = "sha512"
+hash = "0bb41e78bc2a7a3f56f51aadabb2290e2cd7f7ffb34300cfc5e8a37a4d085ddbe9e29603d4e5ecf314ddcefaccd772579261c5f7e037a744299a08de7a666faa"
