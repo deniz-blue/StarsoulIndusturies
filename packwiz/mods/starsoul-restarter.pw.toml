@@ -1,8 +1,8 @@
 name = "StarSoul Restarter"
-filename = "starsoul_restarter-0.1.1.jar"
+filename = "starsoul_restarter-0.1.2.jar"
 side = "server"
 
 [download]
-url = "https://starsoul-industuries.denizblue.workers.dev/files/starsoul_restarter-0.1.1.jar"
+url = "https://starsoul-industuries.denizblue.workers.dev/files/starsoul_restarter-0.1.2.jar"
 hash-format = "sha512"
-hash = "3d8f61f21dedd7d87af0c15879b73ccf78b342017746b2a931d18d42021a068dfa7a198ef7f9fa37695a2a2f467f332bc45a5befbb703a30c932271137f37ab4"
+hash = "653b5b1c137da9d6185383bbe8149c61096c74658fbce6bac5a168ddb6ba83611d4572dc7c3cbfab216db07fbcb47a1b2bb8880cf31ca512a9e613e43065ddba"

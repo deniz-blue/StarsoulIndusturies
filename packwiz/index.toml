@@ -1308,7 +1308,7 @@ metafile = true
 
 [[files]]
 file = "mods/starsoul-restarter.pw.toml"
-hash = "df7df6add46579e30187afe4ccd86b1dd55d964b0c6c9d6737d9b08f737fa732"
+hash = "264a07d75012452c4b0cc23b8c2e61b238eba9b3afdc0ec54f71ecb6b2d5a4a6"
 metafile = true
 
 [[files]]
