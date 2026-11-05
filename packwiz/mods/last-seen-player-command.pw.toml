@@ -1,0 +1,8 @@
+name = "Last Seen Player Command"
+filename = "last_seen_player_command-0.1.0.jar"
+side = "server"
+
+[download]
+url = "https://starsoul-industuries.denizblue.workers.dev/files/last_seen_player_command-0.1.0.jar"
+hash-format = "sha512"
+hash = "4a45a5db3118721e3a7b5f3b27a89558d12f7539c203f6cd955f9c1e8e5f8fba8c1915f72ba42f54d8e2835f9bc06d060ca69c8a2a08cb0c4d287f88d9c61fce"
