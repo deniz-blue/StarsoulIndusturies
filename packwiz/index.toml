@@ -1034,7 +1034,7 @@ metafile = true
 
 [[files]]
 file = "mods/last-seen-player-command.pw.toml"
-hash = "55a58a8754de19f15493561822fe17b7d0173e7e1cfc2b246cb4321d90af9f14"
+hash = "f1554437a4b0dc6234060e2002cf70f6b229b4f72eed0f12d30438c92481ae42"
 metafile = true
 
 [[files]]
