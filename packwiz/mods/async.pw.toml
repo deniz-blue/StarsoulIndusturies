@@ -1,8 +1,0 @@
-name = "Async"
-filename = "async-neoforge-0.2.100+alpha-1.21.1.jar"
-side = "server"
-
-[download]
-url = "https://starsoul-industuries.denizblue.workers.dev/files/async-neoforge-0.2.100%2Balpha-1.21.1.jar"
-hash-format = "sha512"
-hash = "baa7b21e069e669fa8967715a6ea64f50bf2332ba1ffd2deec02cd1bff58faa02496ee970c2e6fefe50ba49a8bf483d9e7d6420fabc5482793545ca0f95d8336"
