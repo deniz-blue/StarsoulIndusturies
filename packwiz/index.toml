@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/async.toml"
+hash = "0004c7a4679b558ef21f3aa787f9c9db11fbd4efc1adfe79a47883a1932d70e4"
+
+[[files]]
 file = "config/asynclogger.toml"
 hash = "272198443b6047da462606a33a14d33cc91ec0f0095f6ad919214601f09bca88"
 
