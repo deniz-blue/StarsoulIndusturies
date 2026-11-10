@@ -1,18 +1,18 @@
 ["Async Config"]
-#Disables the mod. All entities are ticked on the main thread.
-disabled = false
-#Worker threads for parallel ticking. -1 = auto.
-# Default: -1
-# Range: > -1
-maxThreads = 5
-#Entities ticked on the main thread instead of in parallel.
-#Entity IDs or namespaces (*):
-#  - 'minecraft:zombie' = specific entity
-#  - 'minecraft:*'      = all entities in namespace
-synchronizedEntities = ["minecraft:player", "minecraft:experience_orb"]
-#Enables async entity spawning. WARNING: incompatible with Carpet's lagFreeSpawning.
-enableAsyncSpawn = false
-#Experimental! Enables async random ticks.
-enableAsyncRandomTicks = false
-#Ticks non-Minecraft entities without @AsyncCompatible on the main thread.
-synchronizeUnannotatedModEntities = true
+	#Disables the mod. All entities are ticked on the main thread.
+	disabled = false
+	#Worker threads for parallel ticking. -1 = auto.
+	# Default: -1
+	# Range: > -1
+	maxThreads = 5
+	#Entities ticked on the main thread instead of in parallel.
+	#Entity IDs or namespaces (*):
+	#  - 'minecraft:zombie' = specific entity
+	#  - 'minecraft:*'      = all entities in namespace
+	synchronizedEntities = ["aeronautics:*", "simulated:*", "farmersdelight:*", "minecraft:player", "gravestone:*", "bits_n_bobs:*", "minecraft:experience_orb", "create:seat", "interiors:*", "create:*", "createdieselgenerators:*", "offroad:*"]
+	#Enables async entity spawning. WARNING: incompatible with Carpet's lagFreeSpawning.
+	enableAsyncSpawn = true
+	#Experimental! Enables async random ticks.
+	enableAsyncRandomTicks = false
+	#Ticks non-Minecraft entities without @AsyncCompatible on the main thread.
+	synchronizeUnannotatedModEntities = false
