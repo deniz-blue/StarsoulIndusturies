@@ -14,6 +14,7 @@ ServerEvents.recipes((event) => {
       }
   )
 
+
   //Invisible Item Frame
   event.shaped(
     Item.of('minecraft:item_frame[minecraft:entity_data={id:"minecraft:item_frame",Invisible:1b},minecraft:custom_name=\'{"text":"Invisible Item Frame","italic":false}\']', 1),
@@ -27,6 +28,7 @@ ServerEvents.recipes((event) => {
         B: 'minecraft:glass_pane'
     }
   );
+
 
   //Invisible Glow Item Frame
   event.shaped(
@@ -42,6 +44,7 @@ ServerEvents.recipes((event) => {
     }
   );
 
+
   //Grass Block
   event.shaped(
     Item.of('minecraft:grass_block', 1),
@@ -54,6 +57,7 @@ ServerEvents.recipes((event) => {
       B: 'minecraft:dirt'
     }
   );
+
 
   // copper chain fix
   event.shaped(
@@ -86,6 +90,7 @@ ServerEvents.recipes((event) => {
   )
   .id("kubejs:copper_torch_fix");
 
+
   // copper lantern fix
   event.shaped(
     Item.of('minecraft:copper_lantern', 1),
@@ -101,6 +106,7 @@ ServerEvents.recipes((event) => {
   )
   .id("kubejs:copper_lantern_fix");
 
+
   // tuning wire fix
   event.shaped(
     Item.of('pipeorgans:tuning_wire', 6),
@@ -114,6 +120,7 @@ ServerEvents.recipes((event) => {
     }
   )
   .id("kubejs:tuning_wire_fix");
+
 
   // liquid vector thruster fix
   event.shaped(
@@ -129,4 +136,22 @@ ServerEvents.recipes((event) => {
       D: 'simulated:gimbal_sensor'
     }
   )
+  .id("kubejs:liquid_vector_thruster_fix");
+
+
+    // seatwood
+  event.shaped(
+    Item.of('interiors:seatwood_planks', 3),
+    [
+      'AA ',
+      'BB '
+    ],
+    {
+      A: '#minecraft:wooden_slabs',
+      B: '#minecraft:planks',
+    }
+  )
+  .id('kubejs:seatwood_recipe');
+
+
 })

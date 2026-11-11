@@ -329,6 +329,10 @@ file = "kubejs/server_scripts/recipes/blasting.js"
 hash = "40eaf940871ce164b6586ec4f2720f06d272492d88432a023be0de01c7278ff2"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/bulk_dyeing.js"
+hash = "a782f41f81fb49f92d06775d22992dc7b7532495d8ec7eb2f7497987436ccf95"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/crushing.js"
 hash = "1d8695e4b1e99fee8ffacfeaaf3f132dc92d07bcec951af506311617317d7f3d"
 
@@ -382,11 +386,11 @@ hash = "5233479dc3a9d944cca5fe7760ee260c7d2f5eb245e5d6ba7390c71c71235ded"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shaped_crafting.js"
-hash = "e7c35bce34cf4a20df27f0f3841fc8938fa5b952bdf5341ec55f69da495af7d7"
+hash = "267033b78e5b89bcbb9035e65e9402fb272996409d82406b554f194bec39e434"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shapeless_crafting.js"
-hash = "4e3d47632ed1fdd054efb6065bf7dad3e3c253b1723fd4757e288d5d82a62f12"
+hash = "2ca987e1ea97ab2313bc16e0013a1244ec2be7a2d5927632fd6c966f7f8a35eb"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/smoking.js"
