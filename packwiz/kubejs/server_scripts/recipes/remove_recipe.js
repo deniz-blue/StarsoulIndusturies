@@ -15,5 +15,8 @@ ServerEvents.recipes((event) => {
     event.remove({id:"createpropulsion:crafting/liquid_vector_thruster"})
     event.remove({id:"minecraft:copper_torch"})
     event.remove({id:"jei:/createdeco/pressing/coins/copper_coin"})
-    event.remove({id:"jei:dndesires/mechanical_crafting/gatling_breaker"})
+    event.remove({
+    type: "create:mechanical_crafting",
+    output: "dndesires:gatling_breaker"
+})
 })
