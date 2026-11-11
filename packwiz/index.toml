@@ -1296,6 +1296,11 @@ hash = "2a001cdb3d5ac4970d422914083c27380eba8ebd40dfd435754fe6566ba78beb"
 metafile = true
 
 [[files]]
+file = "mods/some-sable-fixes.pw.toml"
+hash = "7fca1f22c1d402239fd1811cb620a7a18223adae6e9fb2865e68cb57faecf35e"
+metafile = true
+
+[[files]]
 file = "mods/sound-physics-remastered.pw.toml"
 hash = "09c393b303130cefffc1c376ddfdeb869b20db31d3d42d9fa155e13cfc628645"
 metafile = true
