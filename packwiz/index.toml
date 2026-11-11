@@ -378,7 +378,7 @@ hash = "de17c56d562ed1953a6a41aff55225d370e42cbf1c07c0fc94cfd4095bc590a2"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove_recipe.js"
-hash = "78b95c2aad705d60a55b1f484cfc7965222b7741bda8e836bd365833c357c97b"
+hash = "c0114c816aca92167d915d4b3138a3798fc61eb31e82e25405a1ef004aa8b2be"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/seething.js"
