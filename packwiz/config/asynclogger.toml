@@ -36,8 +36,6 @@ levels = []
 #Messages logged by loggers with the specified names will be filtered out and not logged.
 loggers = []
 #Messages containing the specified substrings will be filtered out and not logged.
-strings = [
-    "Couldn't find sub-level at index 0 in storage file for chunk [-69, -68]",
-]
+strings = ["Couldn't find sub-level at"]
 #Messages that match the specified regexes will be filtered out and not logged.
 regexes = []
