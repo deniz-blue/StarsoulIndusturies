@@ -398,11 +398,11 @@ hash = "cbf41089c1fe60f6d013f481e00d122bdf1066096f39d753cd0ef334dc74d09e"
 
 [[files]]
 file = "kubejs/server_scripts/serverside/commands.js"
-hash = "285abb9e46ac8ea8c062bd4a98057a6027e0eb1de080ff4ab51af2fffe82d82b"
+hash = "ca4c5703dfe9eb680bb11e06586ab3809c72cbc57399e8b714cf02b97365b544"
 
 [[files]]
 file = "kubejs/server_scripts/serverside/curios_tags.js"
-hash = "4990d982a059d88cb5956310cb76a5c91bfb7e408409a01e5ac9e120ea09b5b3"
+hash = "22a307baa1671bed868a58b62a84e397685e4ad1564d78401ff168290f7e830d"
 
 [[files]]
 file = "kubejs/server_scripts/serverside/recipearchive.js"

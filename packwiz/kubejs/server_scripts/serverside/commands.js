@@ -15,6 +15,22 @@ ServerEvents.commandRegistry(event => {
     .requires(source => source.hasPermission(4))
     .executes(ctx => tpevent(ctx.source.player))
   )
+  event.register(Commands.literal('itemcount')
+    .executes(ctx => {
+        const user = ctx.source.player;
+        if (!user) {
+            ctx.source.player.tell(Text.red('You must be a player to use this command.'));
+            return 0;
+        }
+        const objective = ctx.source.server.scoreboard.getObjective('item_count');
+        if (!objective) {
+            ctx.source.player.tell(Text.red('Item count objective not found.'));
+            return 0;
+        }
+        const itemcount = ctx.source.server.scoreboard.getOrCreatePlayerScore(user, objective);
+        ctx.source.player.tell(Text.green('You have ' + itemcount.get() + ' items. (Item counts update by minute)'));
+        return 1;
+    }))
     
  //warn system 
 event.register(Commands.literal('warn')
