@@ -96,8 +96,6 @@ name = "Off"
 
 [metafile.fancymenu]
 flavors = "fancymenu_on"
-[metafile.drippy-early-loading-module]
-flavors = "fancymenu_on"
 [metafile.drippy-loading-screen]
 flavors = "fancymenu_on"
 [metafile.melody]
