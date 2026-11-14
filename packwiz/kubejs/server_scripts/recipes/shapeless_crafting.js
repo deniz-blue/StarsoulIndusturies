@@ -28,4 +28,34 @@ ServerEvents.recipes((event) => {
             .shapeless(Item.of(output, amount), input)
             .id(`kubejs:${name}_from_shapeless_crafting`);
     });
+
+    let fullDye = ""
+    let newEnvelope = ""
+
+    const colors = [
+        "white",
+        "light_gray",
+        "gray",
+        "black",
+        "brown",
+        "red",
+        "orange",
+        "yellow",
+        "lime",
+        "green",
+        "cyan",
+        "light_blue",
+        "blue",
+        "purple",
+        "magenta",
+        "pink",
+    ]
+
+    // envelope crafting
+    colors.forEach((color) => {
+        fullDye = `minecraft:${color}_dye`;
+        newEnvelope = `aeronautics:${color}_envelope`;
+        event.shapeless(newEnvelope, [fullDye, "#aeronautics:envelope"])
+        .id(`kubejs:${color}_envelope_from_shapeless_crafting`);
+    });
 });
