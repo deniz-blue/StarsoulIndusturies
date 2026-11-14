@@ -309,6 +309,10 @@ file = "kubejs/config/packicon.png"
 hash = "8285d4de05264e1b9df6be7d52f3704975345781262336003b2496b7a2d97fa7"
 
 [[files]]
+file = "kubejs/data/createcobblestone/generator_types/calcite.json"
+hash = "5e7f1b28e207f79359d2f2f04c789d899a61eb08253446b9feb738b181accfd0"
+
+[[files]]
 file = "kubejs/data/starsoul/curios/entities/player.json"
 hash = "451f53aad886390b70c23f911bc134a140c93624633bc597d5eb93d1f98e5a88"
 
