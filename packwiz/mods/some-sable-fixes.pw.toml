@@ -1,8 +1,8 @@
 name = "Some Sable Fixes"
-filename = "some_sable_fixes-0.1.1.jar"
+filename = "some_sable_fixes-0.1.2.jar"
 side = "server"
 
 [download]
-url = "https://starsoul-industuries.denizblue.workers.dev/files/some_sable_fixes-0.1.1.jar"
+url = "https://starsoul-industuries.denizblue.workers.dev/files/some_sable_fixes-0.1.2.jar"
 hash-format = "sha512"
-hash = "a88f61520d9011293fc0423f217dc7b3e6d68e637c948d2a0709cf104f6a280e331971b0e471dfdbdfe559e5ff844050ba33ac67ad275098adf1e0364dcbd9a3"
+hash = "64a4472fc61d8a5645810225203ab780f5e2cc32f7b853d6fcc7e6bb8475e62563766294c86081fa0886bbba0bf6452038f8a23f14967d1530e5c043eb55fa98"
