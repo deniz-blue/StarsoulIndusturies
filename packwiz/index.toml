@@ -680,6 +680,11 @@ hash = "1a9187d50e9a3a17dbdae3fbf8c3f691c43f9a5c6da8313fa6dffbf2ac0c49ba"
 metafile = true
 
 [[files]]
+file = "mods/create-fixed-drill-mining.pw.toml"
+hash = "dd88a73ade57522004a7c943312159a76b919c087d381319e1e4568ec88f7df4"
+metafile = true
+
+[[files]]
 file = "mods/create-flashback.pw.toml"
 hash = "d290744f98921535c739cb0b60accacce012e8693f5bef6996ffd37d490c39d7"
 metafile = true
@@ -1226,7 +1231,7 @@ metafile = true
 
 [[files]]
 file = "mods/sable-optimized-entities.pw.toml"
-hash = "675566c041123f909db5575d498e41eede1dc4bbb239287215ab72e6bb1a6291"
+hash = "cd1351f6022f5d865bf1f33d7a5abaff788ae313172da46da561863007d4c8d4"
 metafile = true
 
 [[files]]
