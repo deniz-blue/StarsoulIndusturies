@@ -1226,7 +1226,7 @@ metafile = true
 
 [[files]]
 file = "mods/sable-optimized-entities.pw.toml"
-hash = "3e3464a667ef64be58e28939436382033737c9fe495de7e38e115cb9fa2e2e9a"
+hash = "675566c041123f909db5575d498e41eede1dc4bbb239287215ab72e6bb1a6291"
 metafile = true
 
 [[files]]

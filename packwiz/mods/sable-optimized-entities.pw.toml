@@ -1,8 +1,13 @@
 name = "Sable: Optimized Entities"
-filename = "sable_optimized_entities-0.1.2.jar"
+filename = "sable_optimized_entities-0.1.1.jar"
 side = "server"
 
 [download]
-url = "https://starsoul-industuries.denizblue.workers.dev/files/sable_optimized_entities-0.1.2.jar"
+url = "https://cdn.modrinth.com/data/GIzZr8Gc/versions/hdCG5PKa/sable_optimized_entities-0.1.1.jar"
 hash-format = "sha512"
-hash = "85314734388dd14f041334c859ea5ae4e01cf43979847a74f112770a4f55232e3db5721d074c9eaf7a930b23a68ea9826dece767e0a497eb9bff11ac7431194a"
+hash = "306c7128bd84224d920ce3797d0dde6bea06bff19d8a5926dbfaf10c9bde439abaf64395ac463280d2068d92203dc8f8b682b2010b93b6f980b076e05ef2f3a5"
+
+[update]
+[update.modrinth]
+mod-id = "GIzZr8Gc"
+version = "hdCG5PKa"

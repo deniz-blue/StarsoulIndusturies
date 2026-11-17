@@ -1,0 +1,8 @@
+name = "Create: Fixed Drill Mining"
+filename = "create_fixed_drill_mining-0.1.0.jar"
+side = "server"
+
+[download]
+url = "https://starsoul-industuries.denizblue.workers.dev/files/create_fixed_drill_mining-0.1.0.jar"
+hash-format = "sha512"
+hash = "75fd95d08fa35ca3516f50b6743f13c3120aec318eaa2e19c49f297d9d649aa9d47c4cd2f7f9db64ebb4e6d0616c87261bd5a50fa9ba7c8af5237518cff87d15"
