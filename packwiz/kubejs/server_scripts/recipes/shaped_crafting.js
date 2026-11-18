@@ -152,6 +152,16 @@ ServerEvents.recipes((event) => {
     }
   )
   .id('kubejs:seatwood_recipe');
+  // wall mounted table
+  event.shaped(
+    Item.of('interiors:wall_mounted_table', 2),
+    [
+      'AA'
+    ],
+    {
+      A: 'interiors:weatwood_planks'
+    }
+  )
 
 
 })
