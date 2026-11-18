@@ -402,7 +402,7 @@ hash = "cbf41089c1fe60f6d013f481e00d122bdf1066096f39d753cd0ef334dc74d09e"
 
 [[files]]
 file = "kubejs/server_scripts/serverside/commands.js"
-hash = "ca4c5703dfe9eb680bb11e06586ab3809c72cbc57399e8b714cf02b97365b544"
+hash = "33d2aa4c5bc780157c9700d3b973b38986b55fdf4c06441f5c86cfaf363a17f9"
 
 [[files]]
 file = "kubejs/server_scripts/serverside/curios_tags.js"

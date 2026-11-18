@@ -12,7 +12,7 @@ ServerEvents.commandRegistry(event => {
     .executes(ctx => whiteworld(ctx.source.player))
   )
     event.register(Commands.literal('tpevent')
-    .requires(source => source.hasPermission(4))
+    .requires(source => source.hasPermission(3))
     .executes(ctx => tpevent(ctx.source.player))
   )
   event.register(Commands.literal('itemcount')
