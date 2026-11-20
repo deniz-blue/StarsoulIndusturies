@@ -1,8 +1,8 @@
 name = "Starsoul GUI Stuff"
-filename = "starsoul_gui_stuff-0.1.1.jar"
+filename = "starsoul_gui_stuff-0.1.2.jar"
 side = "client"
 
 [download]
-url = "https://starsoul-industuries.denizblue.workers.dev/files/starsoul_gui_stuff-0.1.1.jar"
+url = "https://starsoul-industuries.denizblue.workers.dev/files/starsoul_gui_stuff-0.1.2.jar"
 hash-format = "sha512"
-hash = "102412a6f258b8b3c2d57dcee6a777d45ea03238059f70cdc75bfaa6a75dd883adf7ff2df13a6a6e4b495a4163f944851ad099ccb814f7f382c706ca2f8fcb67"
+hash = "40a99e95466d613b3e147c9c7965a0485f5ed09b0dabb418b85c862b47211962397cb28398367e195b324a6ed47675ffaae6fd371e56477a8a014a37b9943845"

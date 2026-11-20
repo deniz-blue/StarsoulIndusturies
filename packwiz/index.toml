@@ -1321,7 +1321,7 @@ metafile = true
 
 [[files]]
 file = "mods/starsoul-gui-stuff.pw.toml"
-hash = "b7bfa302dcab7c2991d1561cb034d943db95ca5a21508cb75b12b4d8c43cdff8"
+hash = "f58280c212a62920cf33b1d3467548bebcb73dbb30d2e4bf201560da909cef14"
 metafile = true
 
 [[files]]
