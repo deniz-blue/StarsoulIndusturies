@@ -159,7 +159,7 @@ ServerEvents.recipes((event) => {
       'AA'
     ],
     {
-      A: 'interiors:weatwood_planks'
+      A: 'interiors:seatwood_planks'
     }
   )
 
