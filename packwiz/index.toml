@@ -338,7 +338,7 @@ hash = "a782f41f81fb49f92d06775d22992dc7b7532495d8ec7eb2f7497987436ccf95"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/crushing.js"
-hash = "1d8695e4b1e99fee8ffacfeaaf3f132dc92d07bcec951af506311617317d7f3d"
+hash = "1ac958939597012d2f865b0c8275c33c28fb4e0430360b8435322c5c0c561864"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting_board.js"
@@ -390,7 +390,7 @@ hash = "5233479dc3a9d944cca5fe7760ee260c7d2f5eb245e5d6ba7390c71c71235ded"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shaped_crafting.js"
-hash = "4d6ff0a4f48e63a0fa0db5da52001a6f13a56edfc3a41bbef08b737fa71a12b2"
+hash = "ac0fa4ea26a845a95e2a900bfe7f44bca361dac8bb6b3a24f81762938b40be8c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shapeless_crafting.js"
