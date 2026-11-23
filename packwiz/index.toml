@@ -1105,6 +1105,11 @@ hash = "2fee19326825d0bfbfdd94b5a7c6ca5603f803e769f28870b53c7eeda519a243"
 metafile = true
 
 [[files]]
+file = "mods/neruina-plus.pw.toml"
+hash = "e499aec11d24709c4d9469f4be155d82d4e91ced6da4acfa5c439553ccc846f3"
+metafile = true
+
+[[files]]
 file = "mods/neruina.pw.toml"
 hash = "79c6106de5e745f13fcc242a6f21509a63ab84ca59fdedd97a0ca207a893c04d"
 metafile = true

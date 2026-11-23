@@ -1,0 +1,8 @@
+name = "Neruina Plus"
+filename = "neruina_plus-0.1.0.jar"
+side = "server"
+
+[download]
+url = "https://starsoul-industuries.denizblue.workers.dev/files/neruina_plus-0.1.0.jar"
+hash-format = "sha512"
+hash = "cf406ffbb13bc3475906f580368b7ea2cf67661bcc3479c10d0eb31bbc13ff63418f17104aa49b0c37f6a887a33b2b8ca0d013eb5db11813c5bf36daee44009c"
