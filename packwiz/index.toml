@@ -181,6 +181,10 @@ file = "config/modernfix-mixins.properties"
 hash = "729c04ff30ccacb9e431269c6a20305b8425c67f1665db546be707e1e2c04857"
 
 [[files]]
+file = "config/neruina.json5"
+hash = "f24d0a8756b60ea14877c20635de762b6c923012d88150db80f9bcc3d6513acf"
+
+[[files]]
 file = "config/notenoughanimations.json"
 hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
