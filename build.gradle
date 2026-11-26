@@ -1,0 +1,241 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'idea'
+    id 'net.neoforged.moddev' version '2.0.141'
+}
+
+version = mod_version
+group = mod_group_id
+
+repositories {
+    mavenLocal()
+
+    // create
+    maven { url = "https://maven.ithundxr.dev/snapshots" }
+    maven { url = "https://maven.createmod.net" }
+
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        // forRepositories(fg.repository) // Uncomment when using ForgeGradle
+        filter {
+            includeGroup "maven.modrinth"
+        }
+    }
+
+    maven { // sable & aeronautics
+        url = "https://maven.ryanhcode.dev/releases"
+        name = "RyanHCode Maven"
+    }
+
+    maven { // veil
+        name = 'Jared maven'
+        url =   'https://maven.blamejared.com/'
+    }
+
+    maven { url = "https://raw.githubusercontent.com/Fuzss/modresources/main/maven/" } // ForgeConfigAPIPort for sable
+
+    exclusiveContent { // Sodium
+        forRepository {
+            maven {
+                name "CaffeineMC"
+                url "https://maven.caffeinemc.net/releases" // or /snapshots
+            }
+        }
+        filter {
+            includeGroup("net.caffeinemc")
+        }
+    }
+
+    maven { // Sodium needs Sinytra for some reason
+        name = "Sinytra"
+        url = "https://maven.sinytra.org/"
+    }
+}
+
+base {
+    archivesName = mod_id
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = project.neo_version
+
+    if (parchment_version != "none") {
+        parchment {
+            minecraftVersion = parchment_minecraft_version == "same" ? minecraft_version : parchment_minecraft_version
+            mappingsVersion = parchment_version
+        }
+    }
+
+    runs {
+        client {
+            client()
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+
+        clientUsernameTest {
+            client()
+            programArgument '--username=TuxeBro'
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+
+        server {
+            server()
+            programArgument '--nogui'
+            gameDirectory = file("run_server")
+            gameDirectory.asFile.get().mkdirs()
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+
+        gameTestServer {
+            type = "gameTestServer"
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+
+        data {
+            data()
+            programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
+        }
+
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+
+            jvmArgument("-XX:+IgnoreUnrecognizedVMOptions")
+            jvmArgument("-XX:+AllowEnhancedClassRedefinition")
+            jvmArgument("-Xmx1760M")
+            jvmArgument("-Dterminal.ansi=true")
+
+            logLevel = org.slf4j.event.Level.DEBUG
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+/* Derived from Chloride Mod: https://github.com/SrRapero720/chloride/blob/0ed94c967243c01f6890fda3251b84690da4904b/build.gradle#L96  */
+// REPACK THE PRODUCTION SODIUM SHELL INTO A PLAIN LIBRARY: DROP THE MOD METADATA SO IT NO LONGER
+// CLAIMS MODID "sodium" ON THE DEV CLASSPATH, WHILE KEEPING THE SUPPORT CLASSES THE MOD REFERENCES
+tasks.register('stripSodiumShell', Jar) {
+    archiveBaseName = 'wsodium-neoforge-shell-lib'
+    archiveVersion = "0.8.12+mc1.21.1".replace('+', '-')
+    destinationDirectory = layout.buildDirectory.dir('sodium-shell-lib')
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    from { configurations.sodiumShell.collect { zipTree(it) } }
+    exclude 'META-INF/MANIFEST.MF'
+    exclude 'META-INF/neoforge.mods.toml'
+    exclude 'META-INF/jarjar/**'
+    exclude 'META-INF/services/net.neoforged.neoforgespi.locating.IModFileCandidateLocator'
+    manifest {
+        attributes(
+                'FMLModType': 'LIBRARY',
+                'Automatic-Module-Name': 'sodium_service'
+        )
+    }
+}
+
+configurations {
+    sodiumShell { transitive = false }
+}
+
+dependencies {
+    /** Dependencies **/
+    // Create
+    implementation("com.simibubi.create:create-${minecraft_version}:${create_version}:slim") { transitive = false }
+    implementation("net.createmod.ponder:ponder-neoforge:${ponder_version}+mc${minecraft_version}")
+    compileOnly("dev.engine-room.flywheel:flywheel-neoforge-api-${minecraft_version}:${flywheel_version}")
+    runtimeOnly("dev.engine-room.flywheel:flywheel-neoforge-${minecraft_version}:${flywheel_version}")
+    implementation("com.tterrag.registrate:Registrate:${registrate_version}")
+
+    // Aero & Sable
+    compileOnly("dev.eriksonn.aeronautics:aeronautics-common-${minecraft_version}:${aeronautics_version}")
+    compileOnly("dev.simulated_team.simulated:simulated-common-${minecraft_version}:${aeronautics_version}")
+    compileOnly("dev.ryanhcode.offroad:offroad-common-${minecraft_version}:${aeronautics_version}")
+
+    compileOnly("dev.ryanhcode.sable-companion:sable-companion-common-${minecraft_version}:${sable_companion_version}")
+    runtimeOnly("maven.modrinth:create-aeronautics:${aeronautics_runtime_version}")
+    runtimeOnly("maven.modrinth:sable:${sable_runtime_version}")
+    api("dev.ryanhcode.sable:sable-common-${minecraft_version}:${sable_version}")
+    compileOnly("dev.ryanhcode.sable-companion:sable-companion-common-${minecraft_version}:${sable_companion_version}")
+
+    /** Not Dependencies (if unstable, temporarily disable these mods under) **/
+    // QOL
+    implementation "maven.modrinth:l6YH9Als:v5qtqRQi" // spark-1.10.124-neoforge.jar
+    runtimeOnly("maven.modrinth:jade:yd8FKCmx")      // Jade-1.21.1-NeoForge-15.10.5.jar
+    runtimeOnly("maven.modrinth:jei:YAcQ6elZ")       // jei-1.21.1-neoforge-19.27.0.340.jar
+    runtimeOnly("maven.modrinth:emi:5sIPA1To")       // emi-1.1.24+1.21.1+neoforge.jar
+    runtimeOnly("maven.modrinth:ok-zoomer:AkPuuAgJ") // ok_zoomer-neo-10.0.0-beta.13.jar
+
+    // Optimizations
+    runtimeOnly("maven.modrinth:modernfix:VGmSpV69")        // modernfix-neoforge-5.27.8+mc1.21.1.jar
+    runtimeOnly("maven.modrinth:ferrite-core:x7kQWVju")     // ferritecore-7.0.3-neoforge.jar
+    runtimeOnly("maven.modrinth:lithium:RXHf27Wv")          // lithium-neoforge-0.15.3+mc1.21.1.jar
+    runtimeOnly("maven.modrinth:immediatelyfast:PhxY0iHw")  // ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar
+    runtimeOnly("maven.modrinth:badoptimizations:S2qthD5S") // BadOptimizations-2.4.1-1.21.1.jar
+
+    // Sodium
+    // anyways, wdym i need sinytra, WHY
+    sodiumShell "net.caffeinemc:sodium-neoforge:0.8.12+mc1.21.1"
+    runtimeOnly "net.caffeinemc:sodium-neoforge-mod:0.8.12+mc1.21.1"
+    runtimeOnly files(tasks.named('stripSodiumShell'))
+    runtimeOnly "org.sinytra.forgified-fabric-api:fabric-api-base:0.4.42+d1308ded19"
+    runtimeOnly "org.sinytra.forgified-fabric-api:fabric-block-view-api-v2:1.0.10+9afaaf8c19"
+    runtimeOnly "org.sinytra.forgified-fabric-api:fabric-renderer-api-v1:3.4.1+9125b6dc19"
+    runtimeOnly "org.sinytra.forgified-fabric-api:fabric-rendering-data-attachment-v1:0.3.49+73761d2e19"
+
+    // Creative stuff
+    runtimeOnly("maven.modrinth:worldedit:WTAFvuRx") // worldedit-mod-7.3.8.jar
+}
+
+var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
+    var replaceProperties = [minecraft_version      : minecraft_version,
+                             minecraft_version_range: minecraft_version_range,
+                             neo_version            : neo_version,
+                             neo_version_range      : neo_version_range,
+                             loader_version_range   : loader_version_range,
+                             mod_id                 : mod_id,
+                             mod_name               : mod_name,
+                             mod_license            : mod_license,
+                             mod_version            : mod_version,
+                             mod_authors            : mod_authors,
+                             mod_description        : mod_description]
+    inputs.properties replaceProperties
+    expand replaceProperties
+    from "src/main/templates"
+    into "build/generated/sources/modMetadata"
+}
+
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
+
+publishing {
+    publications {
+        register('mavenJava', MavenPublication) {
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            url "file://${project.projectDir}/repo"
+        }
+    }
+}
+
+idea {
+    module {
+        downloadSources = true
+        downloadJavadoc = true
+    }
+}
