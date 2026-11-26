@@ -1,0 +1,13 @@
+name = "CC: Graphics"
+filename = "ccgraphics-1.21.1-forge-0.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lMJdP3PH/versions/5oEeKdVn/ccgraphics-1.21.1-forge-0.2.1.jar"
+hash-format = "sha512"
+hash = "97ad14e39e311b6e020e816c2f406c7c903c2c97bf5eebd4bef802607eda495dc8a892b6270eb56f84e400cad4d1ab70205c79249a7da7397f7ef1dc780b136f"
+
+[update]
+[update.modrinth]
+mod-id = "lMJdP3PH"
+version = "5oEeKdVn"

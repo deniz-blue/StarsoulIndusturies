@@ -182,7 +182,7 @@ hash = "729c04ff30ccacb9e431269c6a20305b8425c67f1665db546be707e1e2c04857"
 
 [[files]]
 file = "config/neruina.json5"
-hash = "f24d0a8756b60ea14877c20635de762b6c923012d88150db80f9bcc3d6513acf"
+hash = "9429eefc6e5a88bc69e00dd794e4f7d20bc65400ed6f12b2cf01357a0b08b9ea"
 
 [[files]]
 file = "config/notenoughanimations.json"
@@ -386,7 +386,7 @@ hash = "de17c56d562ed1953a6a41aff55225d370e42cbf1c07c0fc94cfd4095bc590a2"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove_recipe.js"
-hash = "f5ce8da0102ed4892dda98996e1d7deb738db41dfcb6e09ddc8235c3418743a1"
+hash = "0d7ae64dc3999408a9d4bdd113998f42ba2a752e176475a8a3a5852fbd0e4387"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/seething.js"
@@ -541,6 +541,16 @@ metafile = true
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
 hash = "bf29c048059a9d0b6ff0c4fd3bf6995ffc9637239fa428571a09cbe30cb2237a"
+metafile = true
+
+[[files]]
+file = "mods/cc-graphics.pw.toml"
+hash = "b04ec453e62bb149c60b87732450855e9b6fd4334992f88d630e381929b53d84"
+metafile = true
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "e42363c32c9b6323eea977283c928cec373bfc415534ec92e9c3367ee8c54256"
 metafile = true
 
 [[files]]
@@ -1160,7 +1170,7 @@ metafile = true
 
 [[files]]
 file = "mods/observable.pw.toml"
-hash = "3e477c97729015ac6184c0b56cb148947b7c0dc5cca764336ee96719f05f05e6"
+hash = "f9cfe1c9c47eef3adabf8706e2a026e0fedce2dd4f31fabe10b8b892819e72a7"
 metafile = true
 
 [[files]]
