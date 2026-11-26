@@ -1000,7 +1000,7 @@ metafile = true
 
 [[files]]
 file = "mods/janet.pw.toml"
-hash = "826baf7232c49dd1ce2af69a2604c77968f4926181507632400996344227978f"
+hash = "3d2676caf5a4aae19f50098946cceb9251f602e76ed6a2184388bcbef0c67eac"
 metafile = true
 
 [[files]]
