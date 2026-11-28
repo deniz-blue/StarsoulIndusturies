@@ -1,0 +1,8 @@
+name = "Starsoul Warns"
+filename = "starsoulwarn-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://starsoul-industuries.denizblue.workers.dev/files/starsoulwarn-1.0.0.jar"
+hash-format = "sha512"
+hash = "a865dafd179e6ac188345e25bd4206c052f639845e29b076c05b24a4741719ed7f4dcaa1373affb3727506eb01102dab0fc948682e60ef92b3fb608ae5bfa113"

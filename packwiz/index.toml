@@ -406,7 +406,7 @@ hash = "cbf41089c1fe60f6d013f481e00d122bdf1066096f39d753cd0ef334dc74d09e"
 
 [[files]]
 file = "kubejs/server_scripts/serverside/commands.js"
-hash = "33d2aa4c5bc780157c9700d3b973b38986b55fdf4c06441f5c86cfaf363a17f9"
+hash = "b15edbe9bb8b0cc1d354cf14867a9f48e0f37d90cca4b757483dc11574b70ebf"
 
 [[files]]
 file = "kubejs/server_scripts/serverside/curios_tags.js"
@@ -1351,6 +1351,11 @@ metafile = true
 [[files]]
 file = "mods/starsoul-restarter.pw.toml"
 hash = "264a07d75012452c4b0cc23b8c2e61b238eba9b3afdc0ec54f71ecb6b2d5a4a6"
+metafile = true
+
+[[files]]
+file = "mods/starsoul-warns.pw.toml"
+hash = "06d5c71a6dce4353f7dcd6ba6648c1e9c8a86e016c11fbdb6d4a45970690a383"
 metafile = true
 
 [[files]]
